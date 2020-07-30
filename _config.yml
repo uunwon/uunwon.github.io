@@ -1,6 +1,6 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
+title: UUNWON
+description: Student at Korea Polytechnic University
 url: https://taylantatli.github.io/Halve
 logo: cow.png                                       # Site logo
 locale: en_US
@@ -29,15 +29,15 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             keh52999@gmail.com
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
-github:             username
+github:             uunwon
 stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-#instagram:          username
+instagram:          uunwon
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
@@ -52,7 +52,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:
