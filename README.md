@@ -16,25 +16,25 @@ Jekyll Theme: https://github.com/TaylanTatli/Halve
 
 ## 0️⃣
 
-- *모바일 시대의 컴퓨터개론  /infinity books*
+- *모바일 시대의 컴퓨터개론　/infinity books*
 
-- *C언어 본색  /freelec*
+- *C언어 본색　/freelec*
 
-- *웹프로그래밍 기초  /infinity books*
+- *웹프로그래밍 기초　/infinity books*
 
-- **_자료구조  /생능출판사_**
+- **_자료구조　/생능출판사_**
 
-- **_JAVA Programming  /생능출판_**
+- **_JAVA Programming　/생능출판_**
 
-- *데이터베이스 배움터  /생능출판*
+- *데이터베이스 배움터　/생능출판*
 
-- *깡쌤의 안드로이드 프로그래밍  /루비페이퍼*
+- *깡쌤의 안드로이드 프로그래밍　/루비페이퍼*
 
-- **_Introduction to Algorighms(3rd Edition)_  /한빛미디어**
+- **_Introduction to Algorighms(3rd Edition)　/한빛미디어_**
 
-- *컴퓨터 네트워킹  /1st book*
+- *컴퓨터 네트워킹　/1st book*
 
-- *스프링 4 입문  /한빛미디어*
+- *스프링 4 입문　/한빛미디어*
 
 <br>
 
