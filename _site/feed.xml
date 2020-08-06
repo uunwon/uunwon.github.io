@@ -1,23 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-05T16:50:33+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Html</title><link href="http://localhost:4000/HTML/" rel="alternate" type="text/html" title="Html" /><published>2020-08-05T00:00:00+09:00</published><updated>2020-08-05T00:00:00+09:00</updated><id>http://localhost:4000/HTML</id><content type="html" xml:base="http://localhost:4000/HTML/">&lt;hr /&gt;
-&lt;p&gt;layout: post
-title:  “HTML5”
-categories:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Web Programming
-tag:&lt;/li&gt;
-  &lt;li&gt;html&lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;web&quot;&gt;web&lt;/h2&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><summary>layout: post
-title:  “HTML5”
-categories:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-06T18:19:58+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Raspberry PI and Arduino</title><link href="http://localhost:4000/Raspberry-Arduino/" rel="alternate" type="text/html" title="Raspberry PI and Arduino" /><published>2020-08-06T00:00:00+09:00</published><updated>2020-08-06T00:00:00+09:00</updated><id>http://localhost:4000/Raspberry-Arduino</id><content type="html" xml:base="http://localhost:4000/Raspberry-Arduino/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-  Web Programming
-tag:
-  html
-  
-    web</summary></entry><entry><title>About Computer</title><link href="http://localhost:4000/About-Computer/" rel="alternate" type="text/html" title="About Computer" /><published>2020-08-04T00:00:00+09:00</published><updated>2020-08-04T00:00:00+09:00</updated><id>http://localhost:4000/About-Computer</id><content type="html" xml:base="http://localhost:4000/About-Computer/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/icon/computer.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;개발-실험용-컴퓨터&quot;&gt;개발 실험용 컴퓨터&lt;/h2&gt;
+
+&lt;p&gt;　학교나 실험실에서 활용할 수 있는 개발 실험용 컴퓨터 또는 마이크로컨트롤러를 내장한 보드가 출시되고 있다. 즉 중앙처리 장치와 보드, 운영체제인 리눅스 그리고 다른 기기를 연결할 수 있는 다양한 인터페이스로 구성된 &lt;strong&gt;라즈베리 파이&lt;/strong&gt;와 간단히 마이크로컨트롤러를 내장한 보드로 구성된 &lt;strong&gt;아두이노&lt;/strong&gt;가 대표적이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;라즈베리-파이&quot;&gt;라즈베리 파이&lt;/h2&gt;
+
+&lt;p&gt;　라즈베리 파이(Raspberry Pi)는 영국의 자선 교육 재단인 라즈베리 파이에서 개발한 신용카드 크기의 초소형 컴퓨터이다. 라즈베리 파이는 CPU는 ARM 프로세서를 사용하며, 운영체제는 리눅스를 사용한다. 라즈베리 파이는 초소형 보드 위에 그래픽 프로세서, 이더넷, 그리고 외부 기기의 연결을 위한 핀과 포트가 있으며, 하드 디스크 드라이브는 내장하고 있지 않으며, SD 카드 슬롯이 제공되어 SD 카드를 외부 기억 장치로 사용한다. 라즈베리 파이를 제어하는 프로그램은 프로그래밍 언어인 파이썬, 자바, 베이직, 펄, C 등을 사용할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　라즈베이 파이를 사용하여 다양한 기기를 연결한 새로운 창작품을 만들어 낼 수 있으므로 라즈베리 파이는 다양한 분야에서 활용할 수 있는 무한한 잠재력을 지니고 있다. (이는 디지털 신호를 처리한다)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;아두이노&quot;&gt;아두이노&lt;/h2&gt;
+
+&lt;p&gt;　아두이노(Arduino)는 오픈 소스를 기반으로 마이크로컨트롤러를 내장한 기기 제어용 보드이다. 이 아두이노 보드는 다양한 센서나 부품 등의 장치를 연결할 수 있도록 인터페이스를 제공한다. 아두이노는 손쉽게 컴퓨터와 연결해 소프트웨어를 로드하면 동작하도록 구성된 하드웨어와 소프트웨어 기반의 ‘오픈 소스 전자 플랫폼’이라 할 수 있다. (이는 아날로그 신호를 처리한다)&lt;/p&gt;
+
+&lt;p&gt;　이는 여러 스위치나 센서로부터 값을 받아들여, LED나 모터와 같은 외부 전자 장치들을 통제함으로써 환경과 상호작용이 가능한 물건을 만들어낼 수 있다. 아두이노가 인기를 끄는 이유는 다양한 입출력 장치를 연결하여 마이크로컨트롤러를 쉽게 동작시킬 수 있기 때문이다. 아두이노는 웨어러블 컴퓨터에 활용될 수 있도록 옷에 부착할 수 있는 보드 등 다양한 보드를 제공하는데, 가장 기본이 되는 표준 보드는 아두이노 우노라는 보드이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><summary></summary></entry><entry><title>About WEB</title><link href="http://localhost:4000/HTML/" rel="alternate" type="text/html" title="About WEB" /><published>2020-08-05T00:00:00+09:00</published><updated>2020-08-05T00:00:00+09:00</updated><id>http://localhost:4000/HTML</id><content type="html" xml:base="http://localhost:4000/HTML/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;web&quot;&gt;WEB&lt;/h2&gt;
+
+&lt;p&gt;　1990년 웹(web)이라는 것이 정보 공유 목적으로 만들어면서 인터넷을 이용한 정보 혁명은 시작되었다. 웹이 학술 목적이 아닌 일반인들에게 전파되기 시작한 것이 1990년 중반이라면 약 20여 년 동안 웹에 의하여 우리의 생활 모습이 과거와는 전혀 다른 모습으로 변하였다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;web-10&quot;&gt;WEB 1.0&lt;/h2&gt;
+
+&lt;p&gt;　웹 1.0은 웹 2.0이 유행하기 전의 월드 와이드 웹(WWW: World Wide Web) 상태를 말한다. 1990~2000년 기간 동안에 있던 대부분의 웹사이트를 말하며, 기본적인 개념은 디렉토리 검색을 말한다. 검색의 대상이 고정되어 있으며, 콘텐츠 생산 주체자가 생산한 콘텐츠를 일방적으로 사용한 서비스들이 전부였다. 즉, 사용자들은 카테고리에서 원하는 자료를 찾는, 단순한 활동만 할 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;web-20&quot;&gt;WEB 2.0&lt;/h2&gt;
+
+&lt;p&gt;　단방향 의사소통 방식인 웹 1.0을 지나 웹 2.0은 개방과 참여 정신을 바탕으로, 콘텐츠 생산도 일반인이 자발적으로 참여할 수 있으며 서비스도 자유로이 가능해진 것을 말한다. 웹 2.0은 웹이 출현한 이후 21세기에 대한 인터넷 또는 웹에 대한 방향성을 제시한 일종의 패러다임이었다. 표준화 작업을 수행한 과정으로, 웹 2.0의 기술 표준을 살펴보면 수정되는 웹 사이트 정보를 쉽게 확인할 수 있도록 만들어진 기술 표준인 &lt;code class=&quot;highlighter-rouge&quot;&gt;RSS&lt;/code&gt;, 개인화된 정보를 공유하는 블로그인 &lt;code class=&quot;highlighter-rouge&quot;&gt;웹로그&lt;/code&gt; 등을 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　당시의 웹이란 모든 사람이 이미 제공되는 데이터를 활용하여 다양한 신규 서비스를 생산해 낼 수 있는 플랫폼으로서의 웹 환경을 의미하며 사용자 중심의 커뮤니티에 의존하는 동적인 열린 공간으로서의 웹을 말한다. 2000년대 많은 기업들이 웹 2.0의 패러다임을 추구하였으며, 이를 적절히 구현한 대표적인 기업이 구글이다. 구글은 다양한 응용 프로그램 인터페이스(API: Application Programming Interface)를 제공한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;개방, 참여, 공유&lt;/li&gt;
+  &lt;li&gt;가벼워진 웹 소프트웨어와 풍부한 UX 바탕&lt;/li&gt;
+  &lt;li&gt;단순한 웹이 아닌 플랫폼으로서의 웹&lt;/li&gt;
+  &lt;li&gt;집단 지성을 통한 데이터 기반&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;web-30&quot;&gt;WEB 3.0&lt;/h2&gt;
+
+&lt;p&gt;　웹 2.0 이후 2010년대의 패러다임으로 개인 중심의 서비스로 창의성이 최대한 발휘될 수 있는 웹을 말한다. 시맨틱 웹 기술에 의한 지능화된 웹 환경을 구축해 컴퓨터가 정보자원의 의미까지 이해하고, 이를 바탕으로 논리적 추론까지 함으로써 이용자의 패턴을 추론해 사용자가 요청하는 적절한 서비스를 제공하는 지능형 웹을 말한다.&lt;/p&gt;
+
+&lt;p&gt;　즉, 컴퓨터가 알아서 이용자의 정보를 파악하여 원하는 정보를 보여주는 역할을 하며, 인공지능과 같이 알아서 사람들이 원하는 정보를 출력해주는 것을 예시로 들 수 있다. 지능화된 웹이 원하는 콘텐츠를 제공한다는 것이 포인트이다. 웹 기반 비동기 통신기술 예시로 Ajax(Asynchronous Javascript And XML)을 들 수 있는데, 기존에 새로운 데이터를 불러오려면 전체 페이지를 다시 로딩해야 했던 것과 다르게, 필요한 서비스만을 서버에 호출하며 그 결과를 화면에 적용할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS &lt;br /&gt;
+https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summary></summary></entry><entry><title>About Computer</title><link href="http://localhost:4000/About-Computer/" rel="alternate" type="text/html" title="About Computer" /><published>2020-08-04T00:00:00+09:00</published><updated>2020-08-04T00:00:00+09:00</updated><id>http://localhost:4000/About-Computer</id><content type="html" xml:base="http://localhost:4000/About-Computer/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/icon/computer.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;about-computer&quot;&gt;About Computer&lt;/h2&gt;
 
