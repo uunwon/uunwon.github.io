@@ -5,6 +5,8 @@ categories:
   - Computer
 tag:
 - computer 
+- c
+- c++
 ---
 
 <br>

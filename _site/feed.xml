@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-07T12:58:49+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>High Level Programming Language</title><link href="http://localhost:4000/High-Level-Programming-Language/" rel="alternate" type="text/html" title="High Level Programming Language" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/High-Level-Programming-Language</id><content type="html" xml:base="http://localhost:4000/High-Level-Programming-Language/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-07T13:31:55+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Object Oriented Programming</title><link href="http://localhost:4000/Object-Oriented-Programming/" rel="alternate" type="text/html" title="Object Oriented Programming" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/Object-Oriented-Programming</id><content type="html" xml:base="http://localhost:4000/Object-Oriented-Programming/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;객체지향-프로그래밍&quot;&gt;객체지향 프로그래밍&lt;/h2&gt;
+
+&lt;p&gt;　고급 언어 중에서 프로그램 방식으로 언어를 분류하면 주로 절차지향(procedural) 언어와 객체지향(object oriented) 언어로 나뉜다. 절차지향이 동사 중심이라면 객체 지향은 명사 중심의 프로그래밍 방식이다. 절차지향 언어는 문제를 여러 개의 작은 함수로 나누어 그 문제를 해결하는 반면에 객체지향 언어는 문제를 구성하는 객체를 만들어 이 객체들 간의 메시지 교환으로 그 문제를 해결한다.&lt;/p&gt;
+
+&lt;p&gt;　객체(object)란 현실 세계의 사물이나 개념을 시스템에서 이용하기 위해 현실 세계를 자연스럽게 표현하여 손쉽게 이용할 수 있도록 만든 소프트웨어 모델이다. 객체는 속성(attributes, properties)과 행동(messages, behaviors)으로 구성된다. 속성은 객체의 특성을 표현하는 정적인 성질이며, 행동은 객체 내부의 일을 처리하거나 객체들 간에 서로 영향을 주고받는 동적인 일을 처리하는 단위이다.&lt;/p&gt;
+
+&lt;p&gt;　객체는 시스템에서 이용되는 공학적인 규칙을 가질 수 있으나 그 규칙은 일상 생활의 모델링에서 나온 규칙이므로 누구나 손쉽게 이해할 수 있는 요소를 갖는다. 이 모델링 과정에서 객체지향 특징인 추상화(abstraction), 상속성(inheritance), 캡슐화(encapsulation), 다형성(polymorphism)을 이용할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;구분&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;절차지향&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;객체지향&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;프로그래밍방식&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;동사&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;명사&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;모듈단위&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;함수 또는 프로시저&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;속성과 행동을 표현한 객체&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;언어&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;FORTRAN, BASIC, COBOL, PASCAL, C 등&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Object Pascal, Visual Basic, C#, C++, Java 등&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;자바&quot;&gt;자바&lt;/h2&gt;
+
+&lt;p&gt;　자바의 시초는 가전제품들을 제어하기 위해 고안한 언어에서부터 비롯되었기에, 작은 메모리와 느린 CPU와는 상관없이 효율적으로 작동하여야 했고 그 결과 운영체제나 CPU와는 독립적으로 실행 가능한 프로그래밍 언어가 개발되었다. 1995년 공식 발표되었으며 프로그래밍 언어 C++을 기반으로 한 객체지향 프로그래밍 언어이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인터넷 응용 시스템 개발을 위한 이상적인 프로그래밍 언어&lt;/li&gt;
+  &lt;li&gt;C++ 기반으로 만들어진 배우기 쉽고, 이용하기 간편한 객체지향 언어&lt;/li&gt;
+  &lt;li&gt;플랫폼에 독립적인 언어 - 자바 프로그램의 실행은 운영체제의 자바 가상 머신 위에서 인터프리터 방식으로 동작하므로 프로그램의 속도가 떨어진다는 단점이 있다. 이 자바 가상 기계가 각종 플랫폼에 소프트웨어나 하드웨어로 존재하여 그 플랫폼에서 바이트코드가 실행될 수 있도록 하는 역할을 담당한다.&lt;/li&gt;
+  &lt;li&gt;이식성이 높고, 다중 스레드를 지원한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+package jump2java; &lt;br /&gt;
+&lt;br /&gt;
+public class HelloWorld{ &lt;br /&gt;
+　　publice static void main(String[] args){ &lt;br /&gt;
+　　　　System.out.println(&quot;Hello, world!&quot;); &lt;br /&gt;
+　　} &lt;br /&gt;
+}
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;c&quot;&gt;C#&lt;/h2&gt;
+
+&lt;p&gt;　C#은 모든 것을 객체로 취급하는 컴포넌트 프로그래밍 언어이다. 이는 자바와 C++에 기본을 둔 언어로 자바와 매우 비슷하다. 또한 웹을 통해 정보와 서비스를 교환하고, 개발자들이 이식성 높은 응용프로그램들을 만들어낼 수 있게 고안되었다. C#으로 작성한 코드가 컴파일되면 중간 언어인 MSIL이 되고, 이 중간 언어가 인터프리터인 CLR에 의해 실행되므로 C#은 시스템에 독립적인 프로그램 개발이 가능하다.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+using System; &lt;br /&gt;
+&lt;br /&gt;
+class HelloWorld{ &lt;br /&gt;
+　　static void Main(string[] args){ &lt;br /&gt;
+　　　　Console.WriteLine(&quot;Hello, world!&quot;); &lt;br /&gt;
+　　} &lt;br /&gt;
+}
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;파이썬&quot;&gt;파이썬&lt;/h2&gt;
+
+&lt;p&gt;　파이썬 언어는 현재 대학에서 컴퓨터 기초과목으로 가장 많이 가르치는 프로그래밍 중 하나이다. 파이썬은 간단하면서 효과적으로 객체지향을 적용할 수 있는 강력한 프로그래밍 언어이며, 인터프리터 언어로 간단한 문법구조를 가진 대화형 언어이다. 또한 동적 자료형을 제공하여, 변수를 선언하지 않고 사용할 수 있으며 여러 플랫폼에서 사용되는 다양한 영역에 활용될 수 있는 프로그램을 쉽고 빠르게 개발할 수 있다는 장점이 있다.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+print(&quot;Hello World!&quot;);
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="java" /><category term="c#" /><category term="python" /><summary></summary></entry><entry><title>High Level Programming Language</title><link href="http://localhost:4000/High-Level-Programming-Language/" rel="alternate" type="text/html" title="High Level Programming Language" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/High-Level-Programming-Language</id><content type="html" xml:base="http://localhost:4000/High-Level-Programming-Language/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;고급-프로그래밍-언어&quot;&gt;고급 프로그래밍 언어&lt;/h2&gt;
 
@@ -88,7 +179,7 @@ int main(int argc, char* argv[]){ &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><summary></summary></entry><entry><title>Raspberry PI and Arduino</title><link href="http://localhost:4000/Raspberry-Arduino/" rel="alternate" type="text/html" title="Raspberry PI and Arduino" /><published>2020-08-06T00:00:00+09:00</published><updated>2020-08-06T00:00:00+09:00</updated><id>http://localhost:4000/Raspberry-Arduino</id><content type="html" xml:base="http://localhost:4000/Raspberry-Arduino/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="c" /><category term="c++" /><summary></summary></entry><entry><title>Raspberry PI and Arduino</title><link href="http://localhost:4000/Raspberry-Arduino/" rel="alternate" type="text/html" title="Raspberry PI and Arduino" /><published>2020-08-06T00:00:00+09:00</published><updated>2020-08-06T00:00:00+09:00</updated><id>http://localhost:4000/Raspberry-Arduino</id><content type="html" xml:base="http://localhost:4000/Raspberry-Arduino/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;개발-실험용-컴퓨터&quot;&gt;개발 실험용 컴퓨터&lt;/h2&gt;
 
@@ -113,7 +204,7 @@ int main(int argc, char* argv[]){ &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><summary></summary></entry><entry><title>About WEB</title><link href="http://localhost:4000/About-Web/" rel="alternate" type="text/html" title="About WEB" /><published>2020-08-05T00:00:00+09:00</published><updated>2020-08-05T00:00:00+09:00</updated><id>http://localhost:4000/About-Web</id><content type="html" xml:base="http://localhost:4000/About-Web/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><summary></summary></entry><entry><title>WEB</title><link href="http://localhost:4000/Web/" rel="alternate" type="text/html" title="WEB" /><published>2020-08-05T00:00:00+09:00</published><updated>2020-08-05T00:00:00+09:00</updated><id>http://localhost:4000/Web</id><content type="html" xml:base="http://localhost:4000/Web/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;web&quot;&gt;WEB&lt;/h2&gt;
 
@@ -152,7 +243,7 @@ int main(int argc, char* argv[]){ &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS &lt;br /&gt;
-https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summary></summary></entry><entry><title>About Computer</title><link href="http://localhost:4000/About-Computer/" rel="alternate" type="text/html" title="About Computer" /><published>2020-08-04T00:00:00+09:00</published><updated>2020-08-04T00:00:00+09:00</updated><id>http://localhost:4000/About-Computer</id><content type="html" xml:base="http://localhost:4000/About-Computer/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/icon/computer.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summary></summary></entry><entry><title>About Computer</title><link href="http://localhost:4000/Computer/" rel="alternate" type="text/html" title="About Computer" /><published>2020-08-04T00:00:00+09:00</published><updated>2020-08-04T00:00:00+09:00</updated><id>http://localhost:4000/Computer</id><content type="html" xml:base="http://localhost:4000/Computer/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/icon/computer.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;about-computer&quot;&gt;About Computer&lt;/h2&gt;
 
@@ -208,7 +299,7 @@ https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summ
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="hardware" /><category term="software" /><summary></summary></entry><entry><title>About Jekyll</title><link href="http://localhost:4000/About-Jekyll/" rel="alternate" type="text/html" title="About Jekyll" /><published>2020-08-01T00:00:00+09:00</published><updated>2020-08-01T00:00:00+09:00</updated><id>http://localhost:4000/About-Jekyll</id><content type="html" xml:base="http://localhost:4000/About-Jekyll/">&lt;p&gt;&lt;br /&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-icon.png&quot; alt=&quot;Jekyll&quot; height=&quot;100&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="hardware" /><category term="software" /><summary></summary></entry><entry><title>Jekyll</title><link href="http://localhost:4000/Jekyll/" rel="alternate" type="text/html" title="Jekyll" /><published>2020-08-01T00:00:00+09:00</published><updated>2020-08-01T00:00:00+09:00</updated><id>http://localhost:4000/Jekyll</id><content type="html" xml:base="http://localhost:4000/Jekyll/">&lt;p&gt;&lt;br /&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-icon.png&quot; alt=&quot;Jekyll&quot; height=&quot;100&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
