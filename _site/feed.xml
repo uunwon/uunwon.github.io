@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-07T13:31:55+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Object Oriented Programming</title><link href="http://localhost:4000/Object-Oriented-Programming/" rel="alternate" type="text/html" title="Object Oriented Programming" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/Object-Oriented-Programming</id><content type="html" xml:base="http://localhost:4000/Object-Oriented-Programming/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-10T14:33:24+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Linux and Unix</title><link href="http://localhost:4000/Linux-Unix/" rel="alternate" type="text/html" title="Linux and Unix" /><published>2020-08-10T00:00:00+09:00</published><updated>2020-08-10T00:00:00+09:00</updated><id>http://localhost:4000/Linux-Unix</id><content type="html" xml:base="http://localhost:4000/Linux-Unix/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;os&quot;&gt;OS&lt;/h2&gt;
+
+&lt;p&gt;　운영체제(OS: Operating System)은 컴퓨터의 주기억장치 내에 상주하면서 사용자와 컴퓨터 시스템 사이의 인터페이스를 담당하여 컴퓨터 시스템의 전반적인 동작을 제어하고 조정하며, 사용자에게 편리성을 제공하고 한정된 시스템 자원을 효율적으로 사용할 수 있도록 관리하는 여러 시스템 프로그램들의 집합을 말한다. 즉 운영체제를 구성하는 프로그램들은 하드웨어와 응용프로그램 간의 인터페이스 역할을 하면서 중앙처리장치(CPU), 주기억장치, 입출력장치, 파일 시스템 등의 컴퓨터 자원을 관리한다.&lt;/p&gt;
+
+&lt;p&gt;　운영체제의 종류는 매우 다양한데 컴퓨터의 용량에 따라 구분하여 개인용 컴퓨터와 중대형 컴퓨터로 그 종류를 살펴볼 수 있다. 개인용 컴퓨터에 이용하는 대표적인 운영체제로는 마이크로소프트의 윈도우 계열의 운영체제와 리눅스(Linux) 등이 있다. 중대형 컴퓨터에서 사용하는 운영체제는 유닉스(Unix) 계열의 운영체제가 주종을 이루고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;　리눅스(Linux)는 핀란드의 리누스 토발즈(Linus Torvalds)에 의하여 개발된 유닉스(Unix) 기반의 운영체제이다. 이는 개인용 컴퓨터에 적합한 적합한 공개용 운영체제다. 리누스 토발즈는 소스 코드를 인터넷에 공개해 모든 사람이 자유롭게 사용할 수 있도록 하고 일반인들이 직접 리눅스의 개선에도 참여할 수 있도록 하였다.&lt;/p&gt;
+
+&lt;p&gt;　리눅스는 무료 소프트웨어라는 장점과 유닉스에 기반한 매우 안정적인 운영체제라는 점에 급속히 확산되었다. 이는 인터넷 프로토콜인 TCP/IP를 강력하게 지원하는 등 네트워크 기능이 강화되었고, 다중 사용자, 다중 프로그래밍 방식을 지원하는 안정성 있는 운영체제이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;unix&quot;&gt;Unix&lt;/h2&gt;
+
+&lt;p&gt;　유닉스(Unix)는 벨 연구소의 멀틱스 운영체제 팀에서 개발한 운영체제이다. 1973년 새로 개발한 언어 C를 이용하여 시스템 PDP=11을 위해 만들어졌다. 이는 다른 시스템에도 쉽게 적용하여 운영할 수 있는 이식성이 좋은 운영체제로 유명하다.&lt;/p&gt;
+
+&lt;p&gt;　유닉스 운영체제를 구성하는 주요 요소로 커널(Kernel)과 쉘(Shell)이 있다. &lt;code class=&quot;highlighter-rouge&quot;&gt;커널&lt;/code&gt;은 운영체제의 가장 핵심이 되는 모듈로 CPU와 주기억장치를 관리하고 시스템 호출을 처리하며 주변장치를 관리하는 기능을 포함한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;쉘&lt;/code&gt;은 표준 UNIX 명령 인터프리터로서 사용자가 입력한 명령을 해석하여 그에 맞는 다른 프로그램을 실행시키는 유틸리티 프로그램이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="linux" /><category term="unix" /><summary></summary></entry><entry><title>DBMS(DataBase Management System)</title><link href="http://localhost:4000/DBMS/" rel="alternate" type="text/html" title="DBMS(DataBase Management System)" /><published>2020-08-10T00:00:00+09:00</published><updated>2020-08-10T00:00:00+09:00</updated><id>http://localhost:4000/DBMS</id><content type="html" xml:base="http://localhost:4000/DBMS/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;database&quot;&gt;Database&lt;/h2&gt;
+
+&lt;p&gt;　데이터베이스(Database)는 간단히 ‘관련 있는 데이터의 저장소’라고 볼 수 있다. 자세히 말해, 데이터베이스는 여러 사람이나 응용시스템에 의해 참조 가능하도록 서로 논리적으로 연관되어 통합 관리되는 데이터의 모임이다. 데이터베이스에 저장된 자료는 데이터를 추가하고, 공유하고, 찾고, 정렬하는 등의 여러 조작을 통하여 정보로 활용될 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dbms&quot;&gt;DBMS&lt;/h2&gt;
+
+&lt;p&gt;　데이터베이스 관리시스템(DBMS: DataBase Management System)은 사용자가 데이터베이스를 만들고, 유지 관리할 수 있도록 돕는 프로그램을 말한다. 데이터와 응용 프로그램 사이에서 중재자 역할을 하며 모든 프로그램들이 데이터베이스를 유용하여 활용할 수 있도록 관리해 주는 소프트웨어이다. DBMS의 종류를 살펴보면 Oracle, DB2, Sybase, Ingres, Postgres, mSQL, MySql, SQL Server 등 매우 다양하다.&lt;/p&gt;
+
+&lt;p&gt;　즉, 데이터베이스는 ‘관련 있는 데이터의 저장소’이고, 데이터베이스 관리시스템은 ‘데이터베이스를 관리하는 소프트웨어’이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-mysql&quot;&gt;🗄 MySQL&lt;/h2&gt;
+
+&lt;p&gt;　MySQL은 대표적인 오픈 소스 DBMS 제품으로 데이터베이스 시스템을 공부하는 학생들에게 아주 인기가 좋은 DBMS이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;내부 구성 및 이식성: C 및 C++로 기술되었고, 다양한 플랫폼에서 동작한다.&lt;/li&gt;
+  &lt;li&gt;보안: 매우 유연하고 안전한 특권 및 패스워드 시스템이다.&lt;/li&gt;
+  &lt;li&gt;확장성과 범위: 대규모 데이터베이스를 처리한다.&lt;/li&gt;
+  &lt;li&gt;접속성: 클라이언트는 모든 플랫폼에서 TCP/IP 소켓을 사용해 MySQL 서버에 접속할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-oracle&quot;&gt;🗄 Oracle&lt;/h2&gt;
+
+&lt;p&gt;　오라클 사에서 개발한 오라클은 관계 데이터베이스 관계 시스템(RDBMS)의 이름으로, 유닉스 환경에서 사용되는 RDBMS로는 가장 널리 사용되는 대표적인 제품 중 하나이다. 검색ㆍ갱신용 언어로는 국제 표준화 기구(ISO)에서 표준화한 구조화 조회 언어(SQL)가 표준이 되어 있다. 오라클은 인터넷의 성장과 함께 기업용 대규모 데이터베이스 시스템의 DBMS로 자리잡았다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-sqlite&quot;&gt;🗄 SQLite&lt;/h2&gt;
+
+&lt;p&gt;　스마트폰, 태블릿과 같은 다양한 모바일 기기의 보금에 따라 모바일 기기에 기본적으로 탑재되는 작지만 빠른 개인용 임베디드 데이터베이스 엔진이 많이 활용되고 있다. 대표적인 데이터베이스 엔진이 SQLite 이다. 이는 데이터베이스 엔진을 위한 소프트웨어 라이브러리로, iOS와 안드로이드 등 모바일 환경에 많이 내장되어 사용되고 있다.&lt;/p&gt;
+
+&lt;p&gt;　SQLite는 리차드 힙(Richard Hipp)이 DBMS를 사용하지 않고 활용할 수 있는 데이터베이스 엔진으로 개발하였으며, C로 구현되어 용량이 작고 가벼우면서도 안정적이며, 서버가 따로 필요하지 않아 시스템의 임베디드 데이터베이스로 많이 활용되고 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;-android-sqlite&quot;&gt;* Android SQLite&lt;/h3&gt;
+
+&lt;p&gt;　안드로이드에서는 어플리케이션의 효과적인 데이터 관리를 위하여 구조화된 내부 SQL Database인 SQLite Database를 지원하고 있습니다. 어플리케이션 사용 과정에서 발생하는 용량이 크지 않은 데이터들은 굳이 서버에 접속하는 수고를 들이지 않고 내부 데이터베이스를 관리할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS &lt;br /&gt;
+모바일 SQLite: https://m.blog.naver.com/nife0719/221035148567&lt;/p&gt;</content><category term="computer" /><category term="database" /><summary></summary></entry><entry><title>Object Oriented Programming</title><link href="http://localhost:4000/Object-Oriented-Programming/" rel="alternate" type="text/html" title="Object Oriented Programming" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/Object-Oriented-Programming</id><content type="html" xml:base="http://localhost:4000/Object-Oriented-Programming/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;객체지향-프로그래밍&quot;&gt;객체지향 프로그래밍&lt;/h2&gt;
 
