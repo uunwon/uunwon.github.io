@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-23T22:40:22+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Start Android</title><link href="http://localhost:4000/Android/" rel="alternate" type="text/html" title="Start Android" /><published>2020-08-23T00:00:00+09:00</published><updated>2020-08-23T00:00:00+09:00</updated><id>http://localhost:4000/Android</id><content type="html" xml:base="http://localhost:4000/Android/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T10:06:11+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Android LifeCycle</title><link href="http://localhost:4000/Android-Lifecycle/" rel="alternate" type="text/html" title="Android LifeCycle" /><published>2020-08-28T00:00:00+09:00</published><updated>2020-08-28T00:00:00+09:00</updated><id>http://localhost:4000/Android-Lifecycle</id><content type="html" xml:base="http://localhost:4000/Android-Lifecycle/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;액티비티-생명주기&quot;&gt;액티비티 생명주기&lt;/h2&gt;
+
+&lt;p&gt;　안드로이드에서 화면이 아닌 액티비티 자체가 어떤 원리로 수행되는지 살펴보자. 액티비티를 실행하는 주체는 안드로이드 시스템이므로 시스템에서 액티비티 생명주기 (life cycle) 을 어떻게 관리하며, 그때 개발자 코드에서 신경 써야 하는 부분은 무엇인지 알아본다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;액티비티-상태&quot;&gt;액티비티 상태&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;활성 상태(activity running): 현재 액티비티가 화면을 점유하여 출력되고 있으며 사용자 이벤트 처리가 정상으로 처리되는 상태&lt;/li&gt;
+  &lt;li&gt;일시 정지 상태(pause): 현재 액티비티가 일시적으로 사용이 불가능한 상태&lt;/li&gt;
+  &lt;li&gt;비활성 상태(stop): 현재 액티비티가 다른 액티비티로 인해 화면이 완벽하게 가려진 상태&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-활성-상태&quot;&gt;👋🏻 활성 상태&lt;/h3&gt;
+
+&lt;p&gt;　액티비티가 사용자 화면에 보이고 있으며 포커스를 가지고 있어 사용자 이벤트에 반응할 수 있는 상태이다. 생성된 액티비티는 onCreate() -&amp;gt; onStart() -&amp;gt; onResume() 함수가 호출되면서 활성 상태가 된다. 일반적으로 setContentView() 함수를 이용해 액티비티 화면을 출력한다고 하지만, 정확하게는 setContentView() 함수가 호출되는 시점이 화면 출력 순간이 아니라, &lt;strong&gt;onResume() 함수까지 실행하고, setContentView() 함수에서 출력한 내용이 화면에 나오는 구조이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;　따라서 onResume() 함수가 실행되기까지 setContentView() 함수를 onCreate(), onStart(), onResume() 등 어디선가 호출해 주면 화면에 잘 나온다. 반대로 onResume() 함수가 호출될 때까지 setContentView() 함수가 한 번도 호출되지 않는다면, 화면에 아무것도 나오지 않는다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-일시-정지-상태&quot;&gt;🤏🏻 일시 정지 상태&lt;/h3&gt;
+
+&lt;p&gt;　일시 정지 상태는 액티비티가 여전히 화면에 보이지만, 포커스를 잃은 상태이다. 대표적인 예시로 다른 액티비티가 화면 전체를 가리지 않고 실행된 때이다. 다른 액티비티가 반투명하게 실행되거나 다이얼로그 스타일로 실행되어 여전히 자신이 화면에 보이지만, 포커스를 잃은 상태이다. 이때, onPause() 함수가 자동으로 호출된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-비활성-상태&quot;&gt;👊🏻 비활성 상태&lt;/h3&gt;
+
+&lt;p&gt;　비활성 상태는 다른 액티비티로 인해 화면이 완전히 가려진 상태이다. 보통 다른 액티비티로 화면이 전환되어 안 보이는 경우다. 이때는 onPause() -&amp;gt; onStop() 함수까지 호출된다.&lt;/p&gt;
+
+&lt;p&gt;　화면을 가렸던 액티비티가 뒤로가기 비활성 상태에서 뒤로가기 버튼 등으로 화면을 가렸던 액티비티가 사라지면 다시 활성 상태로 전환되는데, 이때는 onRestart() -&amp;gt; onStart() -&amp;gt; onResume() 함수가 차례로 호출된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;액티비티-상태-저장&quot;&gt;액티비티 상태 저장&lt;/h2&gt;
+
+&lt;p&gt;　액티비티의 상태 관리를 위해 데이터를 저장했다가 복원하는 데 사용되는 함수는 onCreate(), onRestoreInstanceState(), onSaveInstanceState() 이다. 우선 액티비티가 종료되는 상항에 대비해 액티비티의 데이터를 저장해야 한다면 &lt;strong&gt;onSaveInstanceState()&lt;/strong&gt; 함수를 사용한다. 이는 onPause() 함수 호출 후 자동으로 호출되며, 이 함수에서 액티비티의 데이터를 저장한다.&lt;/p&gt;
+
+&lt;p&gt;　저장하는 방법은 매개변수로 전달되는 Bundle을 이용하면 된다. Bundle은 컴포넌트의 데이터를 저장하기 위한 일종의 Map 객체이며, 이 객체에 데이터를 key-value로 담아주면 내부적으로 파일로 저장해줌으로써 액티비티가 종료되더라도 데이터는 유실되지 않는다. 이렇게 저장한 데이터를 액티비티가 다시 시작되는 시점에 가져와서 이용할 수 있다. 이 작업에는 onCreate()와 onRestoreInstanceState() 함수를 이용한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;깡쌤의 안드로이드 프로그래밍, 루비페이퍼 &lt;br /&gt;&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry><entry><title>Android Post List</title><link href="http://localhost:4000/Android-List/" rel="alternate" type="text/html" title="Android Post List" /><published>2020-08-27T00:00:00+09:00</published><updated>2020-08-27T00:00:00+09:00</updated><id>http://localhost:4000/Android-List</id><content type="html" xml:base="http://localhost:4000/Android-List/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;리스트&quot;&gt;리스트&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;기초 뷰 활용 p114&lt;/li&gt;
+  &lt;li&gt;레이아웃 종류 p136&lt;/li&gt;
+  &lt;li&gt;스마트폰 크기 호환성 p234&lt;/li&gt;
+  &lt;li&gt;데이터 영속화 SQLite p257&lt;/li&gt;
+  &lt;li&gt;WebView p346&lt;/li&gt;
+  &lt;li&gt;인텐트 p437&lt;/li&gt;
+  &lt;li&gt;액티비티 생명주기 p477&lt;/li&gt;
+  &lt;li&gt;Fragment p553&lt;/li&gt;
+  &lt;li&gt;RecyclerView p589&lt;/li&gt;
+  &lt;li&gt;위치 정보 LocationManager p777&lt;/li&gt;
+  &lt;li&gt;HTTP 통신 - Java Volley API, Retrofit2 p859&lt;/li&gt;
+  &lt;li&gt;코틀린 p1049&lt;/li&gt;
+&lt;/ul&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry><entry><title>Start Android</title><link href="http://localhost:4000/Android/" rel="alternate" type="text/html" title="Start Android" /><published>2020-08-23T00:00:00+09:00</published><updated>2020-08-23T00:00:00+09:00</updated><id>http://localhost:4000/Android</id><content type="html" xml:base="http://localhost:4000/Android/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;안드로이드&quot;&gt;안드로이드&lt;/h2&gt;
 
@@ -411,132 +477,4 @@ https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summ
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="hardware" /><category term="software" /><summary></summary></entry><entry><title>Jekyll</title><link href="http://localhost:4000/Jekyll/" rel="alternate" type="text/html" title="Jekyll" /><published>2020-08-01T00:00:00+09:00</published><updated>2020-08-01T00:00:00+09:00</updated><id>http://localhost:4000/Jekyll</id><content type="html" xml:base="http://localhost:4000/Jekyll/">&lt;p&gt;&lt;br /&gt;&lt;img src=&quot;http://localhost:4000/images/jekyll-icon.png&quot; alt=&quot;Jekyll&quot; height=&quot;100&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;about-jekyll&quot;&gt;About Jekyll&lt;/h2&gt;
-
-&lt;p&gt;　개인, 프로젝트 또는 조직 사이트를 위한 간단한 블로그 인식 정적 사이트 생성기로서 Tom Preston-Werner가 루비로 작성하였으며 오픈 소스 MIT 라이센스에 따라 배포된다. 간단히 말하면, HTML, Markdown 등 &lt;code class=&quot;highlighter-rouge&quot;&gt;다양한 포맷의 텍스트들을 읽고 가공하여 자신의 웹 사이트에 바로 게시&lt;/code&gt;할 수 있게 해주는 Rubby 언어로 만들어진 하나의 텍스트 변환 엔진이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-about-ruby&quot;&gt;💡 About Ruby&lt;/h3&gt;
-
-&lt;p&gt;　스크립트 언어이자 동적 객체 지향 프로그래밍 언어&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;들여 쓰기는 구분하지 않지만, 대/소문자 구분 필수&lt;/li&gt;
-  &lt;li&gt;’#’ 부호 뒤 작성된 내용은 한 줄 단위로 주석 처리&lt;/li&gt;
-  &lt;li&gt;원시 자료형 없이 모든 것이 객체인 순수한 객체 지향 언어&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-about-scripting-language&quot;&gt;💡 About Scripting language&lt;/h3&gt;
-
-&lt;p&gt;　기존에 존재하는 응용 소프트웨어(애플리케이션)를 제어하는 컴퓨터 프로그래밍 언어이다. 일반적인 응용 소프트웨어에서 수정이 빈번하게 발생하는 부분은 전체를 컴파일하는 것보다, 코드를 한줄씩 읽어 바로 실행하는 인터프리터 방식이 유리하다. 스크립트 언어는 이런 부분에서 사용하기 위해 나온 것으로, 응용 소프트웨어에서 스크립트 언어에 맞는 API를 제공한다. 이는 응용 소프트웨어와 상호작용하면서 돌아간다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Git-Jekyll.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jekyll-blog&quot;&gt;Jekyll Blog&lt;/h2&gt;
-
-&lt;p&gt;　Jekyll을 사용해 우리는 웹 서버에 곧바로 게시할 수 있는, 완성된 정적 웹사이트를 만들 수 있다. 또한 Jekyll은 Github Pages의 내부 엔진이다. 즉, Jekyll을 사용하면 자신의 프로젝트 페이지나 블로그 웹사이트를 무료로 Github에 호스팅할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jekyll-directory-structure&quot;&gt;Jekyll Directory Structure&lt;/h2&gt;
-
-&lt;p class=&quot;notice&quot;&gt;. &lt;br /&gt;
-┡ _config.yml &lt;br /&gt;
-┡ _data &lt;br /&gt;
-　┖ members.yml &lt;br /&gt;
-┡ _drafts &lt;br /&gt;
-　┖ begin-with-the crazy-ideas.md &lt;br /&gt;
-　┖ on-simplyicity-in-technology.md &lt;br /&gt;
-┡ _includes &lt;br /&gt;
-　┖ footer.html &lt;br /&gt;
-　┖ header.html &lt;br /&gt;
-┡ _layouts &lt;br /&gt;
-　┖ default.html &lt;br /&gt;
-　┖ post.html &lt;br /&gt;
-┡ posts &lt;br /&gt;
-　┖ 2007-10-29-why-every-programmer-should-play-nethack.md &lt;br /&gt;
-　┖ 2009-04-26-barcamp-boston-4-roudup.md &lt;br /&gt;
-┡ _sass &lt;br /&gt;
-　┖ _base.scss &lt;br /&gt;
-　┖ _layout.scss &lt;br /&gt;
-┡ _site &lt;br /&gt;
-┡ .jekyll-metadata &lt;br /&gt;
-┖ index.html # can also be an ‘index.md’ with valid front matter&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;File/Directory&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_config.yml&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Jekyll 블로그를 구성하기 위한 기본적인 설정 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_drafts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;아직 공개하지 않은 블로그 포스트 보관&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_includes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;페이지 단위의 공통 요소 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_layouts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;템플릿 저장&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_posts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;블로그 포스트 저장, 파일명 형식 : YEAR-MONTH-DAY-title.MARKUP&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_data&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;데이터 파일 저장&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_sass&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;디자인을 위한 sass 파일 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_site&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;jekyll에 의해 빌드된 파일 저장&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;.jekyll-metadata&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;jekyll이 변경된 내용만 빌드하기 위해 관리하는 파일&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;_indext.html or index.md&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;홈페이지의 첫 페이지&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;https://url.kr/c3zgb4 &lt;br /&gt;
-https://nachwon.github.io/jekyllblog/ &lt;br /&gt;
-https://jekyllrb.com/docs/structure/ &lt;br /&gt;
-https://dev-yakuza.github.io/ko/jekyll/directory_structure/&lt;/p&gt;</content><category term="jekyll" /><category term="ruby" /><category term="blog" /><summary></summary></entry></feed>
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="hardware" /><category term="software" /><summary></summary></entry></feed>
