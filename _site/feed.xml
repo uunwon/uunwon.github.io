@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T10:06:11+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Android LifeCycle</title><link href="http://localhost:4000/Android-Lifecycle/" rel="alternate" type="text/html" title="Android LifeCycle" /><published>2020-08-28T00:00:00+09:00</published><updated>2020-08-28T00:00:00+09:00</updated><id>http://localhost:4000/Android-Lifecycle</id><content type="html" xml:base="http://localhost:4000/Android-Lifecycle/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-03T23:00:23+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Android Layout</title><link href="http://localhost:4000/Android-Layout/" rel="alternate" type="text/html" title="Android Layout" /><published>2020-09-03T00:00:00+09:00</published><updated>2020-09-03T00:00:00+09:00</updated><id>http://localhost:4000/Android-Layout</id><content type="html" xml:base="http://localhost:4000/Android-Layout/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;안드로이드-레이아웃&quot;&gt;안드로이드 레이아웃&lt;/h2&gt;
+
+&lt;p&gt;　안드로이드 UI 프로그램에서 화면 구성을 위한 뷰 클래스도 중요하지만, 해당 뷰들을 화면에 어떻게 배치할 것인가도 중요하다. 뷰를 적절하게 배치하는 데 사용하는 레이아웃 클래스를 살펴보자. 레이아웃 클래스는 화면에 출력되는 대상이지만, 자체 UI는 갖지 않는다. 레이아웃 클래스는 Button 같은 뷰들을 자신에게 포함(Add)하고 적절하게 배치해 화면에 한꺼번에 출력한다.&lt;/p&gt;
+
+&lt;p&gt;　레이아웃 클래스마다 포함된 뷰의 정렬 규칙이 다른 것이지, 특정 화면을 특정 레이아웃으로만 구성할 수 있는 건 아니다. 화면을 작성할 때 무조건 특정 레이아웃을 사용해야 완성할 수 있는 경우도 있지만, 대부분 개발자의 선택에 따른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;레이아웃-종류&quot;&gt;레이아웃 종류&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LinearLayout&lt;/li&gt;
+  &lt;li&gt;RelativeLayout&lt;/li&gt;
+  &lt;li&gt;FrameLayout&lt;/li&gt;
+  &lt;li&gt;TableLayout&lt;/li&gt;
+  &lt;li&gt;GridLayout&lt;/li&gt;
+  &lt;li&gt;ConstraintLayout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-linearlayout&quot;&gt;📱 LinearLayout&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　가장 많이 이용되는 레이아웃 중 하나가 LinearLayout 이다. 이는 해당 레이아웃에 포함된 뷰를 순서대로 가로나 세로 방향으로 나열한다. 따라서 다른 레이아웃에서는 없는 방향을 지정하는 orientation 속성을 제공한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 레이아웃에서 뷰의 위치는 왼쪽 위이다. 뷰의 정렬과 관련된 속성은 &lt;strong&gt;gravity&lt;/strong&gt;(뷰의 내용을 뷰 영역 내 어디에 나타낼지)와 &lt;strong&gt;layout_gravity&lt;/strong&gt;(뷰를 LinearLayout 영역 내 어디에 나타낼지)로 다룰 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;weigh&lt;/strong&gt; 속성은 이용 빈도가 높은 속성이다. 여백과 관련이 있는 속성으로, 레이아웃에 뷰를 배치하다 보면 가로나 세로 방향으로 여백이 발생할 수 있다. 이 여백을 화면에 배치된 뷰들이 확장해서 차지하게 할 때 이용된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-relativelayout&quot;&gt;📲 RelativeLayout&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　RelativeLayout은 화면에 이미 배치된 뷰를 기준으로 다른 뷰의 위치를 지정하는 레이아웃이다. 예를 들어, RelativeLayout에 Button을 포함한 후 다른 Button을 포함하면, 이전 Button 위에 덮어쓰듯이 올라가게 된다. 이때 가로세로 방향의 orientation을 생각할 수 있는데, orientation 속성은 LinearLayout에만 지정할 수 있다. RelativeLatout에서 &lt;strong&gt;상대 위치를 지정하는 속성&lt;/strong&gt;은 다음 4가지가 있다. 이 4가지 속성값은 &lt;code class=&quot;highlighter-rouge&quot;&gt;기준 뷰의 id&lt;/code&gt;이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;android:layout_above: 기준 뷰의 윗부분에 배치 &lt;br /&gt; android:layout_below: 기준 뷰의 아랫부분에 배치 &lt;br /&gt; android: layout_toLeftOf: 기준 뷰의 왼쪽에 배치 &lt;br /&gt; android: layout_toRightOf: 기준 뷰의 오른쪽에 배치&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;　위와 같은 속성뿐 아니라, 기준이 되는 뷰와 왼쪽 변을 맞추거나 윗변을 맞추는 등의 작업도 중요하다. 이 부분을 지원하기 위한 속성이 align이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;android:layout_alignTop: 기준 뷰와 윗부분을 정렬 &lt;br /&gt; android:layout_alignBottom: 기준 뷰와 아랫부분을 정렬 &lt;br /&gt; android:layout_alignLeft: 기준 뷰와 왼쪽을 정렬 &lt;br /&gt; android:layout_alignRight: 기준 뷰와 오른쪽을 정렬 &lt;br /&gt; android:layout_alignBaseline: 기준 뷰와 텍스트 기준선을 정렬&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-framelayout&quot;&gt;📳 FrameLayout&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　FrameLayout은 레이아웃에 포함된 뷰들을 같은 영역에 겹쳐서 배치할 때 사용한다. 레이아웃 자체의 특별한 속성은 없다. 이를 이용하는 목적은 대부분 같은 영역에 여러 뷰를 겹치게 한 다음, 한 순간에 하나의 뷰만 보이기 위함이다. 이를 위해 visibility 속성으로 특정 순간에 뷰가 보이거나 보이지 않게 제어하면 된다.&lt;/p&gt;
+
+&lt;p class=&quot;notice_info&quot;&gt;TabHost: 탭 화면은 화면 여러 개를 준비한 다음, 사용자가 버튼을 누를 때 버튼과 연결된 화면을 하나씩 보여주는 형태로 TabHost 클래스를 사용해 작업을 더 쉽게 할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-tablelayout&quot;&gt;📴 TableLayout&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　TableLayout은 뷰를 테이블 구조로 나열하는 레이아웃이다. 레이아웃 내에 하나의 뷰가 여러 셀을 차지하게 할 수도 있으며, 여백이 발생할 경우 특정 열(column)을 확장할 수도 있고, 화면 크기를 벗어나는 순간 특정 열을 축소하는 등 다양하게 설정할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-gridlayout&quot;&gt;📱 GridLayout&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　GridLayout은 뷰를 테이블 구조로 나열한다. 이는 뷰가 테이블 구조로 나열된다는 점에서 TableLayout과 유사하고, 뷰가 레이아웃에 포함된 순서대로 가로나 세로 방향으로 나열된다는 점에서 LinearLayout과도 유사하다. 또한, LinearLayout에는 없는 자동 개행 능력도 있어 화면에는 TableLayout처럼 보이기도 한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TableLayout이 있는데, GridLayout을 사용하는 이유? &lt;br /&gt; TableLayout은 각 행을 TalbeRow로 묶어주어야 하므로, 셀의 개수를 예상할 수 없거나 가변적일 때는 화면 구성이 복잡해진다. 하지만 GridLayout은 별도로 행을 표현하지 않아도 뷰를 순서대로 포함만 하면 알아서 개행하여 행이 자동으로 표현되므로 편리한 측면이 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;orientation: 뷰의 배치 방향을 지정. 기본값은 가로 방향 &lt;br /&gt; columnCount: 가로 방향일 때 한 줄에 몇 개의 뷰를 나열할 것인지 지정 &lt;br /&gt; rowCount: 세로 방향일 떄 한 줄에 몇 개의 뷰를 나열할 것인지 지정&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-constraintlayout&quot;&gt;📲 ConstraintLayout&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　ConstraintLayout은 안드로이드 2.3 버전부터는 XML 파일을 만들면 기본으로 지정되는 레이아웃이다. 이는 RelativeLayout과 상당히 유사하다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;상대적 위치 지정: app: layout_constraintLeft_toRightOf &lt;br /&gt; 여백(margin): android:layout_marginStart &lt;br /&gt; 가운데 맞춤과 치우침(bias): app: layout_constraintHorizontal_bias &lt;br /&gt; 비율(ratio): app: layout_constraintDimensionRatio&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;깡쌤의 안드로이드 프로그래밍, 루비페이퍼 &lt;br /&gt;
+RelativeLayout: https://recipes4dev.tistory.com/126&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry><entry><title>Android LifeCycle</title><link href="http://localhost:4000/Android-Lifecycle/" rel="alternate" type="text/html" title="Android LifeCycle" /><published>2020-08-28T00:00:00+09:00</published><updated>2020-08-28T00:00:00+09:00</updated><id>http://localhost:4000/Android-Lifecycle</id><content type="html" xml:base="http://localhost:4000/Android-Lifecycle/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;액티비티-생명주기&quot;&gt;액티비티 생명주기&lt;/h2&gt;
 
@@ -20,16 +113,12 @@
 
 &lt;p&gt;　액티비티가 사용자 화면에 보이고 있으며 포커스를 가지고 있어 사용자 이벤트에 반응할 수 있는 상태이다. 생성된 액티비티는 onCreate() -&amp;gt; onStart() -&amp;gt; onResume() 함수가 호출되면서 활성 상태가 된다. 일반적으로 setContentView() 함수를 이용해 액티비티 화면을 출력한다고 하지만, 정확하게는 setContentView() 함수가 호출되는 시점이 화면 출력 순간이 아니라, &lt;strong&gt;onResume() 함수까지 실행하고, setContentView() 함수에서 출력한 내용이 화면에 나오는 구조이다.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;　따라서 onResume() 함수가 실행되기까지 setContentView() 함수를 onCreate(), onStart(), onResume() 등 어디선가 호출해 주면 화면에 잘 나온다. 반대로 onResume() 함수가 호출될 때까지 setContentView() 함수가 한 번도 호출되지 않는다면, 화면에 아무것도 나오지 않는다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
+&lt;p&gt;　따라서 onResume() 함수가 실행되기까지 setContentView() 함수를 onCreate(), onStart(), onResume() 등 어디선가 호출해 주면 화면에 잘 나온다. 반대로 onResume() 함수가 호출될 때까지 setContentView() 함수가 한 번도 호출되지 않는다면, 화면에 아무것도 나오지 않는다.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;-일시-정지-상태&quot;&gt;🤏🏻 일시 정지 상태&lt;/h3&gt;
 
-&lt;p&gt;　일시 정지 상태는 액티비티가 여전히 화면에 보이지만, 포커스를 잃은 상태이다. 대표적인 예시로 다른 액티비티가 화면 전체를 가리지 않고 실행된 때이다. 다른 액티비티가 반투명하게 실행되거나 다이얼로그 스타일로 실행되어 여전히 자신이 화면에 보이지만, 포커스를 잃은 상태이다. 이때, onPause() 함수가 자동으로 호출된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
+&lt;p&gt;　일시 정지 상태는 액티비티가 여전히 화면에 보이지만, 포커스를 잃은 상태이다. 대표적인 예시로 다른 액티비티가 화면 전체를 가리지 않고 실행된 때이다. 다른 액티비티가 반투명하게 실행되거나 다이얼로그 스타일로 실행되어 여전히 자신이 화면에 보이지만, 포커스를 잃은 상태이다. 이때, onPause() 함수가 자동으로 호출된다.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;-비활성-상태&quot;&gt;👊🏻 비활성 상태&lt;/h3&gt;
 
 &lt;p&gt;　비활성 상태는 다른 액티비티로 인해 화면이 완전히 가려진 상태이다. 보통 다른 액티비티로 화면이 전환되어 안 보이는 경우다. 이때는 onPause() -&amp;gt; onStop() 함수까지 호출된다.&lt;/p&gt;
@@ -421,60 +510,4 @@ int main(int argc, char* argv[]){ &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS &lt;br /&gt;
-https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summary></summary></entry><entry><title>About Computer</title><link href="http://localhost:4000/Computer/" rel="alternate" type="text/html" title="About Computer" /><published>2020-08-04T00:00:00+09:00</published><updated>2020-08-04T00:00:00+09:00</updated><id>http://localhost:4000/Computer</id><content type="html" xml:base="http://localhost:4000/Computer/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/icon/computer.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;about-computer&quot;&gt;About Computer&lt;/h2&gt;
-
-&lt;p&gt;　컴퓨터(computer)는 영어 단어 ‘compute + er’로 구성되며 전자계산기로 번역된다. 즉, 용어가 의미하는 컴퓨터의 간단한 정의는 &lt;code class=&quot;highlighter-rouge&quot;&gt;전자적으로 계산을 수행하는 장치&lt;/code&gt;이다. 컴퓨터는 빠르고 정확한 계산을 위해 처리(process), 저장(store), 입력(input), 출력(output) 기능을 수행한다. 컴퓨터가 수행하는 계산의 대상을 데이터(data) 또는 자료라 하며 처리 기능을 거쳐 출력된 의미 있는 자료를 정보(information)라 한다.&lt;/p&gt;
-
-&lt;p&gt;　컴퓨터는 기본적으로 전기가 흐르거나 흐르지 않는 정보(ON/OFF)를 의미하는 1과 0의 두 가지 신호인 디지털 데이터만을 인식하므로 컴퓨터 외부의 문자, 영상, 음성과 같은 여러 형태의 데이터는 컴퓨터 내부에서 모두 디지털 데이터로 변환되어 처리된다. 따라서 컴퓨터는 1과 0의 조합으로 구성된 문자, 숫다 등의 데이터를 처리ㆍ계산함으로써 원하는 결과를 얻을 수 있다. 컴퓨터는 컴퓨터의 처리를 명령하는 여러 명령 집합(instruction set)에 의하여 처리 기능을 수행한다. 이러한 명령어 집합이 프로그램(program)이며 처리, 저장, 입력, 출력 4가지 기능의 관점에서 컴퓨터를 정의하면 다음과 같다.&lt;/p&gt;
-
-&lt;p class=&quot;notice_success&quot;&gt;컴퓨터는 원하는 결과를 얻기 위해 입력기능을 이용하여 데이터를 디지털로 변환하고 처리, 저장 기능을 이용하여 데이터를 처리하며, 변환된 정보를 출력 기능을 이용하여 적절한 출력장치로 출력할 수 있는 전자적 장치이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;computer-component&quot;&gt;Computer Component&lt;/h2&gt;
-
-&lt;p&gt;　우리가 흔히 보는 모니터, 하드디스크, 프린트 등과 같은 물리적인  부분 즉 &lt;strong&gt;하드웨어(hardware)&lt;/strong&gt;와 컴퓨터의 행동을 지시하는 프로그램인 &lt;strong&gt;소프트웨어(software)&lt;/strong&gt;로 이루어져 있다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-hardware&quot;&gt;💻 Hardware&lt;/h2&gt;
-
-&lt;p&gt;　하드웨어는 데이터의 입력, 처리, 출력을 제어하는 데 사용되는 물리적 기계 장치(device)로 구성된다. 하드웨어의 중요한 구성 요소로는 중앙처리장치(CPU: Central Processing Unit), 주기억장치(main memory), 보조기억장치(secondary memory), 입력장치(input memory), 출력장치(output device)를 들 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;입력장치&quot;&gt;입력장치&lt;/h3&gt;
-&lt;p&gt;　데이터 처리를 위하여 데이터를 컴퓨터 내부로 입력하는 기계이다. 대부분의 컴퓨터에 설치되어 있는 가장 흔한 입력장치로는 키보드와 마우스를 들 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;중앙처리장치&quot;&gt;중앙처리장치&lt;/h3&gt;
-&lt;p&gt;　중앙처리장치(CPU: Central Processing Unit)은 입력된 자료를 적절한 자료로 변환하기 위하여 소프트웨어로부터 받은 명령어를 실행하는 장치이다. 연산을 수행하는 연산장치(ALU: Arithmetic Logic Unit)와 연산을 제어하는 제어장치(control unit)로 구성되며 이 중앙장치의 칩을 프로세서라 한다. 중앙처리장치는 마이크로프로세서 또는 줄여서 프로세서라고도 부르며 사람에 비유하면 머리에 해당하는 매우 중요한 컴퓨터의 구성 요소이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;주기억장치&quot;&gt;주기억장치&lt;/h3&gt;
-&lt;p&gt;　컴퓨터가 데이터를 정보로 변환하는 주요 작업을 수행하는 곳은 중앙처리장치와 주기억장치(main memory)이다. 주기억장치는 마더보드에 장착되며 현재 CPU에서 처리 중인 프로그램과 데이터를 임시로 저장하는 데 이용된다. 주기억장치는 임의 접근 메모리로 RAM(Random Access Memory)이라 하는데 이는 메모리의 임의의 위치에 데이터를 읽거나 쓸 수 있음을 의미한다. 이는 전원을 끄게 되면 저장된 자료가 모두 사라지는 휘발성 메모리다.&lt;/p&gt;
-
-&lt;h3 id=&quot;보조기억장치&quot;&gt;보조기억장치&lt;/h3&gt;
-&lt;p&gt;　보조기억장치는 프로그램이나 데이터를 저장하기 위한 저장 공간으로 간단히 저장장치(storage)라고도 부른다. 이는 비휘발성 메모리로, 주기억장치에 비해 속도는 느리지만 가격은 저렴하여 더 넓은 공간을 이용할 수 있다. 일반적으로 사용되는 저장장치에는 USB 메모리와 하드디스크가 대표적이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;출력장치&quot;&gt;출력장치&lt;/h3&gt;
-&lt;p&gt;　컴퓨터의 처리 결과를 사용자가 사용 가능한 형태나 적당한 최종적인 형태로 바꾸어 주는 장치이다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-software&quot;&gt;💾 Software&lt;/h2&gt;
-
-&lt;p&gt;　컴퓨터를 사람에 비유하면 사람의 몸은 하드웨어이고 사람의 몸을 움직이게 하는 의지 또는 정신을 소프트웨어라 할 수 있다. 소프트웨어는 컴퓨터가 특정 작업을 수행할 수 있도록 해주는 전자적인 명령어 집합으로 구성되며 컴퓨터의 하드웨어가 해야 할 작업 내용을 지시한다.&lt;/p&gt;
-
-&lt;p&gt;　소프트웨어는 크게 &lt;strong&gt;응용 소프트웨어&lt;/strong&gt;와 &lt;strong&gt;시스템 소프트웨어&lt;/strong&gt;로 나눈다. 시스템 소프트웨어는 컴퓨터가 잘 작동하도록 도와주는 기본 소프트웨어를 말하며 응용 소프트웨어는 문서 작성이나 인터넷 검색 같은 특정 업무에 활용되는 소프트웨어를 말한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;응용-소프트웨어&quot;&gt;응용 소프트웨어&lt;/h3&gt;
-&lt;p&gt;　일반 사무실에서 문서 작성이나 간단한 회계처리 분야에 이용하는 워드프로세서, 스프레드시트 종류의 소프트웨어가 있으며 시스템 개발 분야에 이용되는 개발 도구와 데이터베이스 분야의 소프트웨어가 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;시스템-소프트웨어&quot;&gt;시스템 소프트웨어&lt;/h3&gt;
-&lt;p&gt;　크게 운영체제(Operating System)와 각종 유틸리티 프로그램으로 구분할 수 있다. 운영체제는 특정 CPU에 맞게 관련된 하드웨어를 작동하게 하고 또한 응용 소프트웨어를 실행해주는 소프트웨어이다. 유틸리티 프로그램은 운영체제를 돕고 컴퓨터 시스템이 원활하게 작동하도록 돕는다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="hardware" /><category term="software" /><summary></summary></entry></feed>
+https://inform-you.tistory.com/8&lt;/p&gt;</content><category term="web" /><summary></summary></entry></feed>
