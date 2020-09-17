@@ -8,10 +8,8 @@ tag:
 - code
 ---
 
-<br>
-
 ## Multiples of 3 and 5
-### by Jump-to-Java
+#### by Jump-to-Java
 <br>
 
 프로젝트 오일러에서 제공하는 첫번째 퀴즈,  

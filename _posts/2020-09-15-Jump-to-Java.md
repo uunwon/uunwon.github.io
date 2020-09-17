@@ -8,10 +8,8 @@ tag:
 - code
 ---
 
-<br>
-
 ## Multiplication table
-### by Jump-to-Java
+#### by Jump-to-Java
 
 > 구구단을 구현해보자.
 
