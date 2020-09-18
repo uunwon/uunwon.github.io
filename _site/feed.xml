@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-18T15:26:27+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BaekJoon] 11721. Print by ten</title><link href="http://localhost:4000/Baekjoon11721/" rel="alternate" type="text/html" title="[BaekJoon] 11721. Print by ten" /><published>2020-09-18T00:00:00+09:00</published><updated>2020-09-18T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon11721</id><content type="html" xml:base="http://localhost:4000/Baekjoon11721/">&lt;h2 id=&quot;열-개씩-끊어-출력하기&quot;&gt;열 개씩 끊어 출력하기&lt;/h2&gt;
+=======
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-17T16:43:51+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BaekJoon] 2557. Hello World</title><link href="http://localhost:4000/BaekJoon2557/" rel="alternate" type="text/html" title="[BaekJoon] 2557. Hello World" /><published>2020-09-17T00:00:00+09:00</published><updated>2020-09-17T00:00:00+09:00</updated><id>http://localhost:4000/BaekJoon2557</id><content type="html" xml:base="http://localhost:4000/BaekJoon2557/">&lt;h2 id=&quot;hello-world&quot;&gt;Hello World&lt;/h2&gt;
+>>>>>>> 0dbeda8219e021784dee55aa4784bf60bc43a6a7
 &lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
+<<<<<<< HEAD
 &lt;p&gt;　알파벳 소문자와 대문자로만 이루어진 길이가 N인 단어가 주어진다. 한 줄에 10글자씩 끊어서 출력하는 프로그램을 작성하시오.&lt;/p&gt;
 
 &lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
@@ -143,6 +148,8 @@ by BaekJoon</summary></entry><entry><title>[BaekJoon] 2557. Hello World</title><
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
+=======
+>>>>>>> 0dbeda8219e021784dee55aa4784bf60bc43a6a7
 &lt;p&gt;　Hello World!를 출력하시오.&lt;/p&gt;
 
 &lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
@@ -166,7 +173,11 @@ public class NewClass{ &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+<<<<<<< HEAD
 &lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/2557, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>Hello World
+=======
+&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/2557, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><summary>Hello World
+>>>>>>> 0dbeda8219e021784dee55aa4784bf60bc43a6a7
 by BaekJoon</summary></entry><entry><title>[BaekJoon] 11718. Print intactly</title><link href="http://localhost:4000/BaekJoon11718/" rel="alternate" type="text/html" title="[BaekJoon] 11718. Print intactly" /><published>2020-09-17T00:00:00+09:00</published><updated>2020-09-17T00:00:00+09:00</updated><id>http://localhost:4000/BaekJoon11718</id><content type="html" xml:base="http://localhost:4000/BaekJoon11718/">&lt;h2 id=&quot;그대로-출력하기&quot;&gt;그대로 출력하기&lt;/h2&gt;
 &lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
 
@@ -206,7 +217,11 @@ public class NewClass{ &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+<<<<<<< HEAD
 &lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/11718, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>그대로 출력하기
+=======
+&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/11718, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><summary>그대로 출력하기
+>>>>>>> 0dbeda8219e021784dee55aa4784bf60bc43a6a7
 by BaekJoon</summary></entry><entry><title>[Jump to Java] Self Number</title><link href="http://localhost:4000/Jump-to-Java3/" rel="alternate" type="text/html" title="[Jump to Java] Self Number" /><published>2020-09-16T00:00:00+09:00</published><updated>2020-09-16T00:00:00+09:00</updated><id>http://localhost:4000/Jump-to-Java3</id><content type="html" xml:base="http://localhost:4000/Jump-to-Java3/">&lt;h2 id=&quot;self-number&quot;&gt;Self Number&lt;/h2&gt;
 &lt;h4 id=&quot;by-jump-to-java&quot;&gt;by Jump-to-Java&lt;/h4&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -431,4 +446,88 @@ RelativeLayout: https://recipes4dev.tistory.com/126&lt;/p&gt;</content><category
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+<<<<<<< HEAD
 &lt;p class=&quot;notice&quot;&gt;깡쌤의 안드로이드 프로그래밍, 루비페이퍼 &lt;br /&gt;&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry></feed>
+=======
+&lt;p class=&quot;notice&quot;&gt;깡쌤의 안드로이드 프로그래밍, 루비페이퍼 &lt;br /&gt;&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry><entry><title>Android Post List</title><link href="http://localhost:4000/Android-List/" rel="alternate" type="text/html" title="Android Post List" /><published>2020-08-27T00:00:00+09:00</published><updated>2020-08-27T00:00:00+09:00</updated><id>http://localhost:4000/Android-List</id><content type="html" xml:base="http://localhost:4000/Android-List/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;리스트&quot;&gt;리스트&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;기초 뷰 활용 p114&lt;/li&gt;
+  &lt;li&gt;레이아웃 종류 p136&lt;/li&gt;
+  &lt;li&gt;스마트폰 크기 호환성 p234&lt;/li&gt;
+  &lt;li&gt;데이터 영속화 SQLite p257&lt;/li&gt;
+  &lt;li&gt;WebView p346&lt;/li&gt;
+  &lt;li&gt;인텐트 p437&lt;/li&gt;
+  &lt;li&gt;액티비티 생명주기 p477&lt;/li&gt;
+  &lt;li&gt;Fragment p553&lt;/li&gt;
+  &lt;li&gt;RecyclerView p589&lt;/li&gt;
+  &lt;li&gt;위치 정보 LocationManager p777&lt;/li&gt;
+  &lt;li&gt;HTTP 통신 - Java Volley API, Retrofit2 p859&lt;/li&gt;
+  &lt;li&gt;코틀린 p1049&lt;/li&gt;
+&lt;/ul&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry><entry><title>Start Android</title><link href="http://localhost:4000/Android/" rel="alternate" type="text/html" title="Start Android" /><published>2020-08-23T00:00:00+09:00</published><updated>2020-08-23T00:00:00+09:00</updated><id>http://localhost:4000/Android</id><content type="html" xml:base="http://localhost:4000/Android/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;안드로이드&quot;&gt;안드로이드&lt;/h2&gt;
+
+&lt;p&gt;안드로이드는 휴대 전화를 비롯한 휴대용 장치를 위한 운영 체제와 미들웨어, 사용자 인터페이스 그리고 표준 응용 프로그램, 웹 브라우저, 이메일 클라이언트, 단문 메시지 서비스(SMS), MMS 등을 포함하고 있는 소프트웨어 스택이자 모바일 운영 체제이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;안드로이드-특징&quot;&gt;안드로이드 특징&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;안드로이드는 공개 운영체제인 리눅스 기반이다.&lt;/li&gt;
+  &lt;li&gt;안드로이드 앱 개발은 자바 및 코틀린을 이용해 개발한다.&lt;/li&gt;
+  &lt;li&gt;운영체제의 핵심 코드, 라이브러리 코드, 스마트폰에 기본으로 탑재된 구글에서 만든 앱 코드 등 대부분 코드가 오픈되어 있다.&lt;/li&gt;
+  &lt;li&gt;안드로이드 플랫폼 기반의 스마트폰을 여러 제조업체에서 만들 수 있다.&lt;/li&gt;
+  &lt;li&gt;개발자가 만든 앱은 구글 Play 스토어뿐만 아니라 다양한 방법으로 사용자에게 배포할 수 있다.&lt;/li&gt;
+  &lt;li&gt;안드로이드 기반의 모든 애플리케이션은 평등하다는 사상으로 스마트폰에 기본 탑재된 앱과 개발자들이 만드는 앱이 같은 환경에서 같은 API를 이용한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;컴포넌트-기반-개발&quot;&gt;컴포넌트 기반 개발&lt;/h2&gt;
+
+&lt;p&gt;안드로이드 앱의 아키텍처에서 가장 큰 특징은 컴포넌트 기반이라는 것이다. 컴포넌트는 앱의 구성 단위이다. 즉, 안드로이드 앱을 작성한다는 건 컴포넌트를 작성한다는 것이고, 개발자가 작성한 여러 컴포넌트를 조합하여 하나의 앱을 완성한다.&lt;/p&gt;
+
+&lt;p&gt;안드로이드 컴포넌트는 4가지 종류가 있다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;액티비티&lt;/strong&gt; : UI를 구성하기 위한 컴포넌트&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;서비스&lt;/strong&gt; : UI 없이 백그라운드에서 장시간 수행되는 컴포넌트&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;콘텐츠 프로바이더&lt;/strong&gt; : 애플리케이션 간 데이터를 공유하기 위한 컴포넌트&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;브로드캐스트 리시버&lt;/strong&gt; : 이벤트 모델로 수행되는 컴포넌트&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;깡쌤의 안드로이드 프로그래밍, 루비페이퍼 &lt;br /&gt;&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry><entry><title>Linux and Unix</title><link href="http://localhost:4000/Linux-Unix/" rel="alternate" type="text/html" title="Linux and Unix" /><published>2020-08-10T00:00:00+09:00</published><updated>2020-08-10T00:00:00+09:00</updated><id>http://localhost:4000/Linux-Unix</id><content type="html" xml:base="http://localhost:4000/Linux-Unix/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;os&quot;&gt;OS&lt;/h2&gt;
+
+&lt;p&gt;　운영체제(OS: Operating System)은 컴퓨터의 주기억장치 내에 상주하면서 사용자와 컴퓨터 시스템 사이의 인터페이스를 담당하여 컴퓨터 시스템의 전반적인 동작을 제어하고 조정하며, 사용자에게 편리성을 제공하고 한정된 시스템 자원을 효율적으로 사용할 수 있도록 관리하는 여러 시스템 프로그램들의 집합을 말한다. 즉 운영체제를 구성하는 프로그램들은 하드웨어와 응용프로그램 간의 인터페이스 역할을 하면서 중앙처리장치(CPU), 주기억장치, 입출력장치, 파일 시스템 등의 컴퓨터 자원을 관리한다.&lt;/p&gt;
+
+&lt;p&gt;　운영체제의 종류는 매우 다양한데 컴퓨터의 용량에 따라 구분하여 개인용 컴퓨터와 중대형 컴퓨터로 그 종류를 살펴볼 수 있다. 개인용 컴퓨터에 이용하는 대표적인 운영체제로는 마이크로소프트의 윈도우 계열의 운영체제와 리눅스(Linux) 등이 있다. 중대형 컴퓨터에서 사용하는 운영체제는 유닉스(Unix) 계열의 운영체제가 주종을 이루고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;　리눅스(Linux)는 핀란드의 리누스 토발즈(Linus Torvalds)에 의하여 개발된 유닉스(Unix) 기반의 운영체제이다. 이는 개인용 컴퓨터에 적합한 적합한 공개용 운영체제다. 리누스 토발즈는 소스 코드를 인터넷에 공개해 모든 사람이 자유롭게 사용할 수 있도록 하고 일반인들이 직접 리눅스의 개선에도 참여할 수 있도록 하였다.&lt;/p&gt;
+
+&lt;p&gt;　리눅스는 무료 소프트웨어라는 장점과 유닉스에 기반한 매우 안정적인 운영체제라는 점에 급속히 확산되었다. 이는 인터넷 프로토콜인 TCP/IP를 강력하게 지원하는 등 네트워크 기능이 강화되었고, 다중 사용자, 다중 프로그래밍 방식을 지원하는 안정성 있는 운영체제이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;unix&quot;&gt;Unix&lt;/h2&gt;
+
+&lt;p&gt;　유닉스(Unix)는 벨 연구소의 멀틱스 운영체제 팀에서 개발한 운영체제이다. 1973년 새로 개발한 언어 C를 이용하여 시스템 PDP=11을 위해 만들어졌다. 이는 다른 시스템에도 쉽게 적용하여 운영할 수 있는 이식성이 좋은 운영체제로 유명하다.&lt;/p&gt;
+
+&lt;p&gt;　유닉스 운영체제를 구성하는 주요 요소로 커널(Kernel)과 쉘(Shell)이 있다. &lt;code class=&quot;highlighter-rouge&quot;&gt;커널&lt;/code&gt;은 운영체제의 가장 핵심이 되는 모듈로 CPU와 주기억장치를 관리하고 시스템 호출을 처리하며 주변장치를 관리하는 기능을 포함한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;쉘&lt;/code&gt;은 표준 UNIX 명령 인터프리터로서 사용자가 입력한 명령을 해석하여 그에 맞는 다른 프로그램을 실행시키는 유틸리티 프로그램이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;모바일 시대의 컴퓨터개론, INFINITY BOOKS&lt;/p&gt;</content><category term="computer" /><category term="linux" /><category term="unix" /><summary></summary></entry></feed>
+>>>>>>> 0dbeda8219e021784dee55aa4784bf60bc43a6a7
