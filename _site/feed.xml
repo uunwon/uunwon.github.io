@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-21T17:02:57+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BaekJoon] 2442. Drawing star</title><link href="http://localhost:4000/Baekjoon2442/" rel="alternate" type="text/html" title="[BaekJoon] 2442. Drawing star" /><published>2020-09-21T00:00:00+09:00</published><updated>2020-09-21T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon2442</id><content type="html" xml:base="http://localhost:4000/Baekjoon2442/">&lt;h2 id=&quot;별-찍기---5&quot;&gt;별 찍기 - 5&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-23T09:10:18+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BaekJoon] 10828. Stack</title><link href="http://localhost:4000/Baekjoon10828/" rel="alternate" type="text/html" title="[BaekJoon] 10828. Stack" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon10828</id><content type="html" xml:base="http://localhost:4000/Baekjoon10828/">&lt;h2 id=&quot;스택&quot;&gt;스택&lt;/h2&gt;
+&lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
+&lt;p&gt;　정수를 저장하는 스택을 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오. 명령은 총 다섯 가지이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;push X: 정수 X를 스택에 넣는 연산이다.&lt;/li&gt;
+  &lt;li&gt;pop: 스택에서 가장 위에 있는 정수를 빼고, 그 수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.&lt;/li&gt;
+  &lt;li&gt;size: 스택에 들어있는 정수의 개수를 출력한다.&lt;/li&gt;
+  &lt;li&gt;empty: 스택이 비어있으면 1, 아니면 0을 출력한다.&lt;/li&gt;
+  &lt;li&gt;top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
+&lt;p&gt;　첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 10,000)이 주어진다. 둘째 줄부터 N개의 줄에는 명령이 하나씩 주어진다. 주어지는 정수는 1보다 크거나 같고, 100,000보다 작거나 같다. 문제에 나와있지 않은 명령이 주어지는 경우는 없다.&lt;/p&gt;
+
+&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
+&lt;p&gt;　출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-solving&quot;&gt;🎯 Solving&lt;/h2&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+import java.util.*; &lt;br /&gt;
+&lt;br /&gt;
+public class Main{ &lt;br /&gt;
+　　public static void main(String[] args){ &lt;br /&gt;
+　　　　Scanner sc = new Scanner(System.in); &lt;br /&gt;
+　　　　int n = sc.nextInt(); &lt;br /&gt;
+　　　　int[] arr = new int[n]; &lt;br /&gt;
+　　　　int top = -1; &lt;br /&gt;
+　　　　&lt;br /&gt;
+　　　　for(int i = 1;i &amp;lt;= n;i++) { &lt;br /&gt;
+　　　　　　String txt = sc.nextLine(); &lt;br /&gt;
+　　　　　　String txt2 = txt.split(&quot; &quot;)[0]; &lt;br /&gt;
+&lt;br /&gt;
+　　　　　　if(txt2.equals(&quot;push&quot;)) { &lt;br /&gt;
+　　　　　　　　top++; &lt;br /&gt;
+　　　　　　　　arr[top] = Integer.parseInt(txt.split(&quot; &quot;)[1]); &lt;br /&gt;
+　　　　　　} &lt;br /&gt;
+&lt;br /&gt;
+　　　　　　else if(txt2.equals(&quot;pop&quot;)) { &lt;br /&gt;
+　　　　　　　　if(top == -1) &lt;br /&gt;
+　　　　　　　　　　System.out.println(-1); &lt;br /&gt;
+　　　　　　　　else { &lt;br /&gt;
+　　　　　　　　　　System.out.println(arr[top]); &lt;br /&gt;
+　　　　　　　　　　top--; &lt;br /&gt;
+　　　　　　　　} &lt;br /&gt;
+　　　　　　} &lt;br /&gt;
+&lt;br /&gt;
+　　　　　　else if(txt2.equals(&quot;size&quot;)) { &lt;br /&gt;
+　　　　　　　　System.out.println(top+1); &lt;br /&gt;
+　　　　　　} &lt;br /&gt;
+&lt;br /&gt;
+　　　　　　else if(txt2.equals(&quot;empty&quot;)) { &lt;br /&gt;
+　　　　　　　　if(top == -1) &lt;br /&gt;
+　　　　　　　　　　System.out.println(1); &lt;br /&gt;
+　　　　　　　　else &lt;br /&gt;
+　　　　　　　　　　System.out.println(0); &lt;br /&gt;
+　　　　　　} &lt;br /&gt;
+&lt;br /&gt;
+　　　　　　else if(txt2.equals(&quot;top&quot;)) { &lt;br /&gt;
+　　　　　　　　if(top == -1) &lt;br /&gt;
+　　　　　　　　　　System.out.println(-1); &lt;br /&gt;
+　　　　　　　　else &lt;br /&gt;
+　　　　　　　　　　System.out.println(arr[top]); &lt;br /&gt;
+　　　　　　} &lt;br /&gt;
+　　　　} &lt;br /&gt;
+　　　　sc.close(); &lt;br /&gt;
+　　} &lt;br /&gt;
+}
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/10828, 백준 &lt;br /&gt;
+https://thiago6.tistory.com/88?category=827161, 시간초과 오류 &lt;br /&gt;
+https://hoho325.tistory.com/139?category=780777, 성공 답안&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>스택
+by BaekJoon</summary></entry><entry><title>[BaekJoon] 2442. Drawing star</title><link href="http://localhost:4000/Baekjoon2442/" rel="alternate" type="text/html" title="[BaekJoon] 2442. Drawing star" /><published>2020-09-21T00:00:00+09:00</published><updated>2020-09-21T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon2442</id><content type="html" xml:base="http://localhost:4000/Baekjoon2442/">&lt;h2 id=&quot;별-찍기---5&quot;&gt;별 찍기 - 5&lt;/h2&gt;
 &lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -337,97 +420,4 @@ public class multiplicationTable{ &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;https://wikidocs.net/236, 점프 투 자바&lt;/p&gt;</content><category term="java" /><category term="code" /><summary>Multiplication table
-by Jump-to-Java</summary></entry><entry><title>Android Layout</title><link href="http://localhost:4000/Android-Layout/" rel="alternate" type="text/html" title="Android Layout" /><published>2020-09-03T00:00:00+09:00</published><updated>2020-09-03T00:00:00+09:00</updated><id>http://localhost:4000/Android-Layout</id><content type="html" xml:base="http://localhost:4000/Android-Layout/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;안드로이드-레이아웃&quot;&gt;안드로이드 레이아웃&lt;/h2&gt;
-
-&lt;p&gt;　안드로이드 UI 프로그램에서 화면 구성을 위한 뷰 클래스도 중요하지만, 해당 뷰들을 화면에 어떻게 배치할 것인가도 중요하다. 뷰를 적절하게 배치하는 데 사용하는 레이아웃 클래스를 살펴보자. 레이아웃 클래스는 화면에 출력되는 대상이지만, 자체 UI는 갖지 않는다. 레이아웃 클래스는 Button 같은 뷰들을 자신에게 포함(Add)하고 적절하게 배치해 화면에 한꺼번에 출력한다.&lt;/p&gt;
-
-&lt;p&gt;　레이아웃 클래스마다 포함된 뷰의 정렬 규칙이 다른 것이지, 특정 화면을 특정 레이아웃으로만 구성할 수 있는 건 아니다. 화면을 작성할 때 무조건 특정 레이아웃을 사용해야 완성할 수 있는 경우도 있지만, 대부분 개발자의 선택에 따른다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;레이아웃-종류&quot;&gt;레이아웃 종류&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;LinearLayout&lt;/li&gt;
-  &lt;li&gt;RelativeLayout&lt;/li&gt;
-  &lt;li&gt;FrameLayout&lt;/li&gt;
-  &lt;li&gt;TableLayout&lt;/li&gt;
-  &lt;li&gt;GridLayout&lt;/li&gt;
-  &lt;li&gt;ConstraintLayout&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-linearlayout&quot;&gt;📱 LinearLayout&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　가장 많이 이용되는 레이아웃 중 하나가 LinearLayout 이다. 이는 해당 레이아웃에 포함된 뷰를 순서대로 가로나 세로 방향으로 나열한다. 따라서 다른 레이아웃에서는 없는 방향을 지정하는 orientation 속성을 제공한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 레이아웃에서 뷰의 위치는 왼쪽 위이다. 뷰의 정렬과 관련된 속성은 &lt;strong&gt;gravity&lt;/strong&gt;(뷰의 내용을 뷰 영역 내 어디에 나타낼지)와 &lt;strong&gt;layout_gravity&lt;/strong&gt;(뷰를 LinearLayout 영역 내 어디에 나타낼지)로 다룰 수 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;weigh&lt;/strong&gt; 속성은 이용 빈도가 높은 속성이다. 여백과 관련이 있는 속성으로, 레이아웃에 뷰를 배치하다 보면 가로나 세로 방향으로 여백이 발생할 수 있다. 이 여백을 화면에 배치된 뷰들이 확장해서 차지하게 할 때 이용된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-relativelayout&quot;&gt;📲 RelativeLayout&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　RelativeLayout은 화면에 이미 배치된 뷰를 기준으로 다른 뷰의 위치를 지정하는 레이아웃이다. 예를 들어, RelativeLayout에 Button을 포함한 후 다른 Button을 포함하면, 이전 Button 위에 덮어쓰듯이 올라가게 된다. 이때 가로세로 방향의 orientation을 생각할 수 있는데, orientation 속성은 LinearLayout에만 지정할 수 있다. RelativeLatout에서 &lt;strong&gt;상대 위치를 지정하는 속성&lt;/strong&gt;은 다음 4가지가 있다. 이 4가지 속성값은 &lt;code class=&quot;highlighter-rouge&quot;&gt;기준 뷰의 id&lt;/code&gt;이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;android:layout_above: 기준 뷰의 윗부분에 배치 &lt;br /&gt; android:layout_below: 기준 뷰의 아랫부분에 배치 &lt;br /&gt; android: layout_toLeftOf: 기준 뷰의 왼쪽에 배치 &lt;br /&gt; android: layout_toRightOf: 기준 뷰의 오른쪽에 배치&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;　위와 같은 속성뿐 아니라, 기준이 되는 뷰와 왼쪽 변을 맞추거나 윗변을 맞추는 등의 작업도 중요하다. 이 부분을 지원하기 위한 속성이 align이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;android:layout_alignTop: 기준 뷰와 윗부분을 정렬 &lt;br /&gt; android:layout_alignBottom: 기준 뷰와 아랫부분을 정렬 &lt;br /&gt; android:layout_alignLeft: 기준 뷰와 왼쪽을 정렬 &lt;br /&gt; android:layout_alignRight: 기준 뷰와 오른쪽을 정렬 &lt;br /&gt; android:layout_alignBaseline: 기준 뷰와 텍스트 기준선을 정렬&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-framelayout&quot;&gt;📳 FrameLayout&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　FrameLayout은 레이아웃에 포함된 뷰들을 같은 영역에 겹쳐서 배치할 때 사용한다. 레이아웃 자체의 특별한 속성은 없다. 이를 이용하는 목적은 대부분 같은 영역에 여러 뷰를 겹치게 한 다음, 한 순간에 하나의 뷰만 보이기 위함이다. 이를 위해 visibility 속성으로 특정 순간에 뷰가 보이거나 보이지 않게 제어하면 된다.&lt;/p&gt;
-
-&lt;p class=&quot;notice_info&quot;&gt;TabHost: 탭 화면은 화면 여러 개를 준비한 다음, 사용자가 버튼을 누를 때 버튼과 연결된 화면을 하나씩 보여주는 형태로 TabHost 클래스를 사용해 작업을 더 쉽게 할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-tablelayout&quot;&gt;📴 TableLayout&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　TableLayout은 뷰를 테이블 구조로 나열하는 레이아웃이다. 레이아웃 내에 하나의 뷰가 여러 셀을 차지하게 할 수도 있으며, 여백이 발생할 경우 특정 열(column)을 확장할 수도 있고, 화면 크기를 벗어나는 순간 특정 열을 축소하는 등 다양하게 설정할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-gridlayout&quot;&gt;📱 GridLayout&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　GridLayout은 뷰를 테이블 구조로 나열한다. 이는 뷰가 테이블 구조로 나열된다는 점에서 TableLayout과 유사하고, 뷰가 레이아웃에 포함된 순서대로 가로나 세로 방향으로 나열된다는 점에서 LinearLayout과도 유사하다. 또한, LinearLayout에는 없는 자동 개행 능력도 있어 화면에는 TableLayout처럼 보이기도 한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;TableLayout이 있는데, GridLayout을 사용하는 이유? &lt;br /&gt; TableLayout은 각 행을 TalbeRow로 묶어주어야 하므로, 셀의 개수를 예상할 수 없거나 가변적일 때는 화면 구성이 복잡해진다. 하지만 GridLayout은 별도로 행을 표현하지 않아도 뷰를 순서대로 포함만 하면 알아서 개행하여 행이 자동으로 표현되므로 편리한 측면이 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;orientation: 뷰의 배치 방향을 지정. 기본값은 가로 방향 &lt;br /&gt; columnCount: 가로 방향일 때 한 줄에 몇 개의 뷰를 나열할 것인지 지정 &lt;br /&gt; rowCount: 세로 방향일 떄 한 줄에 몇 개의 뷰를 나열할 것인지 지정&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-constraintlayout&quot;&gt;📲 ConstraintLayout&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　ConstraintLayout은 안드로이드 2.3 버전부터는 XML 파일을 만들면 기본으로 지정되는 레이아웃이다. 이는 RelativeLayout과 상당히 유사하다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;상대적 위치 지정: app: layout_constraintLeft_toRightOf &lt;br /&gt; 여백(margin): android:layout_marginStart &lt;br /&gt; 가운데 맞춤과 치우침(bias): app: layout_constraintHorizontal_bias &lt;br /&gt; 비율(ratio): app: layout_constraintDimensionRatio&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;깡쌤의 안드로이드 프로그래밍, 루비페이퍼 &lt;br /&gt;
-RelativeLayout: https://recipes4dev.tistory.com/126&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary></summary></entry></feed>
+by Jump-to-Java</summary></entry></feed>
