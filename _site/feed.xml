@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-12T13:07:03+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-12T13:23:14+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
+&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;스레드 사용하기&lt;/li&gt;
@@ -85,7 +86,9 @@ viewpager.setAdapter(adpater); &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 5. 네트워킹 &lt;br /&gt;
-https://www.boostcourse.org/mo316/joinLectures/13169&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>네트워크</summary></entry><entry><title>[BoostCourse] Android Programming 04</title><link href="http://localhost:4000/BoostCourse-Android4/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 04" /><published>2021-01-03T00:00:00+09:00</published><updated>2021-01-03T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android4</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android4/">&lt;h2 id=&quot;화면-내비게이션&quot;&gt;화면 내비게이션&lt;/h2&gt;
+https://www.boostcourse.org/mo316/joinLectures/13169&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>네트워크
+by boostcourse</summary></entry><entry><title>[BoostCourse] Android Programming 04</title><link href="http://localhost:4000/BoostCourse-Android4/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 04" /><published>2021-01-03T00:00:00+09:00</published><updated>2021-01-03T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android4</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android4/">&lt;h2 id=&quot;화면-내비게이션&quot;&gt;화면 내비게이션&lt;/h2&gt;
+&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;프래그먼트 이해하기&lt;/li&gt;
@@ -177,7 +180,106 @@ viewpager.setAdapter(adpater); &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 4. 화면 내비게이션 &lt;br /&gt;
-https://www.boostcourse.org/mo316/joinLectures/13161&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 내비게이션</summary></entry><entry><title>[BoostCourse] Android Programming 01</title><link href="http://localhost:4000/BoostCourse-Android1/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 01" /><published>2020-12-28T00:00:00+09:00</published><updated>2020-12-28T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android1</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android1/">&lt;h2 id=&quot;레이아웃-만들기&quot;&gt;레이아웃 만들기&lt;/h2&gt;
+https://www.boostcourse.org/mo316/joinLectures/13161&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 내비게이션
+by boostcourse</summary></entry><entry><title>[BoostCourse] Android Programming 02</title><link href="http://localhost:4000/BoostCourse-Android2/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 02" /><published>2020-12-30T00:00:00+09:00</published><updated>2020-12-30T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android2</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android2/">&lt;h2 id=&quot;이벤트와-리스트뷰&quot;&gt;이벤트와 리스트뷰&lt;/h2&gt;
+&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;스크롤뷰 사용하기&lt;/li&gt;
+  &lt;li&gt;이벤트 이해하기&lt;/li&gt;
+  &lt;li&gt;토스트와 대화상자&lt;/li&gt;
+  &lt;li&gt;비트맵 버튼 만들기&lt;/li&gt;
+  &lt;li&gt;인플레이션 이해하기&lt;/li&gt;
+  &lt;li&gt;리스트뷰 만들기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-스크롤뷰-사용하기&quot;&gt;🔑 스크롤뷰 사용하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　’안드로이드 스튜디오’ 라는 도구를 사용해 안드로이드 앱을 만들 수 있다. 해당 도구는 안드로이드 개발자 사이트에서 다운로드 받을 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　애뮬레이터는 테스트할 때 사용하는 가상의 단말기다. 애뮬레이터를 실행하면 안드로이드 스튜디오를 이용해 만든 앱을 띄우고 테스트해볼 수 있다. 앱을 실행할 때는 상단의 아이콘 중 초록색 ▶ 아이콘을 누르면 된다.&lt;/p&gt;
+
+&lt;p&gt;　프로젝트 내 파일을 살펴보면 xml과 java 로 나누어진 것을 확인할 수 있다. xml 파일은 레이아웃, java 파일은 레이아웃.xml에 기능을 넣어주는 역할을 한다.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+http://developer.android.com/studio/index.html
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-이벤트-이해하기&quot;&gt;🪓 이벤트 이해하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　사용자에게 보이는 화면은 XML 파일로 만들어지며, XML 레이아웃이라 부른다. XML 파일 안에는 태그와 속성들이 들어가며, 이 파일을 시스템이 읽어 화면으로 보여둔다. 또한, 화면이나 소스 코드를 수정하면 안드로이드는 수정 사항을 바로 반영하게 된다.&lt;/p&gt;
+
+&lt;p&gt;　각 태그는 뷰를 의미하며, 속성에 붙어있는 ‘android:’ 지시어는 안드로이드 SDK에서 정의한 속성이라는 의미다. 필수적인 속성은 크기를 나타내는 layout_width, layout_height 다.&lt;/p&gt;
+
+&lt;p&gt;　화면을 만드는 가장 기본적인 단위는 &lt;strong&gt;뷰&lt;/strong&gt;다. 뷰 중에 눈에 보이는 것들은 위젯, 눈에 보이지 않는 것들은 레이아웃이라 구분한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-토스트와-대화상자&quot;&gt;🔨 토스트와 대화상자&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　프로젝트를 처음 만들면 제약 레이아웃(Constraintlayout)이라는 것이 버튼을 담고 있는 형태로 만들어진다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;① ConstraintLayout&lt;/strong&gt;&lt;br /&gt;
+　제약 레이아웃은 제약 조건을 이용해 그 안에 추가된 뷰들의 위치를 결정한다. 그러한 제약 조건은 연결선을 통해 만들어진다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;② LinearLayout&lt;/strong&gt;&lt;br /&gt;
+　리니어 레이아웃은 상자를 쌓듯 뷰를 하나씩 쌓을 수 있는 레이아웃이다. 화면에서 뷰가 차지한 영역을 상자라 보고, 이 상자를 한쪽 방향(orientation = horizontal, vertical)으로 쌓을 수 있게 한다. 뷰를 정렬할 때는 layout_gravity(뷰 정렬)와 gravity(뷰 안 내용물 정렬)를 사용한다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;③ RelativeLayout&lt;/strong&gt;&lt;br /&gt;
+　상대 레이아웃은 뷰를 담고 있는 부모 레이아웃이나 그 안에 들어있는 다른 뷰들과의 상대적 위치를 이용해 화면을 배치한다. 부모 레이아웃과의 상대적 위치를 지정할 때 사용하는 속성들은 모두 Parent 라는 단어가 들어가 있지만, 다른 뷰와의 상대적 위치를 지정할 때 사용하는 속성들에는 Parent 라는 단어가 들어가 있지 않다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;④ FrameLayout&lt;/strong&gt;&lt;br /&gt;
+　프레임 레이아웃은 한번에 하나의 뷰만 보여주는 레이아웃으로, 화면에는 가장 나중에 추가한 뷰만 보인다. 이런 특성 때문에 화면 중첩 시에 주로 사용된다. (가시성 visibility 속성을 함께 이용할 수 있다.)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-비트맵-버튼-만들기&quot;&gt;⛏ 비트맵 버튼 만들기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　&lt;strong&gt;① TextView&lt;/strong&gt;&lt;br /&gt;
+　텍스트뷰는 화면에 글자를 표시하도록 해준다. 해당 뷰 안에 들어가는 내용은 가급적 stings.xml 파일 안에 넣어둔 태그 값으로 설정한다. 해당 방식은 다국어를 설정할 때도 유용한데, 언어 폴더를 각각 만들어 넣어준다면 단말의 Locale(위치)에 따라 언어가 변경될 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;② Button&lt;/strong&gt;&lt;br /&gt;
+　버튼은 텍스트뷰를 상속하여 만들어졌다. 이는 라디오 버튼이나 체크 박스 등으로 나누어 사용될 수 있다. 그 중 라디오 버튼은 라디오 그룹을 이용해 하나의 그룹으로 묶어줄 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;③ EditText&lt;/strong&gt;&lt;br /&gt;
+　에디드텍스트는 입력 상자 역할을 한다. inputType 속성을 이용해, 어떤 유형의 글자를 입력할 지 결정한다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;④ ImageView&lt;/strong&gt;&lt;br /&gt;
+　이미지뷰는 이미지를 보여주는 뷰로, res/drwable 폴더 내의 이미지를 불러와 보여준다. 이미지 파일의 확장자는 png 형식의 이미지를 권장한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-인플레이션-이해하기&quot;&gt;⚒ 인플레이션 이해하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　드로어블(Drawable)은 뷰에 설정할 수 있는 객체이며, 그래픽으로 그릴 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;① 상태 드로어블&lt;/strong&gt;&lt;br /&gt;
+　상태 드로어블은 뷰의 상태에 따라 뷰에 보여줄 그래픽을 다르게 지정할 수 있다. drawable 폴더 내 최상위 태그는 selector 이며, 태그 내에 item 태그를 넣을 수 있으며 state_ 로 시작하는 상태를 나타내는 속성을 적용할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;② 쉐이프 드로어블&lt;/strong&gt;&lt;br /&gt;
+　쉐이프 드로어블은 XML로 도형을 그릴 수 있도록 한다. drawable 폴더 내 최상위 태그는 shape 이며, shape 속성을 이용해 원하는 모양의 도형을 지정할 수 있다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;태그 종류&lt;/strong&gt; &lt;br /&gt; stroke : 테두리 선 속성 지정 &lt;br /&gt; width : 선의 굵기 &lt;br /&gt; color : 선의 색상 solid : 도형의 안쪽 채우기 &lt;br /&gt; gradient : 배경색으로 그라데이션 설정&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-리스트뷰-만들기&quot;&gt;🛠 리스트뷰 만들기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　안녕하세요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 2. 이벤트와 리스트뷰 &lt;br /&gt;
+https://www.boostcourse.org/mo316/joinLectures/13159&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>이벤트와 리스트뷰
+by boostcourse</summary></entry><entry><title>[BoostCourse] Android Programming 01</title><link href="http://localhost:4000/BoostCourse-Android1/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 01" /><published>2020-12-28T00:00:00+09:00</published><updated>2020-12-28T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android1</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android1/">&lt;h2 id=&quot;레이아웃-만들기&quot;&gt;레이아웃 만들기&lt;/h2&gt;
+&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;첫번째 앱 만들기&lt;/li&gt;
@@ -265,7 +367,8 @@ http://developer.android.com/studio/index.html
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 1. 레이아웃 만들기 &lt;br /&gt;
-https://www.boostcourse.org/mo316/joinLectures/13158&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>레이아웃 만들기</summary></entry><entry><title>[BaekJoon] 10828. Stack</title><link href="http://localhost:4000/Baekjoon10828/" rel="alternate" type="text/html" title="[BaekJoon] 10828. Stack" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon10828</id><content type="html" xml:base="http://localhost:4000/Baekjoon10828/">&lt;h2 id=&quot;스택&quot;&gt;스택&lt;/h2&gt;
+https://www.boostcourse.org/mo316/joinLectures/13158&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>레이아웃 만들기
+by boostcourse</summary></entry><entry><title>[BaekJoon] 10828. Stack</title><link href="http://localhost:4000/Baekjoon10828/" rel="alternate" type="text/html" title="[BaekJoon] 10828. Stack" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon10828</id><content type="html" xml:base="http://localhost:4000/Baekjoon10828/">&lt;h2 id=&quot;스택&quot;&gt;스택&lt;/h2&gt;
 &lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -561,44 +664,4 @@ public class NewClass{ &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/2557, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>Hello World
-by BaekJoon</summary></entry><entry><title>[BaekJoon] 11718. Print intactly</title><link href="http://localhost:4000/BaekJoon11718/" rel="alternate" type="text/html" title="[BaekJoon] 11718. Print intactly" /><published>2020-09-17T00:00:00+09:00</published><updated>2020-09-17T00:00:00+09:00</updated><id>http://localhost:4000/BaekJoon11718</id><content type="html" xml:base="http://localhost:4000/BaekJoon11718/">&lt;h2 id=&quot;그대로-출력하기&quot;&gt;그대로 출력하기&lt;/h2&gt;
-&lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
-&lt;p&gt;　입력 받은 대로 출력하는 프로그램을 작성하시오.&lt;/p&gt;
-
-&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
-&lt;p&gt;　입력이 주어진다. 입력은 최대 100줄로 이루어져 있고, 알파벳 소문자, 대문자, 공백, 숫자로만 이루어져 있다. 각 줄은 100글자를 넘지 않으며, 빈 줄은 주어지지 않는다. 또, 각 줄은 공백으로 시작하지 않고, 공백으로 끝나지 않는다.&lt;/p&gt;
-
-&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
-&lt;p&gt;　입력받은 그대로 출력한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-solving&quot;&gt;🎯 Solving&lt;/h2&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-import java.util.*; &lt;br /&gt;
-&lt;br /&gt;
-public class NewClass{ &lt;br /&gt;
-　　public static void main(String[] args){ &lt;br /&gt;
-　　　　Scanner sc = new Scanner(System.in); &lt;br /&gt;
-　　　　StringBuffer buffer = new StringBuffer(); &lt;br /&gt;
-        &lt;br /&gt;
-　　　　while(sc.hasNextLine()) { &lt;br /&gt;
-　　　　　　buffer.append(sc.nextLine() + '\n'); &lt;br /&gt;
-　　　　} &lt;br /&gt;
-        &lt;br /&gt;
-　　　　System.out.println(buffer); &lt;br /&gt;
-　　　　sc.close(); &lt;br /&gt;
-　　} &lt;br /&gt;
-}
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/11718, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>그대로 출력하기
 by BaekJoon</summary></entry></feed>
