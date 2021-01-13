@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-12T13:23:14+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-14T05:15:54+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
 &lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -330,6 +330,9 @@ http://developer.android.com/studio/index.html
 
 &lt;p&gt;　&lt;strong&gt;④ FrameLayout&lt;/strong&gt;&lt;br /&gt;
 　프레임 레이아웃은 한번에 하나의 뷰만 보여주는 레이아웃으로, 화면에는 가장 나중에 추가한 뷰만 보인다. 이런 특성 때문에 화면 중첩 시에 주로 사용된다. (가시성 visibility 속성을 함께 이용할 수 있다.)&lt;/p&gt;
+
+&lt;p&gt;　&lt;strong&gt;⑤ TableLayout&lt;/strong&gt;&lt;br /&gt;
+　테이블 레이아웃은 격자 모양으로 뷰를 배치할 때 사용한다. 레이아웃 안에서 각 행은 TableRow 태그를 이용해 추가하며, 그 안에 추가되는 뷰의 개수에 따라 열의 개수 또한 결정된다. 리니어 레이아웃을 사용하여 테이블 모양을 만들 수 있지만, 정해진 규격에 맞춰 제작하고 싶을 때 테이블 레이아웃을 사용할 수 있다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
