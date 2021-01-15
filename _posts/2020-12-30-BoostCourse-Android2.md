@@ -75,13 +75,24 @@ dialog.show();
 
 ### ⚒ 인플레이션 이해하기
 <br>
-　인플레이션 : XML 레이아웃에 정의된 내용이 메모리에 객체화되는 과정
+　XML 레이아웃에 정의된 내용이 실제 메모리에 객체화되는 (생성되는) 과정을 **인플레이션 과정**이라 한다. 이같은 레이아웃 인플레이션 과정은 setContentView() 메소드를 통해 (XML 파일의 전체 화면을) 할 수 있다. 부분 화면의 경우에는 LayoutInflater 를 이용해서 직접 메모리에 객체화를 해야 한다. 인플레이션 후에는 아이디를 통해서 내부의 뷰를 찾아 사용할 수 있다!
+
+<p>
+FrameLayout container = findViewById(R.id.container); <br>
+LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE); <br>
+inflater.inflate(R.layout.보여줄_XML_파일명, container, true);
+</p>
+{: .notice}
 
 <br>
 
 ### 🛠 리스트뷰 만들기
 <br>
-　리스트뷰,, 요즘은 리사이클러뷰 RecyclerView 사용,,
+　리스트뷰에는 여러 개의 데이터를 넣어 보여줄 수 있는데, 좀 더 쉽게 만들 수 있도록 어댑터를 만들어 사용한다. 어댑터는 여러 개의 아이템 중에서 하나를 선택하는 방식을 가진 선택 위젯에서 사용된다. 뷰가 데이터를 관리하는 것이 아닌, 어댑터가 실제 데이터를 관리하는 것이다. 각각의 아이템을 위한 뷰도 어댑터에서 만들어주기 때문에 리스트뷰는 어댑터의 getView 메소드를 호출해 뷰 객체를 반환받은 뒤 화면에 보여주게 된다.
+
+　최근 실무에서는 리스트뷰(ListView)보다 리사이클러뷰(RecyclerView)를 더 많이 사용한다.
+
+ > 유사한 선택 위젯으로 스피너와 그리드뷰가 있다.
 
 <br>
 
