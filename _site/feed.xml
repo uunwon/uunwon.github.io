@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-16T23:32:22+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-17T18:44:36+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
 &lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -244,33 +244,62 @@ finish();
 
 &lt;h4 id=&quot;부가-데이터&quot;&gt;부가 데이터&lt;/h4&gt;
 
-&lt;p&gt;★★★★★★★★★★★★★★ &lt;br /&gt;
-작성 必 &lt;br /&gt;
-★★★★★★★★★★★★★★&lt;/p&gt;
+&lt;p&gt;　인텐트는 시스템을 통해 다른 액티비티로 전달될 수 있는데 액티비티뿐만 아니라 다른 애플리케이션 구성요소로도 전달될 수 있다. 애플리케이션 구성요소들 간에 데이터를 전달하는 데 인텐트가 사용되는 것이다. 부가 데이터는 시스템에서 건드리지 않고 전달만 되며, 인텐트 안에 번들(Bundle) 객체가 들어있어 그 안에 데이터를 넣을 때는 put, 데이터를 가져올 때는 get 메소드를 사용한다.&lt;/p&gt;
+
+&lt;p&gt;　기존의 put, get 메소드를 이용해 인텐트에 넣을 수 있는 부가데이터의 자료형은 기본 자료형뿐이다. 다양한 객체의 정보를 전달하기 위해서는 &lt;strong&gt;Serializble&lt;/strong&gt; 또는 &lt;strong&gt;Parcelable&lt;/strong&gt; 객체를 만들어 전달할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;　데이터 클래스를 별도로 생성하여 전달할 때, 안드로이드에서는 Parcelable을 구현하는 것을 추천하고 있다. Serializable은 데이터를 효율적이지 않게 일렬 데이터로 만들어 전송하는 반면 Parcelable은 데이터 타입에 맞게 가공해준다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-수명주기-이해하기&quot;&gt;🔨 수명주기 이해하기&lt;/h3&gt;
 
-&lt;p&gt;★★★★★★★★★★★★★★ &lt;br /&gt;
-작성 必 &lt;br /&gt;
-★★★★★★★★★★★★★★&lt;/p&gt;
+&lt;p&gt;　액티비티 수명주기는 액티비티의 상태가 변할 때마다 안드로이드 시스템에서 각 상황에 맞는 메소드를 자동으로 호출해줌으로써, 직접 상태에 맞는 코드를 넣어 액티비티의 상태에 따라 제어할 수 있도록 해준다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;img src=&quot;http://localhost:4000/images/android_lifecycle.png&quot; alt=&quot;Android_LifeCycle&quot; height=&quot;50&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;　화면이 없어질 때 데이터를 임시로 저장할 때는 &lt;strong&gt;onPause()&lt;/strong&gt; 메소드를, 데이터를 복구할 때는 &lt;strong&gt;onResume()&lt;/strong&gt; 메소드를 사용한다. 이때 데이터는 SharedPreferences를 이용하면 저장할 수 있다. 또는 onSaveInstanceState 메소드와 onRestoreInstanceState 메소드를 사용하는 방법이 있다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-서비스-사용하기&quot;&gt;⛏ 서비스 사용하기&lt;/h3&gt;
 
-&lt;p&gt;★★★★★★★★★★★★★★ &lt;br /&gt;
-작성 必 &lt;br /&gt;
-★★★★★★★★★★★★★★&lt;/p&gt;
+&lt;p&gt;　&lt;strong&gt;서비스(Service)&lt;/strong&gt;는 화면이 없는 상태(백그라운드)에서 실행되는 애플리케이션의 구성요소 중 하나다. 인터넷을 통해 데이터를 주고받는 경우가 많은데 이때 대부분 서비스라는 것을 사용하게 된다. 애플리케이션 구성요소이기 때문에 프로젝트에 추가할 때 매니페스트 파일에 &lt;Service&gt; 태그를 사용한다. 서비스는 startService 메소드를 호출하면 시작된다.&lt;/Service&gt;&lt;/p&gt;
+
+&lt;p&gt;　startService 메소드는 또한 인텐트 안에 넣어 전달한 명령이나 데이터를 처리할 수 있도록 onStartCommand() 메소드를 사용한다.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+@Override &lt;br /&gt;
+public int onStartCommand(Intent intent, int flags, int startId) { &lt;br /&gt;
+　Log.d(TAG, &quot;onStartCommand() 호출됨&quot;); &lt;br /&gt;
+　return super.onStartCommand(intent, flags, startId); &lt;br /&gt;
+}
+&lt;/p&gt;
+
+&lt;p&gt;　화면이 없는 서비스에서 화면이 있는 액티비티를 띄울 때는 태스크(Task)를 새로 만들어서 연결해야 한다. 그와 같은 경우에 일반적으로 세 개의 플래그(FLAG_ACTIVITY_NEW_TASK, FLAG_ACTIVITY_SINGLE_TOP, FLAG_ACTIVITY_CLEAR_TOP)를 사용한다. 그러면 액티비티는 새로 만들어지지 않고 기존 액티비티를 사용하고, onNewIntent 메소드가 자동으로 호출된다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-브로드캐스트-수신자-사용하기&quot;&gt;⚒ 브로드캐스트 수신자 사용하기&lt;/h3&gt;
 
-&lt;p&gt;★★★★★★★★★★★★★★ &lt;br /&gt;
-작성 必 &lt;br /&gt;
-★★★★★★★★★★★★★★&lt;/p&gt;
+&lt;p&gt;　브로드캐스팅이란 여러 사람에게 동시에 데이터를 전달하는 것을 말한다. 안드로이드는 여러 애플리케이션 구성 요소에게 메시지를 전달하고 싶은 경우에 브로드캐스팅을 사용한다. 브로드캐스트 수신자 또한 애플리케이션 구성요소이므로 매니페이트 파일에 정보를 추가해준다. intent-filter 태그 내에는 어떤 브로드캐스팅 메시지를 받고 싶은지 지정할 수 있다. 또한 브로드캐스팅 메시지는 인텐트 객체로 만들어져 전달된다.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+receiver android:name=&quot;.SmsReceiver&quot; &lt;br /&gt;
+　intent-filter &lt;br /&gt;
+　　action android:name=&quot;android.provider.Telephony.SMS_RECEIVED&quot; &lt;br /&gt;
+　/intent-filter &lt;br /&gt;
+/receiver
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;DETAIL&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Serialization(직렬화)&lt;/code&gt; : 객체를 저장 장치에 저장 혹은 네트워크 전송을 위해 텍스트나 이진 형식으로 변환하는 것 &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Serializble(객체 직렬화)&lt;/code&gt; : 객체를 바이트로 저장하는 자바의 인터페이스 &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Parcelable&lt;/code&gt; : 안드로이드 SDK가 포함하고 있는 인터페이스 &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Reflection&lt;/code&gt; : 자바 기능 중 하나로, 클래스나 인터페이스의 정보에 직접 접근할 수 있도록 하는 API &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Bundle&lt;/code&gt; : 여러 가지 타입의 값을 저장하는 Map 클래스이다. 예를 들면 String 값을 Bundle 클래스에 Mapping(대응, 변환)하는 것이다. 즉, Bundle 은 아무거나 포장할 수 있는 상자를 의미하고 이 상자를 이용하여 이리저리 인텐트도 오고갈 수 있고 다양한 데이터 통신에 이용할 수 있다.&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 3. 화면 여러 개 만들기 &lt;br /&gt;
@@ -278,7 +307,13 @@ https://www.boostcourse.org/mo316/joinLectures/13160 &lt;br /&gt;
 [Android] Intent &lt;br /&gt;
 https://woovictory.github.io/2019/01/02/Android-What-is-Intent/ &lt;br /&gt;
 Intent의 Flag 사용법 &lt;br /&gt;
-https://ju-hy.tistory.com/46&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 여러 개 만들기
+https://ju-hy.tistory.com/46 &lt;br /&gt;
+Android Bundle 이란? &lt;br /&gt;
+https://www.crocus.co.kr/1560 &lt;br /&gt;
+Android Serializable vs Parcelable &lt;br /&gt;
+https://wooooooak.github.io/android/2019/09/19/Serializable-vs-Parcelable/ &lt;br /&gt;
+Android &amp;amp; Java - Reflection &lt;br /&gt;
+https://two22.tistory.com/14&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 여러 개 만들기
 by boostcourse</summary></entry><entry><title>[BoostCourse] Android Programming 02</title><link href="http://localhost:4000/BoostCourse-Android2/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 02" /><published>2020-12-30T00:00:00+09:00</published><updated>2020-12-30T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android2</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android2/">&lt;h2 id=&quot;이벤트와-리스트뷰&quot;&gt;이벤트와 리스트뷰&lt;/h2&gt;
 &lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
