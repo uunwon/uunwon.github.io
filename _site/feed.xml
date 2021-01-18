@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-17T18:44:36+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-18T22:22:07+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Android Programming 05</title><link href="http://localhost:4000/BoostCourse-Android5/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 05" /><published>2021-01-06T00:00:00+09:00</published><updated>2021-01-06T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android5</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android5/">&lt;h2 id=&quot;네트워크&quot;&gt;네트워크&lt;/h2&gt;
 &lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -15,74 +15,66 @@
 
 &lt;h3 id=&quot;-스레드-사용하기&quot;&gt;🔑 스레드 사용하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　내일은 5강을 나가도록~ 오늘 4강 과제 마치는 거야~&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;R.id.container 는 프래그먼트를 담을 공간 &lt;br /&gt; add 대신 replace 메소드 사용 시 기존 프래그먼트를 대체함&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+　★★★★★★★ &lt;br /&gt;
+　작성 必 &lt;br /&gt;
+　★★★★★★★ &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-소켓-사용하기&quot;&gt;🪓 소켓 사용하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　액티비티와 프래그먼트는 메소드와 인터페이스를 사용하여 소통할 수 있다. 프래그먼트는 인터페이스가 구현된 상위 액티비티의 메소드로 데이터를 전달하고, 액티비티는 인스턴스로 가지고 있는 프래그먼트의 메소드로 데이터를 전달할 수 있다. 즉 프래그먼트에서 액티비티로 데이터를 전달할 때에는 인터페이스가 필요하지만, 액티비티에서 프래그먼트로 데이터를 전달할 때는 단순한 메소드 호출로 가능하다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+　★★★★★★★ &lt;br /&gt;
+　작성 必 &lt;br /&gt;
+　★★★★★★★ &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-웹으로-요청하기&quot;&gt;🔨 웹으로 요청하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　액션바는 상단 타이틀을 말하며, 현재는 툴바의 기능 또한 가지고 있다.
-&lt;br /&gt;
-　메뉴는 옵션 메뉴(액션바에 통합됨)와 컨텍스트 메뉴(팝업)으로 나뉜다. onCreateOptionsMenu 를 통해 옵션 메뉴를 생성할 수 있으며, getMenuInflater.inflate() 를 이용해 인플레이션 작업을 해야 한다. onOptionsItemSelected는 옵션 메뉴 아이템을 클릭했을 때 호출하는 메서드이다. 메서드 내부에서 item.getItemId()를 사용해 아이템을 선택할 수 있다.&lt;/p&gt;
+　소켓은 두개의 컴퓨터 간에 통로를 만들어주고 통로 간에 데이터를 주고받을 수 있게 만들어주는 방법이다. 최근엔 소켓보다 웹이 많이 사용되는데, 웹서버는 &lt;strong&gt;HTTP 요청&lt;/strong&gt;을 받아 처리할 수 있다. 데이터를 주고받는 HTTP 포맷은 어떤 것들이 들어갈 수 있는 지 표준으로 정해진 &lt;strong&gt;헤더(Header)&lt;/strong&gt;와 데이터가 들어간 &lt;strong&gt;바디(Body)&lt;/strong&gt;로 구성된다.&lt;/p&gt;
 
-&lt;p class=&quot;notice&quot;&gt;
-**menu 태그 내부** &lt;br /&gt;
-&amp;lt;item id, title, icon, app:showAsAction, app:actionLayout&amp;gt; &lt;br /&gt;
-showAsAction = &quot;always&quot; &quot;ifRoom&quot; &quot;withText&quot; &quot;never&quot; &lt;br /&gt;
-actionLayout = &quot;@layout/search_layout&quot; //이런식으로 부분화면 레이아웃 추가가능 &lt;br /&gt;
-&lt;/p&gt;
+&lt;p&gt;　앱에서 웹서버에 요청하는 방식은 기존의 표준 자바와 다르지 않지만, 스레드를 사용한다는 점을 염두해야 한다. 가장 기본적인 방법으로 HttpURLConnection 객체를 사용하여 작성해볼 수 있다. 해당 객체에 속성을 설정하고 getResponseCode 메소드를 호출하면 웹서버에 연결하고 응답을 받아준다. 응답 데이터를 화면에 표시할 때는 Request 메소드를 이용하면 된다.&lt;/p&gt;
+
+&lt;p&gt;　데이터를 읽어들일 때, BufferedReader 객체를 사용하면 한 줄씩 읽을 수 있다. 또한 웹서버에 요청하는 것이므로 인터넷 권한을 주어야 한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-volley-사용하기&quot;&gt;⛏ Volley 사용하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　탭은 하나의 화면에 여러 가지 서브화면들을 넣어둘 수 있는 장점이 있어 자주 사용된다. 몇 개의 탭 버튼이 상단이나 하단에 있고 그 탭 버튼을 누르면 화면이 전환되는 방식이다.
-&lt;br /&gt;
-　CoordinatorLayout을 사용하면 상단에 액션바 추가 시에 액션바와 아래 화면이 겹치지 않도록 생성해줄 수 있다. 강의는 해당 레이아웃 내에 액션바와 하단 탭 버튼을 추가하는 예제를 진행한다.&lt;/p&gt;
+　웹서버에 요청할 때 일반적으로 사용하는 HttpURLConnection 은 코드 양이 방대하다. 이를 간결화하기 위해 우리는 외부 라이브러리 &lt;strong&gt;Volley&lt;/strong&gt;를 사용한다. Volley는 코드 양이 간결화될 뿐만 아니라, 스레드를 신경쓰지 않아도 된다는 장점이 있다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;네트워크 요청 우선 순위를 자동으로 관리한다. &lt;br /&gt; 동시에 여러 네트워크 요청을 할 수 있다. &lt;br /&gt; 요청을 할 때 Cache 적용 여부를 의식하지 않아도 된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;　RequestQueue를 만들고, 그 안에 Request 객체를 만들어 넣어주면 요청은 자동으로 보내지게 된다. Request 객체는 네 개의 파라미터를 전달함으로써 생성된다. 요청 방식을 지정하고, 웹서버의 URL 정보를 전달하고, 응답이 성공적일 때 호출되는 onRequest 메소드를 작성하고, 에러가 발생했을 때 호출될 리스너 객체를 작성한다.&lt;/p&gt;
+
+&lt;p&gt;　요청 큐는 앱이 시작되었을 때 초기화되어 있으면 되며, 한번 만들어두면 계속 사용할 수 있다. Application 클래스를 정의하고 앱에 등록하여 사용하는 경우에는 Application 클래스 안에 넣어둘 수도 있고, 별도의 클래스를 만들어 넣어둘 수도 있다.&lt;/p&gt;
 
 &lt;p class=&quot;notice&quot;&gt;
-CoordinatorLayout-AppBarLayout-Toolbar-/AppBarLayout-TabLayout/-/Coor-&amp;gt; FrameLayout &lt;br /&gt;
-app:layout_behavior=&quot;@string/appbar_scrolling_view_behavior&quot; //FrameLayout이 원래 레이아웃 화면 부분이며, 상단은 액션바 영역임을 구분함 &lt;br /&gt;
+implementation 'com.android.volley:volley:1.1.0'
 &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-json-이해하기&quot;&gt;⚒ JSON 이해하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　뷰페이저란 좌우 스크롤을 통해 하나의 뷰페이저 안에 들어가있는 화면이 넘어가는 기능을 제공한다. 일반적으로 뷰페이지 안에 여러 개의 부분 화면인 프래그먼트가 들어간다. 여러 개의 아이템 중 하나를 선택하는 ‘선택 위젯’이므로 어댑터를 사용한다. 즉 어댑터가 실제 데이터를 관리하고 뷰페이저는 껍데기를 역할을 하게 된다.
-&lt;br /&gt;
-　뷰페이저의 화면이 몇개이고, 몇번째 화면인지 알고 싶을 때는 타이틀스트립(PagerTitleStrip) 혹은 탭스트립(PagerTapStrip)을 사용한다. 예시로 타이틀스트립을 사용하는 경우에는, 프래그먼트 어댑터 내에 getPageTitle 메서드를 통해 페이지마다 타이틀을 붙여 리턴하면 된다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-MainActivity extends FragmentStatePagerAdapter &lt;br /&gt;
-ArrayList Fragment items // 프래그먼트 아이템 관리 &lt;br /&gt;
-viewpager.setOffscreenPageLimit(3) // 몇 개의 화면을 보여줄지 &lt;br /&gt;
-viewpager.setAdapter(adpater); &lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+　★★★★★★★ &lt;br /&gt;
+　작성 必 &lt;br /&gt;
+　★★★★★★★ &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-이미지-다운로드하기&quot;&gt;🛠 이미지 다운로드하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　타이틀 왼쪽에 햄버거 모양의 아이콘을 바로가기 메뉴 화면이라고 부른다. 안드로이드에서는 NavigationDrawer라고 불리며 이는 기본적으로 제공된다. 해당 기능은 프래그먼트로 구성되기 때문에 프래그먼트의 동작원리를 정확히 이해하는 것이 중요하다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+　★★★★★★★ &lt;br /&gt;
+　작성 必 &lt;br /&gt;
+　★★★★★★★ &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-영화api-사용하기&quot;&gt;🔧 영화API 사용하기&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　타이틀 왼쪽에 햄버거 모양의 아이콘을 바로가기 메뉴 화면이라고 부른다. 안드로이드에서는 NavigationDrawer라고 불리며 이는 기본적으로 제공된다. 해당 기능은 프래그먼트로 구성되기 때문에 프래그먼트의 동작원리를 정확히 이해하는 것이 중요하다.&lt;/p&gt;
+　★★★★★★★ &lt;br /&gt;
+　작성 必 &lt;br /&gt;
+　★★★★★★★ &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;detail&quot;&gt;DETAIL&lt;/h4&gt;
+&lt;p&gt;HTTP(Hyper Text Transfer Protocol): HTML과 같은 문서 정보를 주고받을 수 있는 프로토콜(규약, 약속)&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 5. 네트워킹 &lt;br /&gt;
