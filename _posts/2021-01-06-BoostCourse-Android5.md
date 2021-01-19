@@ -32,7 +32,7 @@ tag:
 　핸들러를 상속받아 클래스를 사용하는 방식, 더 간결하게는 Runnable 인터페이스를 이용해 직접 한 번 실행될 객체를 정의할 수 있다. Message 객체가 아닌 post 메소드를 호출하는 방식으로! 더욱 간결하게 처리할 수 있다.
 
 <p>
-Handler.post(new Runnable() run())
+Handler.post(new Runnable() run());
 </p>
 {: .notice}
 
