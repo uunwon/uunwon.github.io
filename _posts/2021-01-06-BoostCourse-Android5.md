@@ -81,9 +81,15 @@ implementation 'com.android.volley:volley:1.1.0'
 
 ### ⚒ JSON 이해하기
 <br>
-　★★★★★★★ <br>
-　작성 必 <br>
-　★★★★★★★ <br>
+　데이터가 왔다 갔다 할 때, HTTP 포맷이 왔다 갔다 하는 것이다. 이에 더해 우리가 대상으로 하는 **데이터 포맷**이 xml 이냐, json 인지 알아보자. **JSON**은 자바스크립트 객체 포맷의 데이터를 주고 받을 때 사용할 수 있도록 만든 것이다. 파싱 과정을 통해 JSON 형식의 데이터를 사용할 수 있는데, 이는 JSON 문자열을 해석하여 자바 객체로 만드는 과정을 말한다. 이같은 파싱은 구글이 만든 Gson에 의해 이루어진다. 
+
+　JSON 포맷을 GSON을 이용해 자바 객체로 만들어주고, 그 객체에 들어있는 데이터를 사용할 수 있게 된다. 받아온 데이터를 JSON에 맞추어 자바 객체로 만들기 위해서는 자바 클래스를 정의한다. JSON 문자열의 속성 중 값이 배열인 경우에는, 자바 클래스를 정의할 때 ArrayList 자료형을 사용한다.
+
+<p>
+Gson gson = new Gson();
+MovieList movieList = gson.fromJson(response, MovieList.class);
+</p>
+{: .notice}
 
 ### 🛠 이미지 다운로드하기
 <br>
