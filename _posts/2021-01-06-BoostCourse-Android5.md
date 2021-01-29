@@ -93,15 +93,11 @@ MovieList movieList = gson.fromJson(response, MovieList.class);
 
 ### 🛠 이미지 다운로드하기
 <br>
-　★★★★★★★ <br>
 　작성 必 <br>
-　★★★★★★★ <br>
 
 ### 🔧 영화API 사용하기
 <br>
-　★★★★★★★ <br>
 　작성 必 <br>
-　★★★★★★★ <br>
 
 <br>
 
