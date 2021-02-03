@@ -86,23 +86,28 @@ implementation 'com.android.volley:volley:1.1.0'
 　JSON 포맷을 GSON을 이용해 자바 객체로 만들어주고, 그 객체에 들어있는 데이터를 사용할 수 있게 된다. 받아온 데이터를 JSON에 맞추어 자바 객체로 만들기 위해서는 자바 클래스를 정의한다. JSON 문자열의 속성 중 값이 배열인 경우에는, 자바 클래스를 정의할 때 ArrayList 자료형을 사용한다.
 
 <p>
-Gson gson = new Gson();
+Gson gson = new Gson(); <br>
 MovieList movieList = gson.fromJson(response, MovieList.class);
 </p>
 {: .notice}
 
 ### 🛠 이미지 다운로드하기
 <br>
-　작성 必 <br>
+　위에서 웹서버에 데이터를 요청하고 응답받아 처리하는 과정을 살펴보았다. 응답받을 데이터가 **이미지**파일일 경우에는, 이미지 파일에 대한 정보만 응답 데이터에 넣어두고 이미지 파일은 별도로 다운로드 받는다. 인터넷을 사용하기 위해 스레드를 생성해야 하므로 AsyncTask를 상속해 새로운 클래스를 정의한다. 클래스 내에서 이미지를 비트맵으로 받아 화면에 보여준다.
 
-### 🔧 영화API 사용하기
-<br>
-　작성 必 <br>
+　이미지 파일의 경우에는 파일의 크기가 크기에, 이전에 사용한 비트맵 객체는 정리한다. 외부 라이브러리(ex.UniversalImageLoader)를 사용하면 자동적으로 처리가 되며, 직접 이전의 비트맵의 존재 여부를 확인한 후 삭제할 수 있다. 클래스 안에 HashMap 객체를 만들고 이미지 주소를 메모리에 만들어진 비트맵 객체와 매핑하도록 하여 처리한다.
+
+<p>
+Bitmap bitmap = null; <br>
+URL url = new URL(urlStr); <br>
+bitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream());
+</p>
+{: .notice}
 
 <br>
 
 #### DETAIL
-HTTP(Hyper Text Transfer Protocol): HTML과 같은 문서 정보를 주고받을 수 있는 프로토콜(규약, 약속)
+HTTP(Hyper Text Transfer Protocol): HTML과 같은 문서 정보를 주고받을 수 있는 규약
 
 #### REFERENCE
 boostcourse 안드로이드 앱 프로그래밍, 5. 네트워킹 <br>
