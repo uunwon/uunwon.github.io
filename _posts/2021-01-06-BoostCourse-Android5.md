@@ -108,6 +108,7 @@ bitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream());
 
 #### DETAIL
 HTTP(Hyper Text Transfer Protocol): HTML과 같은 문서 정보를 주고받을 수 있는 규약
+API 사용 시, 크롬 내 JSONView 확장프로그램을 이용해 가시성 좋게 포맷팅 가능
 
 #### REFERENCE
 boostcourse 안드로이드 앱 프로그래밍, 5. 네트워킹 <br>
