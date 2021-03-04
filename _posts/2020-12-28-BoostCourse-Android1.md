@@ -76,7 +76,7 @@ http://developer.android.com/studio/index.html
 　버튼은 텍스트뷰를 상속하여 만들어졌다. 이는 라디오 버튼이나 체크 박스 등으로 나누어 사용될 수 있다. 그 중 라디오 버튼은 라디오 그룹을 이용해 하나의 그룹으로 묶어줄 수 있다.
 
 　**③ EditText**  
-　에디드텍스트는 입력 상자 역할을 한다. inputType 속성을 이용해, 어떤 유형의 글자를 입력할 지 결정한다.
+　에디트텍스트는 입력 상자 역할을 한다. inputType 속성을 이용해, 어떤 유형의 글자를 입력할 지 결정한다.
 
 　**④ ImageView**  
 　이미지뷰는 이미지를 보여주는 뷰로, res/drwable 폴더 내의 이미지를 불러와 보여준다. 이미지 파일의 확장자는 png 형식의 이미지를 권장한다.
@@ -93,7 +93,7 @@ http://developer.android.com/studio/index.html
 　**② 쉐이프 드로어블**  
 　쉐이프 드로어블은 XML로 도형을 그릴 수 있도록 한다. drawable 폴더 내 최상위 태그는 shape 이며, shape 속성을 이용해 원하는 모양의 도형을 지정할 수 있다. 
 
-  > **태그 종류** <br> stroke : 테두리 선 속성 지정 <br> width : 선의 굵기 <br> color : 선의 색상 solid : 도형의 안쪽 채우기 <br> gradient : 배경색으로 그라데이션 설정
+  > **태그 종류** <br> stroke : 테두리 선 속성 지정 <br> width : 선의 굵기 <br> color : 선의 색상 <br> solid : 도형의 안쪽 채우기 <br> gradient : 배경색으로 그라데이션 설정
 
 <br>
 
