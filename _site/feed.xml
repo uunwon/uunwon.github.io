@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-04T21:49:04+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[BoostCourse] Hello, Kotlin</title><link href="http://localhost:4000/BoostCourse-HelloKotlin/" rel="alternate" type="text/html" title="[BoostCourse] Hello, Kotlin" /><published>2021-02-04T00:00:00+09:00</published><updated>2021-02-04T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-HelloKotlin</id><content type="html" xml:base="http://localhost:4000/BoostCourse-HelloKotlin/">&lt;h2 id=&quot;코틀린을-왜-배워야-할까&quot;&gt;코틀린을 왜 배워야 할까?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-14T17:48:04+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Class, Object, Instance</title><link href="http://localhost:4000/Class-Object/" rel="alternate" type="text/html" title="Class, Object, Instance" /><published>2021-04-14T00:00:00+09:00</published><updated>2021-04-14T00:00:00+09:00</updated><id>http://localhost:4000/Class-Object</id><content type="html" xml:base="http://localhost:4000/Class-Object/">&lt;h2 id=&quot;class-object-instance&quot;&gt;Class, Object, Instance&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스 (Class)&lt;/li&gt;
+  &lt;li&gt;객체 (Object)&lt;/li&gt;
+  &lt;li&gt;인스턴스 (Instance)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-class&quot;&gt;🔑 Class&lt;/h3&gt;
+&lt;p&gt;　객체를 만들어내기 위한 설계도 혹은 틀&lt;br /&gt;
+　연관되어 있는 변수와 메서드의 집합&lt;br /&gt;
+　-&amp;gt; 클래스란 객체를 정의해놓은 것으로써, 객체를 생성하는데 사용된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-object&quot;&gt;🪓 Object&lt;/h3&gt;
+&lt;p&gt;　소프트웨어 세계에 구현할 대상&lt;br /&gt;
+　클래스에 선언된 모양 그대로 생성된 실체&lt;br /&gt;
+　-&amp;gt; 클래스의 인스턴스라고도 부르며, 모든 인스턴스를 대표하는 포괄적인 의미를 가진다. oop의 관점에서 &lt;strong&gt;클래스의 타입&lt;/strong&gt;으로 선언되었을 때 ‘객체’라고 부른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-instance&quot;&gt;🔨 Instance&lt;/h3&gt;
+&lt;p&gt;　설계도를 바탕으로 소프트웨어 세계에 구현된 구체적인 실체&lt;br /&gt;
+　객체를 소프트웨어에 실체화한 것
+　실체화된 인스턴스는 메모리에 할당됨  &lt;br /&gt;
+　-&amp;gt; oop의 관점에서 &lt;strong&gt;객체가 메모리에 할당&lt;/strong&gt;되어 실제 사용될 때 ‘인스턴스’라 부르며, 추상적인 개념과 구체적인 객체 사이의 &lt;strong&gt;관계&lt;/strong&gt;에 초점을 맞출 경우에 ‘~의 인스턴스’ 형태로 사용된다.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;
+/* 클래스 */ &lt;br /&gt;
+public class Animal{ &lt;br /&gt;
+　　... &lt;br /&gt;
+ } &lt;br /&gt;
+/* 객체와 인스턴스 */ &lt;br /&gt;
+public class Main { &lt;br /&gt;
+　public static void main(String[] args) &lt;br /&gt;
+　　　　Animal cat, dog; // '객체' &lt;br /&gt;
+　　　　// 인스턴스화 &lt;br /&gt;
+　　　　cat = new Animal(); // cat은 Animal 클래스의 '인스턴스' (객체를 메모리에 할당) &lt;br /&gt;
+　　} &lt;br /&gt;
+}
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p&gt;https://gmlwjd9405.github.io/2018/09/17/class-object-instance.html &lt;br /&gt;&lt;/p&gt;</content><category term="java" /><summary>Class, Object, Instance</summary></entry><entry><title>[BoostCourse] Hello, Kotlin</title><link href="http://localhost:4000/BoostCourse-HelloKotlin/" rel="alternate" type="text/html" title="[BoostCourse] Hello, Kotlin" /><published>2021-02-04T00:00:00+09:00</published><updated>2021-02-04T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-HelloKotlin</id><content type="html" xml:base="http://localhost:4000/BoostCourse-HelloKotlin/">&lt;h2 id=&quot;코틀린을-왜-배워야-할까&quot;&gt;코틀린을 왜 배워야 할까?&lt;/h2&gt;
 &lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -148,7 +196,8 @@ bitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream());
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;detail&quot;&gt;DETAIL&lt;/h4&gt;
-&lt;p&gt;HTTP(Hyper Text Transfer Protocol): HTML과 같은 문서 정보를 주고받을 수 있는 규약&lt;/p&gt;
+&lt;p&gt;HTTP(Hyper Text Transfer Protocol): HTML과 같은 문서 정보를 주고받을 수 있는 규약
+API 사용 시, 크롬 내 JSONView 확장프로그램을 이용해 가시성 좋게 포맷팅 가능&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 5. 네트워킹 &lt;br /&gt;
@@ -350,7 +399,7 @@ public int onStartCommand(Intent intent, int flags, int startId) { &lt;br /&gt;
 
 &lt;h3 id=&quot;-브로드캐스트-수신자-사용하기&quot;&gt;⚒ 브로드캐스트 수신자 사용하기&lt;/h3&gt;
 
-&lt;p&gt;　브로드캐스팅이란 여러 사람에게 동시에 데이터를 전달하는 것을 말한다. 안드로이드는 여러 애플리케이션 구성 요소에게 메시지를 전달하고 싶은 경우에 브로드캐스팅을 사용한다. 브로드캐스트 수신자 또한 애플리케이션 구성요소이므로 매니페이트 파일에 정보를 추가해준다. intent-filter 태그 내에는 어떤 브로드캐스팅 메시지를 받고 싶은지 지정할 수 있다. 또한 브로드캐스팅 메시지는 인텐트 객체로 만들어져 전달된다.&lt;/p&gt;
+&lt;p&gt;　브로드캐스팅이란 여러 사람에게 동시에 데이터를 전달하는 것을 말한다. 안드로이드는 여러 애플리케이션 구성 요소에게 메시지를 전달하고 싶은 경우에 브로드캐스팅을 사용한다. 브로드캐스트 수신자 또한 애플리케이션 구성요소이므로 매니페스트 파일에 정보를 추가해준다. intent-filter 태그 내에는 어떤 브로드캐스팅 메시지를 받고 싶은지 지정할 수 있다. 또한 브로드캐스팅 메시지는 인텐트 객체로 만들어져 전달된다.&lt;/p&gt;
 
 &lt;p class=&quot;notice&quot;&gt;
 receiver android:name=&quot;.SmsReceiver&quot; &lt;br /&gt;
@@ -548,7 +597,7 @@ http://developer.android.com/studio/index.html
 　버튼은 텍스트뷰를 상속하여 만들어졌다. 이는 라디오 버튼이나 체크 박스 등으로 나누어 사용될 수 있다. 그 중 라디오 버튼은 라디오 그룹을 이용해 하나의 그룹으로 묶어줄 수 있다.&lt;/p&gt;
 
 &lt;p&gt;　&lt;strong&gt;③ EditText&lt;/strong&gt;&lt;br /&gt;
-　에디드텍스트는 입력 상자 역할을 한다. inputType 속성을 이용해, 어떤 유형의 글자를 입력할 지 결정한다.&lt;/p&gt;
+　에디트텍스트는 입력 상자 역할을 한다. inputType 속성을 이용해, 어떤 유형의 글자를 입력할 지 결정한다.&lt;/p&gt;
 
 &lt;p&gt;　&lt;strong&gt;④ ImageView&lt;/strong&gt;&lt;br /&gt;
 　이미지뷰는 이미지를 보여주는 뷰로, res/drwable 폴더 내의 이미지를 불러와 보여준다. 이미지 파일의 확장자는 png 형식의 이미지를 권장한다.&lt;/p&gt;
@@ -566,7 +615,7 @@ http://developer.android.com/studio/index.html
 　쉐이프 드로어블은 XML로 도형을 그릴 수 있도록 한다. drawable 폴더 내 최상위 태그는 shape 이며, shape 속성을 이용해 원하는 모양의 도형을 지정할 수 있다.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;태그 종류&lt;/strong&gt; &lt;br /&gt; stroke : 테두리 선 속성 지정 &lt;br /&gt; width : 선의 굵기 &lt;br /&gt; color : 선의 색상 solid : 도형의 안쪽 채우기 &lt;br /&gt; gradient : 배경색으로 그라데이션 설정&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;태그 종류&lt;/strong&gt; &lt;br /&gt; stroke : 테두리 선 속성 지정 &lt;br /&gt; width : 선의 굵기 &lt;br /&gt; color : 선의 색상 &lt;br /&gt; solid : 도형의 안쪽 채우기 &lt;br /&gt; gradient : 배경색으로 그라데이션 설정&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -747,47 +796,4 @@ public class NewClass { &lt;br /&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/1924, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>2007년
-by BaekJoon</summary></entry><entry><title>[BaekJoon] 11721. Print by ten</title><link href="http://localhost:4000/Baekjoon11721/" rel="alternate" type="text/html" title="[BaekJoon] 11721. Print by ten" /><published>2020-09-18T00:00:00+09:00</published><updated>2020-09-18T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon11721</id><content type="html" xml:base="http://localhost:4000/Baekjoon11721/">&lt;h2 id=&quot;열-개씩-끊어-출력하기&quot;&gt;열 개씩 끊어 출력하기&lt;/h2&gt;
-&lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
-&lt;p&gt;　알파벳 소문자와 대문자로만 이루어진 길이가 N인 단어가 주어진다. 한 줄에 10글자씩 끊어서 출력하는 프로그램을 작성하시오.&lt;/p&gt;
-
-&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
-&lt;p&gt;　첫째 줄에 단어가 주어진다. 단어는 알파벳 소문자와 대문자로만 이루어져 있으며, 길이는 100을 넘지 않는다. 길이가 0인 단어는 주어지지 않는다.&lt;/p&gt;
-
-&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
-&lt;p&gt;　입력으로 주어진 단어를 열 개씩 끊어서 한 줄에 하나씩 출력한다. 단어의 길이가 10의 배수가 아닌 경우에는 마지막 줄에는 10개 미만의 글자만 출력할 수도 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-solving&quot;&gt;🎯 Solving&lt;/h2&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-import java.util.*; &lt;br /&gt;
-&lt;br /&gt;
-public class NewClass{ &lt;br /&gt;
-　　public static void main(String[] args){ &lt;br /&gt;
-　　　　Scanner sc = new Scanner(System.in); &lt;br /&gt;
-　　　　String word = sc.next(); &lt;br /&gt;
-　　　　int len = word.length(); &lt;br /&gt;
-&lt;br /&gt;
-　　　　for(int i = 0;i &amp;lt; len;i++) { &lt;br /&gt;
-　　　　　　if(i % 10 == 9) { &lt;br /&gt;
-　　　　　　　　System.out.println(word.charAt(i)); &lt;br /&gt;
-　　　　　　　　continue; &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-　　　　　　System.out.print(word.charAt(i)); &lt;br /&gt;
-　　　　} &lt;br /&gt;
-　　　　sc.close(); &lt;br /&gt;
-　　} &lt;br /&gt;
-}
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/11721, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>열 개씩 끊어 출력하기
 by BaekJoon</summary></entry></feed>
