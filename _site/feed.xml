@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-18T01:44:52+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Design Pattern</title><link href="http://localhost:4000/Design-Pattern/" rel="alternate" type="text/html" title="Design Pattern" /><published>2021-04-17T00:00:00+09:00</published><updated>2021-04-17T00:00:00+09:00</updated><id>http://localhost:4000/Design-Pattern</id><content type="html" xml:base="http://localhost:4000/Design-Pattern/">&lt;h2 id=&quot;design-pattern&quot;&gt;Design Pattern&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-19T01:06:25+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test&quot;&gt;Software Test&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;소프트웨어 테스트&lt;/li&gt;
+  &lt;li&gt;프로그램 실행 여부에 따른 분류&lt;/li&gt;
+  &lt;li&gt;테스트 기법에 따른 분류&lt;/li&gt;
+  &lt;li&gt;테스트 시각에 따른 분류&lt;/li&gt;
+  &lt;li&gt;테스트 목적에 따른 분류&lt;/li&gt;
+  &lt;li&gt;테스트 종류에 따른 분류 
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;소프트웨어-테스트&quot;&gt;소프트웨어 테스트&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　소프트웨어 테스트란 개발된 응용 애플리케이션이나 시스템이 사용자가 요구하는 기능과 성능, 사용성, 안정성 등을 만족하는지 확인하고, 노출되지 않은 숨어있는 소프트웨어의 결함을 찾아내는 활동이다.&lt;/p&gt;
+
+&lt;p&gt;　위와 같은 테스트는 오류 발견 관점, 오류 예방 관점, 품질 향상 관점에서 필요하다.&lt;/p&gt;
+
+&lt;h4 id=&quot;-소프트웨어-테스트-산출물&quot;&gt;📌 소프트웨어 테스트 산출물&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;
+- &lt;b&gt;테스트 계획서&lt;/b&gt;: 테스트 수행을 계획한 문서&lt;br /&gt;
+- &lt;b&gt;테스트 케이스&lt;/b&gt;: 테스트를 위한 설계 산출물로, 응용 소프트웨어가 사용자의 요구사항을 준수하는지 확인하기 위해 설계된 입력값, 실행 조건, 기대 결과로 구성된 테스트 항목의 명세서&lt;br /&gt;
+- &lt;b&gt;테스트 시나리오&lt;/b&gt;: 테스트 수행을 위한 여러 개의 테스트 케이스의 집합으로 테스트 케이스의 동작 순서를 기술한 문서&lt;br /&gt;
+- &lt;b&gt;테스트 결과서&lt;/b&gt;: 테스트 결과를 정리한 문서
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="test" /><summary>Software Test</summary></entry><entry><title>Design Pattern</title><link href="http://localhost:4000/Design-Pattern/" rel="alternate" type="text/html" title="Design Pattern" /><published>2021-04-17T00:00:00+09:00</published><updated>2021-04-17T00:00:00+09:00</updated><id>http://localhost:4000/Design-Pattern</id><content type="html" xml:base="http://localhost:4000/Design-Pattern/">&lt;h2 id=&quot;design-pattern&quot;&gt;Design Pattern&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;디자인 패턴&lt;/li&gt;
@@ -822,48 +850,4 @@ public class Main{ &lt;br /&gt;
 &lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/10828, 백준 &lt;br /&gt;
 https://thiago6.tistory.com/88?category=827161, 시간초과 오류 &lt;br /&gt;
 https://hoho325.tistory.com/139?category=780777, 성공 답안&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>스택
-by BaekJoon</summary></entry><entry><title>[BaekJoon] 2442. Drawing star</title><link href="http://localhost:4000/Baekjoon2442/" rel="alternate" type="text/html" title="[BaekJoon] 2442. Drawing star" /><published>2020-09-21T00:00:00+09:00</published><updated>2020-09-21T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon2442</id><content type="html" xml:base="http://localhost:4000/Baekjoon2442/">&lt;h2 id=&quot;별-찍기---5&quot;&gt;별 찍기 - 5&lt;/h2&gt;
-&lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
-&lt;p&gt;　첫째 줄에는 별 1개, 둘째 줄에는 별 3개, …, N번째 줄에는 별 2×N-1개를 찍는 문제. 별은 가운데를 기준으로 대칭이어야 한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
-&lt;p&gt;　첫째 줄에 N(1 ≤ N ≤ 100)이 주어진다.&lt;/p&gt;
-
-&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
-&lt;p&gt;　첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-solving&quot;&gt;🎯 Solving&lt;/h2&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-import java.util.*; &lt;br /&gt;
-&lt;br /&gt;
-public class NewClass{ &lt;br /&gt;
-　　public static void main(String[] args){ &lt;br /&gt;
-　　　　Scanner sc = new Scanner(System.in); &lt;br /&gt;
-　　　　int n = sc.nextInt(); &lt;br /&gt;
-　　　　&lt;br /&gt;
-　　　　for(int i = 1;i &amp;lt;= n;i++) { &lt;br /&gt;
-　　　　　　for(int j = 0;j &amp;lt; n-i;j++) { &lt;br /&gt;
-　　　　　　　　System.out.print(&quot; &quot;); &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-　　　　　　for(int j = 0;j &amp;lt; i*2-1;j++) { &lt;br /&gt;
-　　　　　　　　System.out.print(&quot;*&quot;); &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-　　　　　　System.out.println(); &lt;br /&gt;
-　　　　} &lt;br /&gt;
-　　　　sc.close(); &lt;br /&gt;
-　　} &lt;br /&gt;
-}
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/2442, 백준&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>별 찍기 - 5
 by BaekJoon</summary></entry></feed>
