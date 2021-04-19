@@ -7,7 +7,7 @@ tag:
 - test 
 ---
 
-## Software Test 
+## Software Test by 수제비
 
 * 소프트웨어 테스트 
 * 프로그램 실행 여부에 따른 분류 

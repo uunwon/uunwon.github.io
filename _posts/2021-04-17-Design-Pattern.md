@@ -7,7 +7,7 @@ tag:
 - test 
 ---
 
-## Design Pattern 
+## Design Pattern by 수제비
 
 * 디자인 패턴 
 * 디자인 패턴 분류 
