@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-19T16:43:16+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-19T17:08:59+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;프로세스&lt;/li&gt;
@@ -11,7 +11,60 @@
 
 &lt;h3 id=&quot;프로세스&quot;&gt;프로세스&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　프로세스(Process)란 일반적으로 CPU에 의해 처리되는 프로그램으로 현재 실행 중인 프로그램을 말한다. 하나의 프로세스는 여러가지 이벤트에 의해 일련의 서로 구분되는 &lt;strong&gt;상태 변화&lt;/strong&gt;(생성 상태, 준비 상태, 실행 상태, 대기 상태, 완료 상태) 를 겪는다.&lt;/p&gt;</content><category term="test" /><summary>Process by 수제비</summary></entry><entry><title>Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test-by-수제비&quot;&gt;Software Test by 수제비&lt;/h2&gt;
+　프로세스(Process)란 일반적으로 CPU에 의해 처리되는 프로그램으로 현재 실행 중인 프로그램을 말한다. 하나의 프로세스는 여러가지 이벤트에 의해 일련의 서로 구분되는 &lt;strong&gt;상태 변화&lt;/strong&gt;(생성 상태, 준비 상태, 실행 상태, 대기 상태, 완료 상태) 를 겪는다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;프로세스-상태-전이&quot;&gt;프로세스 상태 전이&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　프로세스의 상태 전이는 하나의 작업이 컴퓨터 시스템에 입력되어 완료되기까지 프로세스의 상태가 준비, 실행 및 대기 상태로 변하는 활동을 말한다. &lt;strong&gt;활동 상태&lt;/strong&gt;는 프로세스가 기억장치를 할당받은 상태이며, &lt;strong&gt;지연 상태&lt;/strong&gt;는 기억장치를 할당받지 못한 상태이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;img src=&quot;http://localhost:4000/images/process_state.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;디스패치&lt;/strong&gt;는 준비 상태에 있는 여러 프로세스(Ready list) 중 실행될 프로세스를 선정(Scheduling)하여 CPU를 할당(Dispatching)하는 것으로 문맥교환(Context switching)이 발생한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;프로세스-스케줄링&quot;&gt;프로세스 스케줄링&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　프로세스 스케줄링은 CPU를 사용하려고 하는 프로세스들 사이의 우선순위를 관리하는 작업이다. 하나의 프로세스가 CPU를 차지하고 있을 때, 우선순위가 높은 다른 프로세스가 현재 프로세스를 중단시키고 CPU를 점유하는 방식인 &lt;code class=&quot;highlighter-rouge&quot;&gt;선점형 스케줄링&lt;/code&gt;과 한 프로세스가 CPU를 할당받으면 작업 종료 후 CPU 반환 시까지 다른 프로세스는 CPU 점유가 불가능한 &lt;code class=&quot;highlighter-rouge&quot;&gt;비선점형 스케줄링&lt;/code&gt; 방식이 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;-선점형-스케줄링&quot;&gt;📌 선점형 스케줄링&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;라운드로빈(Round Robin)&lt;/code&gt;&lt;br /&gt;
+프로세스는 같은 크기의 CPU 시간을 할당, 프로세스가 할당된 시간 내에 처리 완료를 목하면 준비 큐 리스트의 가장 뒤로 보내지고, CPU는 대기 중인 다음 프로세스로 넘어감&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SRT(Shortest Remaing Time)&lt;/code&gt;&lt;br /&gt;
+가장 짧은 시간이 소요되는 프로세스를 먼저 수행하고, 남은 처리 시간이 더 짧다고 판단되는 프로세스가 준비 큐에 생시면 언제라도 프로세스가 선정됨&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;다단계 큐&lt;/code&gt;&lt;br /&gt;
+작업들을 여러 종류의 그룹으로 분할, 여러 개의 큐를 이용하여 상위단계 작업에 의한 하위단계 작업이 선정 당함&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;다단계 피드백 큐&lt;/code&gt;&lt;br /&gt;
+FCFS(FIFO)와 라운드로빈 스케줄링 혼합, 새로운 프로세스는 높은 우선순위를 가지며 프로세스의 실행 시간이 길어질수록 점점 낮은 우선순위 큐로 이동하며 마지막 단계는 RR을 적용함&lt;/p&gt;
+
+&lt;h4 id=&quot;-비선점형-스케줄링&quot;&gt;📌 비선점형 스케줄링&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;우선순위&lt;/code&gt;&lt;br /&gt;
+프로세스별로 우선순위가 주어지고, 우선순위에 따라 CPU를 할당함&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;기한부(Deadline)&lt;/code&gt;&lt;br /&gt;
+작업들이 명시된 시간이나 기한 내에 완료되도록 계획&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;FCFS&lt;/code&gt;&lt;br /&gt;
+프로세스가 대기 큐에 도착한 순서에 따라 CPU를 할당함&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SJF(Shortest Job First)&lt;/code&gt;&lt;br /&gt;
+프로세스가 도착하는 시점에 따라 그 당시 가장 작은 서비스 시간을 갖는 프로세스가 종료 시까지 자원 점유&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HRN(Highest Response Ratio Next)&lt;/code&gt;&lt;br /&gt;
+대기 중인 프로세스 중 현재 응답률이 가장 높은 것을 선택, 기아현상 최소화 (= 대기시간+서비스시간 / 서비스시간)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;concept&quot;&gt;CONCEPT&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;문맥교환(Context switching)&lt;/strong&gt;: CPU가 현재 실행하고 있는 프로세스의 문맥 상태를 프로세스 제어블록(PCB)에 저장하고 다음 프로세스의 PCB로부터 문맥을 복원하는 작업 &lt;br /&gt;
+&lt;strong&gt;기아현상(starvation)&lt;/strong&gt;: 시스템 부하가 많아 준비 큐에 있는 낮은 등급의 프로세스가 무한정 기다리는 현상 &lt;br /&gt;
+&lt;strong&gt;에이징 기법(Aging)&lt;/strong&gt;: 프로세스가 자원을 기다리고 있는 시간에 비례하여 우선순위를 부여함으로써 무기한 대기하는 문제를 방지하는 기법&lt;/p&gt;</content><category term="test" /><summary>Process by 수제비</summary></entry><entry><title>Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test-by-수제비&quot;&gt;Software Test by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;소프트웨어 테스트&lt;/li&gt;
