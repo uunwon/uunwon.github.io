@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-19T02:17:42+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test&quot;&gt;Software Test&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-19T16:42:07+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;프로세스&lt;/li&gt;
+  &lt;li&gt;프로세스 상태 전이&lt;/li&gt;
+  &lt;li&gt;프로세스 스케줄링 
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;프로세스&quot;&gt;프로세스&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　프로세스(Process)란 일반적으로 CPU에 의해 처리되는 프로그램으로 현재 실행 중인 프로그램을 말한다. 하나의 프로세스는 여러가지 이벤트에 의해 일련의 서로 구분되는 &lt;strong&gt;상태 변화&lt;/strong&gt;(생성 상태, 준비 상태, 실행 상태, 대기 상태, 완료 상태) 를 겪는다.&lt;/p&gt;</content><category term="test" /><summary>Process</summary></entry><entry><title>Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test&quot;&gt;Software Test&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;소프트웨어 테스트&lt;/li&gt;
@@ -866,87 +879,4 @@ http://developer.android.com/studio/index.html
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 1. 레이아웃 만들기 &lt;br /&gt;
 https://www.boostcourse.org/mo316/joinLectures/13158&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>레이아웃 만들기
-by boostcourse</summary></entry><entry><title>[BaekJoon] 10828. Stack</title><link href="http://localhost:4000/Baekjoon10828/" rel="alternate" type="text/html" title="[BaekJoon] 10828. Stack" /><published>2020-09-24T00:00:00+09:00</published><updated>2020-09-24T00:00:00+09:00</updated><id>http://localhost:4000/Baekjoon10828</id><content type="html" xml:base="http://localhost:4000/Baekjoon10828/">&lt;h2 id=&quot;스택&quot;&gt;스택&lt;/h2&gt;
-&lt;h4 id=&quot;by-baekjoon&quot;&gt;by BaekJoon&lt;/h4&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-problem&quot;&gt;💡 Problem&lt;/h2&gt;
-&lt;p&gt;　정수를 저장하는 스택을 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오. 명령은 총 다섯 가지이다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;push X: 정수 X를 스택에 넣는 연산이다.&lt;/li&gt;
-  &lt;li&gt;pop: 스택에서 가장 위에 있는 정수를 빼고, 그 수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.&lt;/li&gt;
-  &lt;li&gt;size: 스택에 들어있는 정수의 개수를 출력한다.&lt;/li&gt;
-  &lt;li&gt;empty: 스택이 비어있으면 1, 아니면 0을 출력한다.&lt;/li&gt;
-  &lt;li&gt;top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
-&lt;p&gt;　첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 10,000)이 주어진다. 둘째 줄부터 N개의 줄에는 명령이 하나씩 주어진다. 주어지는 정수는 1보다 크거나 같고, 100,000보다 작거나 같다. 문제에 나와있지 않은 명령이 주어지는 경우는 없다.&lt;/p&gt;
-
-&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
-&lt;p&gt;　출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-solving&quot;&gt;🎯 Solving&lt;/h2&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-import java.util.*; &lt;br /&gt;
-&lt;br /&gt;
-public class Main{ &lt;br /&gt;
-　　public static void main(String[] args){ &lt;br /&gt;
-　　　　Scanner sc = new Scanner(System.in); &lt;br /&gt;
-　　　　int n = sc.nextInt(); &lt;br /&gt;
-　　　　int[] arr = new int[n]; &lt;br /&gt;
-　　　　int top = -1; &lt;br /&gt;
-　　　　&lt;br /&gt;
-　　　　for(int i = 1;i &amp;lt;= n;i++) { &lt;br /&gt;
-　　　　　　String txt = sc.nextLine(); &lt;br /&gt;
-　　　　　　String txt2 = txt.split(&quot; &quot;)[0]; &lt;br /&gt;
-&lt;br /&gt;
-　　　　　　if(txt2.equals(&quot;push&quot;)) { &lt;br /&gt;
-　　　　　　　　top++; &lt;br /&gt;
-　　　　　　　　arr[top] = Integer.parseInt(txt.split(&quot; &quot;)[1]); &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-&lt;br /&gt;
-　　　　　　else if(txt2.equals(&quot;pop&quot;)) { &lt;br /&gt;
-　　　　　　　　if(top == -1) &lt;br /&gt;
-　　　　　　　　　　System.out.println(-1); &lt;br /&gt;
-　　　　　　　　else { &lt;br /&gt;
-　　　　　　　　　　System.out.println(arr[top]); &lt;br /&gt;
-　　　　　　　　　　top--; &lt;br /&gt;
-　　　　　　　　} &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-&lt;br /&gt;
-　　　　　　else if(txt2.equals(&quot;size&quot;)) { &lt;br /&gt;
-　　　　　　　　System.out.println(top+1); &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-&lt;br /&gt;
-　　　　　　else if(txt2.equals(&quot;empty&quot;)) { &lt;br /&gt;
-　　　　　　　　if(top == -1) &lt;br /&gt;
-　　　　　　　　　　System.out.println(1); &lt;br /&gt;
-　　　　　　　　else &lt;br /&gt;
-　　　　　　　　　　System.out.println(0); &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-&lt;br /&gt;
-　　　　　　else if(txt2.equals(&quot;top&quot;)) { &lt;br /&gt;
-　　　　　　　　if(top == -1) &lt;br /&gt;
-　　　　　　　　　　System.out.println(-1); &lt;br /&gt;
-　　　　　　　　else &lt;br /&gt;
-　　　　　　　　　　System.out.println(arr[top]); &lt;br /&gt;
-　　　　　　} &lt;br /&gt;
-　　　　} &lt;br /&gt;
-　　　　sc.close(); &lt;br /&gt;
-　　} &lt;br /&gt;
-}
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;https://www.acmicpc.net/problem/10828, 백준 &lt;br /&gt;
-https://thiago6.tistory.com/88?category=827161, 시간초과 오류 &lt;br /&gt;
-https://hoho325.tistory.com/139?category=780777, 성공 답안&lt;/p&gt;</content><category term="java" /><category term="code" /><category term="baekjoon" /><summary>스택
-by BaekJoon</summary></entry></feed>
+by boostcourse</summary></entry></feed>
