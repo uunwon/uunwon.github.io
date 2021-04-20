@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T15:20:43+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T16:06:45+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;절차형 SQL&lt;/li&gt;
@@ -21,19 +21,106 @@
 EXECUTE 프로시저_명 (파라미터_1, 파라미터_2, .. );
 &lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;사용자 정의함수&lt;/code&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;사용자 정의함수&lt;/code&gt;&lt;br /&gt;
 　절차형 SQL을 활용하여 일련의 SQL 처리를 수행하여, 수행 결과를 &lt;strong&gt;단일 값으로 반환&lt;/strong&gt;할 수 있는 절차형 SQL이다. DBMS에서 제공되는 공통적 함수 이외에 사용자가 직접 정의하고 작성한다.&lt;/p&gt;
 
 &lt;p class=&quot;notice&quot;&gt;
 함수명 (파라미터1, 파라미터2, ...)
 &lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;트리거(Trigger)&lt;/code&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;트리거(Trigger)&lt;/code&gt;&lt;br /&gt;
 　특정 테이블에 삽입, 수정, 삭제 등의 데이터 변경 이벤트가 발생하면 DBMS에서 자동적으로 실행되도록 구현된 프로그램이다.&lt;/p&gt;
 
 &lt;p&gt;　&lt;strong&gt;행 트리거&lt;/strong&gt;는 데이터 변화가 생길 때마다 실행되며, &lt;strong&gt;문장 트리거&lt;/strong&gt;는 트리거에 의해 단 한번 실행된다.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="test" /><summary>SQL by 수제비</summary></entry><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-분석-함수&quot;&gt;데이터 분석 함수&lt;/h3&gt;
+
+&lt;p&gt;　데이터 분석 함수란 총합, 평균 등의 데이터 분석을 위해 &lt;strong&gt;복수 행 기준의 데이터를 모아서 처리&lt;/strong&gt;하는 것을 목적으로 하는 다중 행 함수이다. GROUP BY 구문을 활용해 복수 행을 그룹핑한다.&lt;/p&gt;
+
+&lt;h4 id=&quot;-집계-함수&quot;&gt;📌 집계 함수&lt;/h4&gt;
+&lt;p&gt;　여러 행 또는 테이블 전체 행으로부터 하나의 결괏값을 반환하는 함수이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GROUP BY&lt;/code&gt;&lt;br /&gt;
+해당 구문 뒤에 테이블을 구분하는 컬럼을 기재하여 그룹화한다. 실제 구체적인 데이터 분석값을 보고자 하는 컬럼 단위를 선정할 때 사용되는 기준이 된다. (속성값을 그룹으로 분류하고자 할 때)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HAVING&lt;/code&gt;&lt;br /&gt;
+해당 구문은 WHERE 구문 내에는 사용할 수 없는 집계 함수의 구문을 적용하여 복수 행의 계산 결과를 조건별로 적용하는 데 사용된다. 즉, GROUP BY 및 집계 함수에 대한 WHERE 구문이다. (그룹에 제하는 조건문을 작성할 수 있는 절)&lt;/p&gt;
+
+&lt;h4 id=&quot;-그룹-함수&quot;&gt;📌 그룹 함수&lt;/h4&gt;
+&lt;p&gt;　테이블의 전체 행을 하나 이상의 컬럼을 기준으로 컬럼 값에 따라 그룹화하여 그룹별로 결과를 출력하는 함수이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ROLLUP&lt;/code&gt;&lt;br /&gt;
+해당 함수에 의해 지정된 컬럼은 중간 집계 값을 산출할 수 있는 그룹 함수로, 지정 컬럼의 수보다 하나 더 큰 레벨만큼의 중간 집계 값이 생성된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CUBE&lt;/code&gt;&lt;br /&gt;
+결합 가능한 모든 값에 대해 다차원 집계를 생성하는 그룹 함수이다. 연산이 많아 시스템에 부담을 준다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GROUPING SETS&lt;/code&gt;&lt;br /&gt;
+집계 대상 컬럼들에 대한 개별 집계를 구할 수 있으며, ROLLUP이나 CUBE와는 달리 컬럼 간 순서와 무관한 결과를 얻을 수 있는 그룹 함수이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;-윈도-함수&quot;&gt;📌 윈도 함수&lt;/h4&gt;
+&lt;p&gt;　데이터베이스를 사용한 &lt;strong&gt;온라인 분석 처리&lt;/strong&gt; 용도로 사용하기 위해서 표준 SQL에 추가된 함수다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;순위 함수&lt;/code&gt;&lt;br /&gt;
+레코드의 순위를 계산하는 함수&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;행순위 함수&lt;/code&gt;&lt;br /&gt;
+레코드에서 가장 먼저 나오거나 가장 뒤에 나오는 값, 이전/이후의 값들을 출력하는 함수&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;그룹 내 비율 함수&lt;/code&gt;&lt;br /&gt;
+백분율을 보여주거나 행의 순서별 백분율 등 비율과 관련된 통계를 보여주는 함수&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터베이스-기본-연산&quot;&gt;데이터베이스 기본 연산&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT&lt;/code&gt; 데이터의 내용을 조회할 때 사용하는 명령어&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;
+SELECT [ALL | DISTINCT | DISTINCTALL] 속성명1, 속성명2, .. &lt;br /&gt;
+FROM 테이블명1, ... &lt;br /&gt;
+[WHERE 조건] &lt;br /&gt;
+[GROUP BY 속성명1, ..] &lt;br /&gt;
+[HAVING 그룹조건] &lt;br /&gt;
+[ORDER BY 속성 [ASC | DESC]];
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;INSERT&lt;/code&gt; 데이터의 내용을 삽입할 때 사용하는 명령어&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;
+INSERT INTO 테이블명(속성명1, ..) VALUES(데이터1, ..);
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UPDATE&lt;/code&gt; 데이터의 내용을 변경할 때 사용하는 명령어&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;
+UPDATE 테이블명 SET 속성명 = 데이터, .. WHERE 조건;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DELETE&lt;/code&gt; 데이터의 내용을 삭제할 때 사용하는 명령어&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;
+DELETE FROM 테이블명 WHERE 조건;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-제어어-dcl-명령문&quot;&gt;데이터 제어어 (DCL) 명령문&lt;/h3&gt;
+
+&lt;p&gt;　DCL은 데이터베이스 관리자가 데이터 보안, 무결성 유지, 병행 제어, 회복을 위해 관리자(DBA)가 사용하는 제어용 언어다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GRANT 권한 ON 테이블 TO 사용자&lt;/code&gt;&lt;br /&gt;
+관리자가 사용자에게 데이터베이스에 대한 권한을 부여하는 명령어&lt;br /&gt;
+(+ WITH GRANT OPTION)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;REVOKE 권한 ON 테이블 FROM 사용자&lt;/code&gt;&lt;br /&gt;
+관리자가 사용자에게 부여했던 권한을 회수하기 위한 명령어&lt;br /&gt;
+(+ CASCADE CONSTRAINTS)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;plus&quot;&gt;PLUS&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;뷰 생성&lt;/strong&gt;: CREATE VIEW 이름 AS (조건); &lt;br /&gt;
+&lt;strong&gt;인덱스 생성&lt;/strong&gt;: CREATE INDEX 이름 ON 조건; &lt;br /&gt;
+&lt;strong&gt;UNION&lt;/strong&gt;: 합집합이면서 중복 제거 &lt;br /&gt;
+&lt;strong&gt;UNIONALL&lt;/strong&gt;: 합집합이면서 중복 허용&lt;/p&gt;</content><category term="test" /><summary>SQL by 수제비</summary></entry><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;프로세스&lt;/li&gt;
