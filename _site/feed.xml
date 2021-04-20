@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T16:06:45+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T16:46:05+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;절차형 SQL&lt;/li&gt;
@@ -120,7 +120,83 @@ DELETE FROM 테이블명 WHERE 조건;
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;뷰 생성&lt;/strong&gt;: CREATE VIEW 이름 AS (조건); &lt;br /&gt;
 &lt;strong&gt;인덱스 생성&lt;/strong&gt;: CREATE INDEX 이름 ON 조건; &lt;br /&gt;
 &lt;strong&gt;UNION&lt;/strong&gt;: 합집합이면서 중복 제거 &lt;br /&gt;
-&lt;strong&gt;UNIONALL&lt;/strong&gt;: 합집합이면서 중복 허용&lt;/p&gt;</content><category term="test" /><summary>SQL by 수제비</summary></entry><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
+&lt;strong&gt;UNIONALL&lt;/strong&gt;: 합집합이면서 중복 허용&lt;/p&gt;</content><category term="test" /><summary>SQL by 수제비</summary></entry><entry><title>Protocol</title><link href="http://localhost:4000/Protocol/" rel="alternate" type="text/html" title="Protocol" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/Protocol</id><content type="html" xml:base="http://localhost:4000/Protocol/">&lt;h2 id=&quot;protocol&quot;&gt;Protocol&lt;/h2&gt;
+
+&lt;p&gt;　&lt;strong&gt;프로토콜&lt;/strong&gt;은 서로 다른 시스템이나 기기들 간의 데이터 교환을 원활히 하기 위해 표준화된 통신규약&lt;/p&gt;
+
+&lt;h3 id=&quot;soap&quot;&gt;SOAP&lt;/h3&gt;
+&lt;p&gt;　Simple Object Access Protocol(SOAP) 은 HTTP, HTTPS, SMTP 등을 사용하여 XML 기반의 메시지를 네트워크 상태에서 교환하는 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ipsec&quot;&gt;IPsec&lt;/h3&gt;
+&lt;p&gt;　IP 계층(3계층) 에서 무결성과 인증을 보장하는 인증헤더(AH)와 기밀성을 보장하는 암호화(ESP)를 이용하여 양 종단 간 구간에 보안서비스를 제공하는 IP 계층 보안 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ike&quot;&gt;IKE&lt;/h3&gt;
+&lt;p&gt;　Internet Key Exchange 는 보안 관련 설정들을 생성, 협상 및 관리하는 프로토콜로 UDP 500번 포트를 사용하는 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ssh&quot;&gt;SSH&lt;/h3&gt;
+&lt;p&gt;　네트워크 보안도구 중 하나로 원격 접속을 안전하게 할 수 있게 해주는 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;tls&quot;&gt;TLS&lt;/h3&gt;
+&lt;p&gt;　SSH에서 발전된 프로토콜로 네트워크 통신보안을 위해 설계된 암호 규약으로 국제 표준 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ssl&quot;&gt;SSL&lt;/h3&gt;
+&lt;p&gt;　응용 계층과 TCP/IP 계층 사이에서 웹 데이터 암호화 및 전송 시 기밀성을 보장하는 공개키 기반의 보안 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ah&quot;&gt;AH&lt;/h3&gt;
+&lt;p&gt;　Authentication Header 는 기밀성(암호화)를 제외한 메시지 checksum을 활용한 데이터 인증과 비연결형 무결성을 보장해주는 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;esp&quot;&gt;ESP&lt;/h3&gt;
+&lt;p&gt;　Eucapsulating Security Payload 는 암호화 알고리즘을 활용한 캡슐화 기반 페이로드 기밀성을 제공하는 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ldap&quot;&gt;LDAP&lt;/h3&gt;
+&lt;p&gt;　TCP/IP 위에서 디렉토리 서비스를 조회하고 수정하는 응용 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ipv4&quot;&gt;IPv4&lt;/h3&gt;
+&lt;p&gt;　인터넷에서 사용되는 패킷 교환 네트워크 상에서 데이터를 교환하기 위한 32bit 주소체계를 갖는 네트워크 계층 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ipv6&quot;&gt;IPv6&lt;/h3&gt;
+&lt;p&gt;　현재 IPv4가 가지고 있는 주소 고갈, 보안성, 이동성 지원 등의 문제점을 해결하기 위해서 개발된 128bit 주소 체계를 갖는 차세대 인터넷 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ftp&quot;&gt;FTP&lt;/h3&gt;
+&lt;p&gt;　파일 전송 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;smtp&quot;&gt;SMTP&lt;/h3&gt;
+&lt;p&gt;　메일 전송 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;telnet&quot;&gt;telnet&lt;/h3&gt;
+&lt;p&gt;　원격 접속 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;ip&quot;&gt;IP&lt;/h3&gt;
+&lt;p&gt;　주소 지정 가능한 연결형 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;tcp&quot;&gt;TCP&lt;/h3&gt;
+&lt;p&gt;　전송 계층에 위치하면서 근거리 통신망이나 인트라넷, 인터넷에 연결된 컴퓨터에서 실행되는 프로그램 간에 일련의 옥텟을 안정적으로, 순서대로, 에러 없이 교환할 수 있게 해주는 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;udp&quot;&gt;UDP&lt;/h3&gt;
+&lt;p&gt;　비연결성이고, 신뢰성이 없고, 순서화되지 않은 데이터그램 서비스를 제공하는 전송(Transport, 4계층) 계층의 통신 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;라우팅-알고리즘&quot;&gt;라우팅 알고리즘&lt;/h3&gt;
+&lt;p&gt;　데이터는 송신 측으로부터 수신 측까지 데이터를 전달하는 과정에서 다양한 물리적인 장치들을 거쳐 간다. &lt;strong&gt;목적지까지의 최적 경로를 산출&lt;/strong&gt;하기 위한 법칙이 라우팅 알고리즘이다. 라우팅 알고리즘에는 인접 라우터와 정보를 공유하여 목적지까지 거리와 방향을 결정하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;거리벡터 알고리즘&lt;/code&gt;과 링크 상태 정보를 모든 라우터에 전달하여 최단 경로 트리를 구성하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;링크상태 알고리즘&lt;/code&gt;이 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;-rip&quot;&gt;📌 RIP&lt;/h4&gt;
+&lt;p&gt;　최초의 라우팅 프로토콜, 거리 벡터 알고리즘 활용하여 30초 주기로 전체 라우팅의 정보를 갱신, 변화 업데이트 시 많은 시간이 소요&lt;/p&gt;
+&lt;h4 id=&quot;-igrp&quot;&gt;📌 IGRP&lt;/h4&gt;
+&lt;p&gt;　RIP의 문제점 개선, 네트워크 상태를 고려하여 라우팅&lt;/p&gt;
+&lt;h4 id=&quot;-ospf&quot;&gt;📌 OSPF&lt;/h4&gt;
+&lt;p&gt;　링크 상태 알고리즘을 사용, 발생한 변경 정보에 대해 RIP 보다 빠른 업데이트&lt;/p&gt;
+&lt;h4 id=&quot;-bgp&quot;&gt;📌 BGP&lt;/h4&gt;
+&lt;p&gt;　규모가 큰 네트워크의 상호 연결&lt;/p&gt;
+
+&lt;h3 id=&quot;osi-7계층-프로토콜&quot;&gt;OSI 7계층 프로토콜&lt;/h3&gt;
+&lt;p class=&quot;notice&quot;&gt;
+응용 http ftp &lt;br /&gt;
+표현 jpeg mpeg &lt;br /&gt;
+세션 ssh tls ssl &lt;br /&gt;
+전송 tcp udp &lt;br /&gt;
+네트워크 ip icmp &lt;br /&gt;
+데이터 이더넷 &lt;br /&gt;
+물리 rs-232c
+&lt;/p&gt;</content><category term="test" /><summary>Protocol</summary></entry><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;프로세스&lt;/li&gt;
@@ -862,103 +938,4 @@ Android Serializable vs Parcelable &lt;br /&gt;
 https://wooooooak.github.io/android/2019/09/19/Serializable-vs-Parcelable/ &lt;br /&gt;
 Android &amp;amp; Java - Reflection &lt;br /&gt;
 https://two22.tistory.com/14&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 여러 개 만들기
-by boostcourse</summary></entry><entry><title>[BoostCourse] Android Programming 02</title><link href="http://localhost:4000/BoostCourse-Android2/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 02" /><published>2020-12-30T00:00:00+09:00</published><updated>2020-12-30T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android2</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android2/">&lt;h2 id=&quot;이벤트와-리스트뷰&quot;&gt;이벤트와 리스트뷰&lt;/h2&gt;
-&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;스크롤뷰 사용하기&lt;/li&gt;
-  &lt;li&gt;이벤트 이해하기&lt;/li&gt;
-  &lt;li&gt;토스트와 대화상자&lt;/li&gt;
-  &lt;li&gt;비트맵 버튼 만들기&lt;/li&gt;
-  &lt;li&gt;인플레이션 이해하기&lt;/li&gt;
-  &lt;li&gt;리스트뷰 만들기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-스크롤뷰-사용하기&quot;&gt;🔑 스크롤뷰 사용하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　스크롤뷰는 말그대로 스크롤 기능을 위해 사용한다. 글자가 이지미가 들어간 뷰가 화면 영역을 벗어나면 보이지 않는 경우에 대비할 수 있다. 해당 뷰는 원하는 영역을 ScrollView 태그로 감싸면 된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-이벤트-이해하기&quot;&gt;🪓 이벤트 이해하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　화면을 터치했을 때는 ‘이벤트’가 발생한다. 해당 이벤트는 화면의 어느 부분에 어떻게 클릭하거나 터치했는지에 대한 정보를 담았으며, 리스너를 이용해 다룰 수 있다. (ex. OnClickListenr 인터페이스) 예시로, 버튼에 리스너를 등록해두면 버튼이 클릭될 때마다 리스너의 메소드가 자동으로 호출되게 된다. 그 외에도 터치 이벤트와 키 이벤트가 있다.&lt;/p&gt;
-
-&lt;p&gt;　&lt;code class=&quot;highlighter-rouge&quot;&gt;터치 이벤트&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;boolean onTouchEvent (MotionEvent event)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;　&lt;code class=&quot;highlighter-rouge&quot;&gt;키 이벤트&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;boolean onKeyDown (int keyCode, KeyEvent event) &lt;br /&gt; boolean onKeyUp (int keyCode, KeyEvent event) &lt;br /&gt; void onBackPressed() // keyCode == KeyEvent.KEYCODE_BACK&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-토스트와-대화상자&quot;&gt;🔨 토스트와 대화상자&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　&lt;strong&gt;토스트(Toast)&lt;/strong&gt; 는 간단한 메시지를 화면에 띄어주는 역할을 한다. Log 클래스를 이용해 콘솔에 메시지를 출력할 수도 있지만, 화면에 보여주고 싶다면 토스트 기능을 사용한다.&lt;/p&gt;
-
-&lt;p&gt;　유사한 역할로, &lt;strong&gt;스낵바&lt;/strong&gt;는 화면 내 아래쪽에서 올라왔다가 사라지는 뷰이다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-Toast.makeText(Context context, String message, int duration).show(); &lt;br /&gt;
-Snackbar.make(View view, CharSequence text, int duration).show();
-&lt;/p&gt;
-
-&lt;p&gt;　사용자에게 어떤 내용을 알려주거나 ‘예’, ‘아니오’ 버튼을 선택하도록 할 때는 &lt;strong&gt;알림 대화상자(AlertDialog)&lt;/strong&gt;를 사용한다. 이는 AlertDialog.Builder 객체를 사용하여, AlertDialog 객체를 만들어 show 메소드를 이용해 화면에 표시한다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-AlertDialog.Builder builder = new AlertDialog.Builder(this); &lt;br /&gt;
-AlertDialog dialog = builder.create(); &lt;br /&gt;
-dialog.show();
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-비트맵-버튼-만들기&quot;&gt;⛏ 비트맵 버튼 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　&lt;strong&gt;① 나인패치(9Patch)&lt;/strong&gt;&lt;br /&gt;
-　이미지 파일 이름에 .9 라는 글자를 붙여 나인패치 이미지를 생성할 수 있다. 이는 이미지의 깨질 가능성이 있는 부분은 늘리지 않아, 이미지의 크기가 변형되더라도 덜 왜곡된다.&lt;/p&gt;
-
-&lt;p&gt;　&lt;strong&gt;② 비트맵 버튼(BitmapButton)&lt;/strong&gt;&lt;br /&gt;
-　Button 을 상속하여 새로운 비트맵 버튼을 생성할 수 있다. 나인패치 이미지를 적용하는 대표적인 경우가 버튼인데, 배경을 이미지로 지정하여 만든 버튼은 눌러도 이미지의 변화가 없다. 이같은 단점을 보완하기 위해 비트맵 이미지를 이용해 버튼의 상태를 이벤트로 구분해 표시할 수 있다. 배경 이미지가 변경되면 &lt;code class=&quot;highlighter-rouge&quot;&gt;invalidate 메소드를 사용해 화면을 갱신&lt;/code&gt;해야 한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-인플레이션-이해하기&quot;&gt;⚒ 인플레이션 이해하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　XML 레이아웃에 정의된 내용이 실제 메모리에 객체화되는 (생성되는) 과정을 &lt;strong&gt;인플레이션 과정&lt;/strong&gt;이라 한다. 이같은 레이아웃 인플레이션 과정은 setContentView() 메소드를 통해 (XML 파일의 전체 화면을) 할 수 있다. 부분 화면의 경우에는 LayoutInflater 를 이용해서 직접 메모리에 객체화를 해야 한다. 인플레이션 후에는 아이디를 통해서 내부의 뷰를 찾아 사용할 수 있다!&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-FrameLayout container = findViewById(R.id.container); &lt;br /&gt;
-LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE); &lt;br /&gt;
-inflater.inflate(R.layout.보여줄_XML_파일명, container, true);
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-리스트뷰-만들기&quot;&gt;🛠 리스트뷰 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　리스트뷰에는 여러 개의 데이터를 넣어 보여줄 수 있는데, 좀 더 쉽게 만들 수 있도록 어댑터를 만들어 사용한다. 어댑터는 여러 개의 아이템 중에서 하나를 선택하는 방식을 가진 선택 위젯에서 사용된다. 뷰가 데이터를 관리하는 것이 아닌, 어댑터가 실제 데이터를 관리하는 것이다. 각각의 아이템을 위한 뷰도 어댑터에서 만들어주기 때문에 리스트뷰는 어댑터의 getView 메소드를 호출해 뷰 객체를 반환받은 뒤 화면에 보여주게 된다.&lt;/p&gt;
-
-&lt;p&gt;　최근 실무에서는 리스트뷰(ListView)보다 리사이클러뷰(RecyclerView)를 더 많이 사용한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;유사한 선택 위젯으로 스피너와 그리드뷰가 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;detail&quot;&gt;DETAIL&lt;/h4&gt;
-&lt;p&gt;@Override : 이미 구현되어있는 코드를 덮어쓴다는 의미로, 해당 의미를 컴퓨터에게 알려주는 용도다.&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 2. 이벤트와 리스트뷰 &lt;br /&gt;
-https://www.boostcourse.org/mo316/joinLectures/13159 &lt;br /&gt; &lt;br /&gt;
-Bitmap Button 만들기 &lt;br /&gt;
-https://qlyh8.tistory.com/44&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>이벤트와 리스트뷰
 by boostcourse</summary></entry></feed>
