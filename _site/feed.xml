@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T16:46:05+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T16:46:30+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;절차형 SQL&lt;/li&gt;
@@ -125,67 +125,67 @@ DELETE FROM 테이블명 WHERE 조건;
 &lt;p&gt;　&lt;strong&gt;프로토콜&lt;/strong&gt;은 서로 다른 시스템이나 기기들 간의 데이터 교환을 원활히 하기 위해 표준화된 통신규약&lt;/p&gt;
 
 &lt;h3 id=&quot;soap&quot;&gt;SOAP&lt;/h3&gt;
-&lt;p&gt;　Simple Object Access Protocol(SOAP) 은 HTTP, HTTPS, SMTP 등을 사용하여 XML 기반의 메시지를 네트워크 상태에서 교환하는 프로토콜&lt;/p&gt;
+&lt;p&gt;Simple Object Access Protocol(SOAP) 은 HTTP, HTTPS, SMTP 등을 사용하여 XML 기반의 메시지를 네트워크 상태에서 교환하는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ipsec&quot;&gt;IPsec&lt;/h3&gt;
-&lt;p&gt;　IP 계층(3계층) 에서 무결성과 인증을 보장하는 인증헤더(AH)와 기밀성을 보장하는 암호화(ESP)를 이용하여 양 종단 간 구간에 보안서비스를 제공하는 IP 계층 보안 프로토콜&lt;/p&gt;
+&lt;p&gt;IP 계층(3계층) 에서 무결성과 인증을 보장하는 인증헤더(AH)와 기밀성을 보장하는 암호화(ESP)를 이용하여 양 종단 간 구간에 보안서비스를 제공하는 IP 계층 보안 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ike&quot;&gt;IKE&lt;/h3&gt;
-&lt;p&gt;　Internet Key Exchange 는 보안 관련 설정들을 생성, 협상 및 관리하는 프로토콜로 UDP 500번 포트를 사용하는 프로토콜&lt;/p&gt;
+&lt;p&gt;Internet Key Exchange 는 보안 관련 설정들을 생성, 협상 및 관리하는 프로토콜로 UDP 500번 포트를 사용하는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ssh&quot;&gt;SSH&lt;/h3&gt;
-&lt;p&gt;　네트워크 보안도구 중 하나로 원격 접속을 안전하게 할 수 있게 해주는 프로토콜&lt;/p&gt;
+&lt;p&gt;네트워크 보안도구 중 하나로 원격 접속을 안전하게 할 수 있게 해주는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;tls&quot;&gt;TLS&lt;/h3&gt;
-&lt;p&gt;　SSH에서 발전된 프로토콜로 네트워크 통신보안을 위해 설계된 암호 규약으로 국제 표준 프로토콜&lt;/p&gt;
+&lt;p&gt;SSH에서 발전된 프로토콜로 네트워크 통신보안을 위해 설계된 암호 규약으로 국제 표준 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ssl&quot;&gt;SSL&lt;/h3&gt;
-&lt;p&gt;　응용 계층과 TCP/IP 계층 사이에서 웹 데이터 암호화 및 전송 시 기밀성을 보장하는 공개키 기반의 보안 프로토콜&lt;/p&gt;
+&lt;p&gt;응용 계층과 TCP/IP 계층 사이에서 웹 데이터 암호화 및 전송 시 기밀성을 보장하는 공개키 기반의 보안 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ah&quot;&gt;AH&lt;/h3&gt;
-&lt;p&gt;　Authentication Header 는 기밀성(암호화)를 제외한 메시지 checksum을 활용한 데이터 인증과 비연결형 무결성을 보장해주는 프로토콜&lt;/p&gt;
+&lt;p&gt;Authentication Header 는 기밀성(암호화)를 제외한 메시지 checksum을 활용한 데이터 인증과 비연결형 무결성을 보장해주는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;esp&quot;&gt;ESP&lt;/h3&gt;
-&lt;p&gt;　Eucapsulating Security Payload 는 암호화 알고리즘을 활용한 캡슐화 기반 페이로드 기밀성을 제공하는 프로토콜&lt;/p&gt;
+&lt;p&gt;Eucapsulating Security Payload 는 암호화 알고리즘을 활용한 캡슐화 기반 페이로드 기밀성을 제공하는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ldap&quot;&gt;LDAP&lt;/h3&gt;
-&lt;p&gt;　TCP/IP 위에서 디렉토리 서비스를 조회하고 수정하는 응용 프로토콜&lt;/p&gt;
+&lt;p&gt;TCP/IP 위에서 디렉토리 서비스를 조회하고 수정하는 응용 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ipv4&quot;&gt;IPv4&lt;/h3&gt;
-&lt;p&gt;　인터넷에서 사용되는 패킷 교환 네트워크 상에서 데이터를 교환하기 위한 32bit 주소체계를 갖는 네트워크 계층 프로토콜&lt;/p&gt;
+&lt;p&gt;인터넷에서 사용되는 패킷 교환 네트워크 상에서 데이터를 교환하기 위한 32bit 주소체계를 갖는 네트워크 계층 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ipv6&quot;&gt;IPv6&lt;/h3&gt;
-&lt;p&gt;　현재 IPv4가 가지고 있는 주소 고갈, 보안성, 이동성 지원 등의 문제점을 해결하기 위해서 개발된 128bit 주소 체계를 갖는 차세대 인터넷 프로토콜&lt;/p&gt;
+&lt;p&gt;현재 IPv4가 가지고 있는 주소 고갈, 보안성, 이동성 지원 등의 문제점을 해결하기 위해서 개발된 128bit 주소 체계를 갖는 차세대 인터넷 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ftp&quot;&gt;FTP&lt;/h3&gt;
-&lt;p&gt;　파일 전송 프로토콜&lt;/p&gt;
+&lt;p&gt;파일 전송 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;smtp&quot;&gt;SMTP&lt;/h3&gt;
-&lt;p&gt;　메일 전송 프로토콜&lt;/p&gt;
+&lt;p&gt;메일 전송 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;telnet&quot;&gt;telnet&lt;/h3&gt;
-&lt;p&gt;　원격 접속 프로토콜&lt;/p&gt;
+&lt;p&gt;원격 접속 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ip&quot;&gt;IP&lt;/h3&gt;
-&lt;p&gt;　주소 지정 가능한 연결형 프로토콜&lt;/p&gt;
+&lt;p&gt;주소 지정 가능한 연결형 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;tcp&quot;&gt;TCP&lt;/h3&gt;
-&lt;p&gt;　전송 계층에 위치하면서 근거리 통신망이나 인트라넷, 인터넷에 연결된 컴퓨터에서 실행되는 프로그램 간에 일련의 옥텟을 안정적으로, 순서대로, 에러 없이 교환할 수 있게 해주는 프로토콜&lt;/p&gt;
+&lt;p&gt;전송 계층에 위치하면서 근거리 통신망이나 인트라넷, 인터넷에 연결된 컴퓨터에서 실행되는 프로그램 간에 일련의 옥텟을 안정적으로, 순서대로, 에러 없이 교환할 수 있게 해주는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;udp&quot;&gt;UDP&lt;/h3&gt;
-&lt;p&gt;　비연결성이고, 신뢰성이 없고, 순서화되지 않은 데이터그램 서비스를 제공하는 전송(Transport, 4계층) 계층의 통신 프로토콜&lt;/p&gt;
+&lt;p&gt;비연결성이고, 신뢰성이 없고, 순서화되지 않은 데이터그램 서비스를 제공하는 전송(Transport, 4계층) 계층의 통신 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;라우팅-알고리즘&quot;&gt;라우팅 알고리즘&lt;/h3&gt;
 &lt;p&gt;　데이터는 송신 측으로부터 수신 측까지 데이터를 전달하는 과정에서 다양한 물리적인 장치들을 거쳐 간다. &lt;strong&gt;목적지까지의 최적 경로를 산출&lt;/strong&gt;하기 위한 법칙이 라우팅 알고리즘이다. 라우팅 알고리즘에는 인접 라우터와 정보를 공유하여 목적지까지 거리와 방향을 결정하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;거리벡터 알고리즘&lt;/code&gt;과 링크 상태 정보를 모든 라우터에 전달하여 최단 경로 트리를 구성하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;링크상태 알고리즘&lt;/code&gt;이 있다.&lt;/p&gt;
 
 &lt;h4 id=&quot;-rip&quot;&gt;📌 RIP&lt;/h4&gt;
-&lt;p&gt;　최초의 라우팅 프로토콜, 거리 벡터 알고리즘 활용하여 30초 주기로 전체 라우팅의 정보를 갱신, 변화 업데이트 시 많은 시간이 소요&lt;/p&gt;
+&lt;p&gt;최초의 라우팅 프로토콜, 거리 벡터 알고리즘 활용하여 30초 주기로 전체 라우팅의 정보를 갱신, 변화 업데이트 시 많은 시간이 소요&lt;/p&gt;
 &lt;h4 id=&quot;-igrp&quot;&gt;📌 IGRP&lt;/h4&gt;
-&lt;p&gt;　RIP의 문제점 개선, 네트워크 상태를 고려하여 라우팅&lt;/p&gt;
+&lt;p&gt;RIP의 문제점 개선, 네트워크 상태를 고려하여 라우팅&lt;/p&gt;
 &lt;h4 id=&quot;-ospf&quot;&gt;📌 OSPF&lt;/h4&gt;
-&lt;p&gt;　링크 상태 알고리즘을 사용, 발생한 변경 정보에 대해 RIP 보다 빠른 업데이트&lt;/p&gt;
+&lt;p&gt;링크 상태 알고리즘을 사용, 발생한 변경 정보에 대해 RIP 보다 빠른 업데이트&lt;/p&gt;
 &lt;h4 id=&quot;-bgp&quot;&gt;📌 BGP&lt;/h4&gt;
-&lt;p&gt;　규모가 큰 네트워크의 상호 연결&lt;/p&gt;
+&lt;p&gt;규모가 큰 네트워크의 상호 연결&lt;/p&gt;
 
 &lt;h3 id=&quot;osi-7계층-프로토콜&quot;&gt;OSI 7계층 프로토콜&lt;/h3&gt;
 &lt;p class=&quot;notice&quot;&gt;
