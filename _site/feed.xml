@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-20T16:46:30+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-21T19:10:45+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>Software Attack</title><link href="http://localhost:4000/SW-ATTACK/" rel="alternate" type="text/html" title="Software Attack" /><published>2021-04-21T00:00:00+09:00</published><updated>2021-04-21T00:00:00+09:00</updated><id>http://localhost:4000/SW-ATTACK</id><content type="html" xml:base="http://localhost:4000/SW-ATTACK/">&lt;h2 id=&quot;sw-개발-보안을-위한-공격기법의-이해-by-수제비&quot;&gt;SW 개발 보안을 위한 공격기법의 이해 by 수제비&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DoS 공격&lt;/li&gt;
+  &lt;li&gt;DDoS 공격&lt;/li&gt;
+  &lt;li&gt;자원 고갈 공격&lt;/li&gt;
+  &lt;li&gt;애플리케이션 공격&lt;/li&gt;
+  &lt;li&gt;네트워크 서비스 공격&lt;/li&gt;
+  &lt;li&gt;취약점 공격
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;dos-공격&quot;&gt;DoS 공격&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　Denial of Service 란 시스템을 악의적으로 공격해 해당 시스템의 자원을 부족하게 하여 원래 의도된 용도로 사용하지 못하게 하는 공격이다. DoS 공격의 종류에는 지역 시스템 공격과 원격 네트워크 공격이 있다.&lt;/p&gt;
+
+&lt;p&gt;　&lt;code class=&quot;highlighter-rouge&quot;&gt;지역 시스템 공격&lt;/code&gt;은 실제 대상 시스템에 접근하여 서버 하드웨어에 직접 과부하를 주는 공격이고, &lt;code class=&quot;highlighter-rouge&quot;&gt;원격 네트워크 공격&lt;/code&gt;은 공격자가 목표 시스템에 접근하지 않고 원격지에서 인터넷 등을 이용한 공격이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ddos-공격&quot;&gt;DDoS 공격&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　DoS의 또 다른 형태로 여러 대의 공격자를 분산 배치하여 동시에 동작하게 함으로써 특정 사이트를 공격하는 기법이다. 해커들이 취약한 인터넷 시스템에 대한 액세스가 이뤄지면, 침입한 시스템에 소프트웨어를 설치하고 이를 실행시켜 원격에서 공격을 개시한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;자원-고갈-공격&quot;&gt;자원 고갈 공격&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　서버 간 핸드셰이크를 통해 통신이 연결되는 정상 트래픽과 달리 DoS 공격은 정상 접속을 시도하는 오픈된 소켓에 트래픽을 집중시킨다. 공격이 임계치에 도달하면 사용자들은 네트워크에 전혀 접속할 수 없게 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SYN 플러딩&lt;/code&gt;&lt;br /&gt;
+TCP 프로토콜의 구조적인 문제를 이용한 공격으로, 공격자는 ACK를 발송하지 않고 계속 새로운 연결 요청을 하게 되어 (SYN 패킷) 서버는 자원할당을 해지하지 않고 자원만 소비하여 자원이 고갈된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TCP 세션 하이재킹&lt;/code&gt;&lt;br /&gt;
+TCP Sequence number의 보안상 문제점 때문에 발생하며 TCP의 세션 관리 취약점을 이용한 공격 기법이다. TCP 세션 하이재킹에 대응하기 위해서는 비동기화 상태 탐지, ACK 패킷 비율 모니터링, 특정 세션에서 패킷 유실 및 재전송이 증가되는 것을 탐지해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UDP 플러딩&lt;/code&gt;&lt;br /&gt;
+대량의 UDP 패킷을 만들어 임의의 포트 번호로 전송하여 응답 메시지(ICMP)를 생성하게 하여 지속해서 자원을 고갈시키는 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;스머프&lt;/code&gt;&lt;br /&gt;
+출발지 주소를 공격 대상의 IP로 설정하여 네트워크 전체에게 ICMP Echo 패킷을 직접 브로드캐스팅하여 마비시키는 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PoD(Ping of Death)&lt;/code&gt;&lt;br /&gt;
+큰 사이즈의 패킷을 의도적으로 목표시스템으로 발생시켜 시스템이 서비스할 수 없는 상태로 만드는 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;애플리케이션-공격&quot;&gt;애플리케이션 공격&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;HTTP GET 플러딩&lt;/code&gt;&lt;br /&gt;
+Http 캐시 옵션을 조작하여 캐싱 서버가 아닌 웹서버가 직접 처리하도록 유도, 웹서버 자원을 소진시키는 서비스 거부 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Slowloris&lt;/code&gt;&lt;br /&gt;
+HTTP GET 메소드를 사용하여 헤더의 최종 끝을 알리는 개행 문자열인 \r\n\r\n을 전송하지 않고, \r\n만 전송하여 대상 웹서버와 연결상태를 장시간 지속시키고 연결 자원을 모두 소진시키는 서비스 거부 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;RUDY&lt;/code&gt;&lt;br /&gt;
+요청 헤더의 Content-length를 비정상적으로 크게 설정하여 메시지 바디 부분을 매우 소량으로 보내 계속 연결 상태를 유지시키는 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;네트워크-서비스-공격&quot;&gt;네트워크 서비스 공격&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;네트워크 스캐너, 스니퍼&lt;/code&gt;&lt;br /&gt;
+네트워크 하드웨어 및 소프트웨어 구성의 취약점 파악을 위해 공격자가 사용하는 공격 도구&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;패스워드 크래킹&lt;/code&gt;&lt;br /&gt;
+사전(Dictionary) 크래킹과 무차별(Brute Force) 크래킹 방법을 사용해 네트워크 패스워드를 탐색&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;IP 스푸핑&lt;/code&gt;&lt;br /&gt;
+서버에 대한 인증되지 않은 액세스 권한을 입수하는 데 사용하는 기법&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;트로이 목마&lt;/code&gt;&lt;br /&gt;
+악성 루틴이 숨어 있는 프로그램으로서 겉보기에는 정상적인 프로그램처럼 보이지만 실행하면 악성 코드를 실행&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;취약점-공격&quot;&gt;취약점 공격&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;랜드 어택&lt;/code&gt;&lt;br /&gt;
+출발지 IP와 목적지 IP를 같은 패킷 주소로 만들어 보냄으로써 수신자가 자기 자신에게 응답을 보내게 하여 시스템의 가용성을 침해하는 공격기법&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;봉크(Bonk)/보잉크(Boink)&lt;/code&gt;&lt;br /&gt;
+프로토콜의 오류 제어를 이용한 공격기법으로서 시스템의 패킷 재전송과 재조립이 과부하를 유발&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;티어 드롭&lt;/code&gt;&lt;br /&gt;
+IP 패킷의 재조합 과정에서 잘못된 Fragment Offset 정보로 인해 수신시스템이 문제를 발생하도록 만드는 DoS 공격&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="test" /><summary>SW 개발 보안을 위한 공격기법의 이해 by 수제비</summary></entry><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;절차형 SQL&lt;/li&gt;
@@ -167,13 +256,22 @@ DELETE FROM 테이블명 WHERE 조건;
 &lt;p&gt;원격 접속 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;ip&quot;&gt;IP&lt;/h3&gt;
-&lt;p&gt;주소 지정 가능한 연결형 프로토콜&lt;/p&gt;
+&lt;p&gt;Internet Protocol은 주소 지정 가능한 연결형 프로토콜, 송신/수신 간의 패킷 단위로 데이터를 교환하는 네트워크에서 정보를 주고받는 데 사용하는 통신규약&lt;/p&gt;
+
+&lt;h3 id=&quot;icmp&quot;&gt;ICMP&lt;/h3&gt;
+&lt;p&gt;Internet Control Message Protocol은 IP 패킷을 처리할 때 발생되는 문제를 알려주는 프로토콜로 수신지 도달 불가 메시지를 통해 수신지 또는 서비스에 도달할 수 없는 호스트를 통지하는 데 사용한다.&lt;/p&gt;
 
 &lt;h3 id=&quot;tcp&quot;&gt;TCP&lt;/h3&gt;
 &lt;p&gt;전송 계층에 위치하면서 근거리 통신망이나 인트라넷, 인터넷에 연결된 컴퓨터에서 실행되는 프로그램 간에 일련의 옥텟을 안정적으로, 순서대로, 에러 없이 교환할 수 있게 해주는 프로토콜&lt;/p&gt;
 
 &lt;h3 id=&quot;udp&quot;&gt;UDP&lt;/h3&gt;
 &lt;p&gt;비연결성이고, 신뢰성이 없고, 순서화되지 않은 데이터그램 서비스를 제공하는 전송(Transport, 4계층) 계층의 통신 프로토콜&lt;/p&gt;
+
+&lt;h3 id=&quot;x25&quot;&gt;X.25&lt;/h3&gt;
+&lt;p&gt;통신을 원하는 두 단말장치가 패킷 교환망을 통해 패킷을 원활히 전달하기 위한 통신 프로토콜 (고정된 대역폭, 패킷 사용, 1~3계층 담당, 송수신 신뢰성, 성능 저하)&lt;/p&gt;
+
+&lt;h3 id=&quot;프레임-릴레이&quot;&gt;프레임 릴레이&lt;/h3&gt;
+&lt;p&gt;ISDN을 사용하기 위한 프로토콜 (유연한 대역폭, 기능 단순화, 1~2계층 담당, 저렴한 가격) (ISDN = 디지털 통신망을 이용해 음성ㆍ문자ㆍ영상 등의 통신을 종합적으로 할 수 있도록 하는 통신서비스)&lt;/p&gt;
 
 &lt;h3 id=&quot;라우팅-알고리즘&quot;&gt;라우팅 알고리즘&lt;/h3&gt;
 &lt;p&gt;　데이터는 송신 측으로부터 수신 측까지 데이터를 전달하는 과정에서 다양한 물리적인 장치들을 거쳐 간다. &lt;strong&gt;목적지까지의 최적 경로를 산출&lt;/strong&gt;하기 위한 법칙이 라우팅 알고리즘이다. 라우팅 알고리즘에는 인접 라우터와 정보를 공유하여 목적지까지 거리와 방향을 결정하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;거리벡터 알고리즘&lt;/code&gt;과 링크 상태 정보를 모든 라우터에 전달하여 최단 경로 트리를 구성하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;링크상태 알고리즘&lt;/code&gt;이 있다.&lt;/p&gt;
@@ -805,137 +903,4 @@ viewpager.setAdapter(adpater); &lt;br /&gt;
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 4. 화면 내비게이션 &lt;br /&gt;
 https://www.boostcourse.org/mo316/joinLectures/13161&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 내비게이션
-by boostcourse</summary></entry><entry><title>[BoostCourse] Android Programming 03</title><link href="http://localhost:4000/BoostCourse-Android03/" rel="alternate" type="text/html" title="[BoostCourse] Android Programming 03" /><published>2021-01-01T00:00:00+09:00</published><updated>2021-01-01T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-Android03</id><content type="html" xml:base="http://localhost:4000/BoostCourse-Android03/">&lt;h2 id=&quot;화면-여러-개-만들기&quot;&gt;화면 여러 개 만들기&lt;/h2&gt;
-&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;화면 전환하기&lt;/li&gt;
-  &lt;li&gt;인텐트 살펴보기&lt;/li&gt;
-  &lt;li&gt;수명주기 이해하기&lt;/li&gt;
-  &lt;li&gt;서비스 사용하기&lt;/li&gt;
-  &lt;li&gt;브로드캐스트 수신자 사용하기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-화면-전환하기&quot;&gt;🔑 화면 전환하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　시스템이 관리하는 애플리케이션 구성요소는 액티비티(Acitity)ㆍ서비스(Service)ㆍ브로드캐스트 리시버(Broadcast Receiver)ㆍ내용 제공자(Content Provider) 가 있다. 각 클래스들은 안드로이드 SDK가 제공하며, 매니페스트 파일을 통해 어떤 애플리케이션 구성요소가 포함되어 있는 지 확인할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;　애플리케이션 구성요소 중 &lt;strong&gt;액티비티(Activity)&lt;/strong&gt;는 안드로이드 앱에서 하나의 화면을 만든다. 하나의 액티비티가 또 다른 액티비티로, 즉 화면이 전환되기 위해 &lt;strong&gt;인텐트(Intent)&lt;/strong&gt; 객체를 사용한다. startActivityForResult 메소드를 호출하면 인텐트 객체가 시스템(액티비티 매니저)으로 전달된다. 액티비티 매니저는 인텐트가 지정한 액티비티를 실행하여 화면에 보여주게 된다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-// 클래스 인스턴트를 인텐트의 파라미터로 넘겨주는 방식 &lt;br /&gt;
-Intent intent = new Intent(Context pakageContext, Class&amp;lt;?&amp;gt; cls); &lt;br /&gt;
-startActivityForResult(intent, INT_REQUEST_CODE); &lt;br /&gt;
-&lt;br /&gt;
-startActivityForResult(new Intent(MainActivity.this, SubActivity.class), INT_REQUEST_CODE); &lt;br /&gt;
-&lt;br /&gt;
-// ComponentName 객체 만들어 설정하는 방식 &lt;br /&gt;
-Intent intent = new Intent(); &lt;br /&gt;
-ComponentName name = new ComponentName(&quot;org.techtown.intent&quot;, &quot;org.techdown.intent.SubActivity&quot;); &lt;br /&gt;
-intent.setComponent(name); &lt;br /&gt;
-startActivityForResult(intent, INT_REQUEST_CODE); &lt;br /&gt; &lt;br /&gt;
-finish();
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-인텐트-살펴보기&quot;&gt;🪓 인텐트 살펴보기&lt;/h3&gt;
-
-&lt;h4 id=&quot;인텐트-종류&quot;&gt;인텐트 종류&lt;/h4&gt;
-&lt;p&gt;　시스템에서 이해할 수 있는 객체로 만들어진 것이 &lt;strong&gt;인텐트(Intent)&lt;/strong&gt;이며, 화면을 실행할 때 인텐트가 사용된다. 인텐트에는 컴포넌트 A가 컴포넌트 B를 호출할 때 필요한 정보를 담고 있으며, 이 정보에는 호출되는 컴포넌트 B의 이름이 &lt;code class=&quot;highlighter-rouge&quot;&gt;명시적&lt;/code&gt;으로 표시되기도 하고, 속성들이 &lt;code class=&quot;highlighter-rouge&quot;&gt;암시적&lt;/code&gt;으로 표시되기도 한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;① 명시적 인텐트 &lt;br /&gt; 인텐트에 클래스 객체 컴포넌트 이름을 지정하여 호출된 대상을 확실히 알 수 있는 경우에 사용한다. 주로 애플리케이션 내부에서 사용한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;② 암시적 인텐트 &lt;br /&gt; 인텐트의 액션과 테이터를 지정하긴 했지만, 호출할 대상이 달라질 수 있는 경우에는 암시적 인텐트를 사용한다. 즉, 설치된 애플리케이션들에 대한 정보를 알고 있는 안드로이드 시스템이 인텐트를 이용해 요청한 정보를 처리할 수 있는 적절한 컴포넌트를 찾아본 다음, 사용자에게 그 대상과 처리 결과를 보여주는 과정을 거치게 된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;인텐트-플래그&quot;&gt;인텐트 플래그&lt;/h4&gt;
-&lt;p&gt;　새로 실행하려는 액티비티와 화면에 보이는 액티비티가 동일한 액티비티인 경우 (ex. 서비스), 플래그를 사용하여 메모리에 액티비티를 새로 만들지 않고 화면에 보이는 액티비티를 재사용한다. 이같은 경우에 onCreate 메소드 대신 onNewIntent 메소드가 호출되어 인텐트를 전달받을 수 있다. 액티비티를 재사용할 시에는 인텐트에 추가할 수 있는 옵션인 &lt;strong&gt;플래그&lt;/strong&gt;를 활용한다. 즉, 시스템이 인텐트를 해석한 후 동작시킬 때 옵션에 따라 다른 동작을 하도록 한다. 플래그를 이해하기 위해서는 액티비티 스택에서 액티비티가 관리된다는 점을 알아야 한다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
- intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP); //설정 &lt;br /&gt;
- intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); //추가
- &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;부가-데이터&quot;&gt;부가 데이터&lt;/h4&gt;
-
-&lt;p&gt;　인텐트는 시스템을 통해 다른 액티비티로 전달될 수 있는데 액티비티뿐만 아니라 다른 애플리케이션 구성요소로도 전달될 수 있다. 애플리케이션 구성요소들 간에 데이터를 전달하는 데 인텐트가 사용되는 것이다. 부가 데이터는 시스템에서 건드리지 않고 전달만 되며, 인텐트 안에 번들(Bundle) 객체가 들어있어 그 안에 데이터를 넣을 때는 put, 데이터를 가져올 때는 get 메소드를 사용한다.&lt;/p&gt;
-
-&lt;p&gt;　기존의 put, get 메소드를 이용해 인텐트에 넣을 수 있는 부가데이터의 자료형은 기본 자료형뿐이다. 다양한 객체의 정보를 전달하기 위해서는 &lt;strong&gt;Serializble&lt;/strong&gt; 또는 &lt;strong&gt;Parcelable&lt;/strong&gt; 객체를 만들어 전달할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;　데이터 클래스를 별도로 생성하여 전달할 때, 안드로이드에서는 Parcelable을 구현하는 것을 추천하고 있다. Serializable은 데이터를 효율적이지 않게 일렬 데이터로 만들어 전송하는 반면 Parcelable은 데이터 타입에 맞게 가공해준다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-수명주기-이해하기&quot;&gt;🔨 수명주기 이해하기&lt;/h3&gt;
-
-&lt;p&gt;　액티비티 수명주기는 액티비티의 상태가 변할 때마다 안드로이드 시스템에서 각 상황에 맞는 메소드를 자동으로 호출해줌으로써, 직접 상태에 맞는 코드를 넣어 액티비티의 상태에 따라 제어할 수 있도록 해준다.&lt;/p&gt;
-
-&lt;p&gt;　&lt;img src=&quot;http://localhost:4000/images/android_lifecycle.png&quot; alt=&quot;Android_LifeCycle&quot; height=&quot;50&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;　화면이 없어질 때 데이터를 임시로 저장할 때는 &lt;strong&gt;onPause()&lt;/strong&gt; 메소드를, 데이터를 복구할 때는 &lt;strong&gt;onResume()&lt;/strong&gt; 메소드를 사용한다. 이때 데이터는 SharedPreferences를 이용하면 저장할 수 있다. 또는 onSaveInstanceState 메소드와 onRestoreInstanceState 메소드를 사용하는 방법이 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-서비스-사용하기&quot;&gt;⛏ 서비스 사용하기&lt;/h3&gt;
-
-&lt;p&gt;　&lt;strong&gt;서비스(Service)&lt;/strong&gt;는 화면이 없는 상태(백그라운드)에서 실행되는 애플리케이션의 구성요소 중 하나다. 인터넷을 통해 데이터를 주고받는 경우가 많은데 이때 대부분 서비스라는 것을 사용하게 된다. 애플리케이션 구성요소이기 때문에 프로젝트에 추가할 때 매니페스트 파일에 &lt;Service&gt; 태그를 사용한다. 서비스는 startService 메소드를 호출하면 시작된다.&lt;/Service&gt;&lt;/p&gt;
-
-&lt;p&gt;　startService 메소드는 또한 인텐트 안에 넣어 전달한 명령이나 데이터를 처리할 수 있도록 onStartCommand() 메소드를 사용한다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-@Override &lt;br /&gt;
-public int onStartCommand(Intent intent, int flags, int startId) { &lt;br /&gt;
-　Log.d(TAG, &quot;onStartCommand() 호출됨&quot;); &lt;br /&gt;
-　return super.onStartCommand(intent, flags, startId); &lt;br /&gt;
-}
-&lt;/p&gt;
-
-&lt;p&gt;　화면이 없는 서비스에서 화면이 있는 액티비티를 띄울 때는 태스크(Task)를 새로 만들어서 연결해야 한다. 그와 같은 경우에 일반적으로 세 개의 플래그(FLAG_ACTIVITY_NEW_TASK, FLAG_ACTIVITY_SINGLE_TOP, FLAG_ACTIVITY_CLEAR_TOP)를 사용한다. 그러면 액티비티는 새로 만들어지지 않고 기존 액티비티를 사용하고, onNewIntent 메소드가 자동으로 호출된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-브로드캐스트-수신자-사용하기&quot;&gt;⚒ 브로드캐스트 수신자 사용하기&lt;/h3&gt;
-
-&lt;p&gt;　브로드캐스팅이란 여러 사람에게 동시에 데이터를 전달하는 것을 말한다. 안드로이드는 여러 애플리케이션 구성 요소에게 메시지를 전달하고 싶은 경우에 브로드캐스팅을 사용한다. 브로드캐스트 수신자 또한 애플리케이션 구성요소이므로 매니페스트 파일에 정보를 추가해준다. intent-filter 태그 내에는 어떤 브로드캐스팅 메시지를 받고 싶은지 지정할 수 있다. 또한 브로드캐스팅 메시지는 인텐트 객체로 만들어져 전달된다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-receiver android:name=&quot;.SmsReceiver&quot; &lt;br /&gt;
-　intent-filter &lt;br /&gt;
-　　action android:name=&quot;android.provider.Telephony.SMS_RECEIVED&quot; &lt;br /&gt;
-　/intent-filter &lt;br /&gt;
-/receiver
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;detail&quot;&gt;DETAIL&lt;/h4&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Serialization(직렬화)&lt;/code&gt; : 객체를 저장 장치에 저장 혹은 네트워크 전송을 위해 텍스트나 이진 형식으로 변환하는 것 &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Serializble(객체 직렬화)&lt;/code&gt; : 객체를 바이트로 저장하는 자바의 인터페이스 &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Parcelable&lt;/code&gt; : 안드로이드 SDK가 포함하고 있는 인터페이스 &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Reflection&lt;/code&gt; : 자바 기능 중 하나로, 클래스나 인터페이스의 정보에 직접 접근할 수 있도록 하는 API &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Bundle&lt;/code&gt; : 여러 가지 타입의 값을 저장하는 Map 클래스이다. 예를 들면 String 값을 Bundle 클래스에 Mapping(대응, 변환)하는 것이다. 즉, Bundle 은 아무거나 포장할 수 있는 상자를 의미하고 이 상자를 이용하여 이리저리 인텐트도 오고갈 수 있고 다양한 데이터 통신에 이용할 수 있다.&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;boostcourse 안드로이드 앱 프로그래밍, 3. 화면 여러 개 만들기 &lt;br /&gt;
-https://www.boostcourse.org/mo316/joinLectures/13160 &lt;br /&gt;
-[Android] Intent &lt;br /&gt;
-https://woovictory.github.io/2019/01/02/Android-What-is-Intent/ &lt;br /&gt;
-Intent의 Flag 사용법 &lt;br /&gt;
-https://ju-hy.tistory.com/46 &lt;br /&gt;
-Android Bundle 이란? &lt;br /&gt;
-https://www.crocus.co.kr/1560 &lt;br /&gt;
-Android Serializable vs Parcelable &lt;br /&gt;
-https://wooooooak.github.io/android/2019/09/19/Serializable-vs-Parcelable/ &lt;br /&gt;
-Android &amp;amp; Java - Reflection &lt;br /&gt;
-https://two22.tistory.com/14&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>화면 여러 개 만들기
 by boostcourse</summary></entry></feed>
