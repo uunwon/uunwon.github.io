@@ -97,11 +97,20 @@ inflater.inflate(R.layout.보여줄_XML_파일명, container, true);
 <br>
 
 #### DETAIL
-@Override : 이미 구현되어있는 코드를 덮어쓴다는 의미로, 해당 의미를 컴퓨터에게 알려주는 용도다.
+**- @Override**  
+이미 구현되어있는 코드를 덮어쓴다는 의미로, 해당 의미를 컴퓨터에게 알려주는 용도다.  
+**- 콜백**  
+피호출자가 호출자를 호출하는 것, 이벤트가 발생하면 특정 메소드를 호출해 알려준다. (1개)  
+**- 리스너**  
+특정 이벤트를 처리하는 인터페이스로, 이벤트가 발생하면 연결된 리스너(핸들러)들에게 이벤트를 전달한다. (n개)  
 
 #### REFERENCE
 boostcourse 안드로이드 앱 프로그래밍, 2. 이벤트와 리스트뷰 <br>
-https://www.boostcourse.org/mo316/joinLectures/13159 <br> <br>
+https://www.boostcourse.org/mo316/joinLectures/13159 <br>
 Bitmap Button 만들기 <br>
-https://qlyh8.tistory.com/44
+https://qlyh8.tistory.com/44 <br>
+콜백과 리스너 <br>
+https://onlyfor-me-blog.tistory.com/47 <br>
+안드로이드 Listener 인터페이스 구현 과정에 대한 이해 <br>
+https://url.kr/gh61id
 {: .notice}
