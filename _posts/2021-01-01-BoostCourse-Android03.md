@@ -122,9 +122,9 @@ receiver android:name=".SmsReceiver" <br>
 <br>
 
 #### DETAIL
-`Serialization(직렬화)` : 객체를 저장 장치에 저장 혹은 네트워크 전송을 위해 텍스트나 이진 형식으로 변환하는 것 <br>
+`Serialization(직렬화)` : 표준 자바 인터페이스로, 객체를 저장 장치에 저장 혹은 네트워크 전송을 위해 텍스트나 이진 형식으로 변환하는 것 <br>
 `Serializble(객체 직렬화)` : 객체를 바이트로 저장하는 자바의 인터페이스 <br>
-`Parcelable` : 안드로이드 SDK가 포함하고 있는 인터페이스 <br>
+`Parcelable` : 안드로이드 구성요소간 데이터 전달 시에 편의성을 위해 사용되는 인터페이스로, 사용자 정의 자료형을 전달할 때 기본형 자료들을 분리하여 보내는 것 <br>
 `Reflection` : 자바 기능 중 하나로, 클래스나 인터페이스의 정보에 직접 접근할 수 있도록 하는 API <br>
 `Bundle` : 여러 가지 타입의 값을 저장하는 Map 클래스이다. 예를 들면 String 값을 Bundle 클래스에 Mapping(대응, 변환)하는 것이다. 즉, Bundle 은 아무거나 포장할 수 있는 상자를 의미하고 이 상자를 이용하여 이리저리 인텐트도 오고갈 수 있고 다양한 데이터 통신에 이용할 수 있다.
 
@@ -139,6 +139,8 @@ Android Bundle 이란? <br>
 https://www.crocus.co.kr/1560 <br>
 Android Serializable vs Parcelable <br>
 https://wooooooak.github.io/android/2019/09/19/Serializable-vs-Parcelable/ <br>
+Parcelable 이란? <br>
+https://blog.naver.com/bestowing/222014802794 <br>
 Android & Java - Reflection <br>
 https://two22.tistory.com/14 
 {: .notice}
