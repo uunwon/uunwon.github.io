@@ -38,7 +38,7 @@ Jekyll Theme: https://github.com/TaylanTatli/Halve
 
 <br>
 
-## ⏮
+## 1️⃣
 
 [Jekyll Theme] https://github.com/TaylanTatli/Halve
 
