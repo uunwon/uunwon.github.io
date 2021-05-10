@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Design Pattern"
+title:  "[CS] Design Pattern"
 categories:
   - Computer
 tag:

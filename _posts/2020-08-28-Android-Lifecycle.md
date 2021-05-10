@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android LifeCycle"
+title:  "[Android] Android LifeCycle"
 categories:
   - Android
 tag:

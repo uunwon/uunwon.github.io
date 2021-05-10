@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android Layout"
+title:  "[Android] Android Layout"
 categories:
   - Android
 tag:

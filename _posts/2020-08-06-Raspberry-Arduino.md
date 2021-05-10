@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Raspberry PI and Arduino"
+title:  "[CS] Raspberry PI and Arduino"
 categories:
   - Computer
 tag:

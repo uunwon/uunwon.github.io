@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Class, Object, Instance"
+title:  "[JAVA] Class, Object, Instance"
 categories:
   - Computer
 tag:

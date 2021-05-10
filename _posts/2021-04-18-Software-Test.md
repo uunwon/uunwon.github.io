@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software Test"
+title:  "[CS] Software Test"
 categories:
   - Computer
 tag:
