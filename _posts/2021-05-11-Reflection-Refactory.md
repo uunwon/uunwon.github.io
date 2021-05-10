@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[자바] 리플렉션과 리팩토링"
+title:  "[JAVA] Reflection n Refactorying"
 categories:
   - Computer
   - Java
@@ -8,7 +8,8 @@ tag:
 - test 
 ---
 
-### 리플렉션
+### Reflection
+<br>
 
 　Reflection이란 **구체적인 클래스 타입을 알지 못해도**, 그 클래스의 메소드, 타입, 변수들을 접근할 수 있도록 해주는 `자바 API` 이다.  
 
@@ -20,6 +21,15 @@ tag:
 
 <br>
 
-### Apache PHP MySQL
+### Refactorying
 <br>
 　**A** pache : 웹 서버  
+
+<br>
+
+#### REFERENCE
+Java Reflection 개념 및 사용법  
+https://gyrfalcon.tistory.com/entry/Java-Reflection  
+자바의 리플렉션  
+https://brunch.co.kr/@kd4/8  
+{: .notice}
