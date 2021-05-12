@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-11T06:57:05+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[자바] 리플렉션과 리팩토링</title><link href="http://localhost:4000/Reflection-Refactory/" rel="alternate" type="text/html" title="[자바] 리플렉션과 리팩토링" /><published>2021-05-11T00:00:00+09:00</published><updated>2021-05-11T00:00:00+09:00</updated><id>http://localhost:4000/Reflection-Refactory</id><content type="html" xml:base="http://localhost:4000/Reflection-Refactory/">&lt;h3 id=&quot;리플렉션&quot;&gt;리플렉션&lt;/h3&gt;
-
-&lt;p&gt;　Reflection이란 &lt;strong&gt;구체적인 클래스 타입을 알지 못해도&lt;/strong&gt;, 그 클래스의 메소드, 타입, 변수들을 접근할 수 있도록 해주는 &lt;code class=&quot;highlighter-rouge&quot;&gt;자바 API&lt;/code&gt; 이다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-12T14:11:44+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[JAVA] Reflection n Refactorying</title><link href="http://localhost:4000/Reflection-Refactory/" rel="alternate" type="text/html" title="[JAVA] Reflection n Refactorying" /><published>2021-05-11T00:00:00+09:00</published><updated>2021-05-11T00:00:00+09:00</updated><id>http://localhost:4000/Reflection-Refactory</id><content type="html" xml:base="http://localhost:4000/Reflection-Refactory/">&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　Reflection이란 &lt;strong&gt;구체적인 클래스 타입을 알지 못해도&lt;/strong&gt;, 그 클래스의 메소드, 타입, 변수들을 접근할 수 있도록 해주는 &lt;code class=&quot;highlighter-rouge&quot;&gt;자바 API&lt;/code&gt; 이다.&lt;/p&gt;
 
 &lt;p&gt;　자바는 스크립트 언어가 아닌 컴파일 언이다. 원래 자바에서는 동적으로 객체를 생성하는 기술이 없었지만, 동적으로 인스턴스를 생성하는 Reflection이 그 역할을 대신한다. 즉, Reflection(투영, 반사)은 객체를 통해 클래스의 정보를 분석해내는 프로그램 기법이다.&lt;/p&gt;
 
@@ -12,9 +12,23 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;apache-php-mysql&quot;&gt;Apache PHP MySQL&lt;/h3&gt;
+&lt;h3 id=&quot;refactorying&quot;&gt;Refactorying&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-　&lt;strong&gt;A&lt;/strong&gt; pache : 웹 서버&lt;/p&gt;</content><category term="test" /><summary>리플렉션</summary></entry><entry><title>APM</title><link href="http://localhost:4000/APM/" rel="alternate" type="text/html" title="APM" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/APM</id><content type="html" xml:base="http://localhost:4000/APM/">&lt;h2 id=&quot;apm&quot;&gt;APM&lt;/h2&gt;
+　Refactorying이란 &lt;strong&gt;외부 동작을 바꾸지 않으면서&lt;/strong&gt; 내부 구조를 개선하는 방법이다. 작은 단계로 나누어 프로그램을 변경하며, 코드가 작성된 후에 디자인을 개선하는 작업이다. 포인트는 리팩토링을 하면서 긴으을 추가하는 것이 아닌 기능 단위로 추가, 테스트 후 리팩토링을 진행해야 한다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;　이는 소프트웨어를 보다 이해하기 쉽고, 수정하기 쉽도록 만드는 것이다. 또한 겉으로 보이는 소프트웨어의 기능을 변경하지 않는 것에 그 목적이 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
+&lt;p class=&quot;notice&quot;&gt;Java Reflection 개념 및 사용법&lt;br /&gt;
+https://gyrfalcon.tistory.com/entry/Java-Reflection&lt;br /&gt;
+자바의 리플렉션&lt;br /&gt;
+https://brunch.co.kr/@kd4/8&lt;br /&gt;
+Refactorying 이란?&lt;br /&gt;
+https://nesoy.github.io/articles/2018-05/Refactoring&lt;/p&gt;</content><category term="test" /><summary>Reflection
+
+　Reflection이란 구체적인 클래스 타입을 알지 못해도, 그 클래스의 메소드, 타입, 변수들을 접근할 수 있도록 해주는 자바 API 이다.</summary></entry><entry><title>[CS] APM</title><link href="http://localhost:4000/APM/" rel="alternate" type="text/html" title="[CS] APM" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/APM</id><content type="html" xml:base="http://localhost:4000/APM/">&lt;h2 id=&quot;apm&quot;&gt;APM&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Apache PHP MySQL&lt;/li&gt;
@@ -54,7 +68,7 @@ https://m.blog.naver.com/PostView.nhn?blogId=jutlsgood&amp;amp;logNo=90133000463
 APM 서비스란?&lt;br /&gt;
 https://brunch.co.kr/@leedongins/38&lt;br /&gt;
 APM에 대한 진지한 설명&lt;br /&gt;
-https://www.whatap.io/ko/blog/19/&lt;/p&gt;</content><category term="test" /><summary>APM</summary></entry><entry><title>Software Attack</title><link href="http://localhost:4000/SW-ATTACK/" rel="alternate" type="text/html" title="Software Attack" /><published>2021-04-21T00:00:00+09:00</published><updated>2021-04-21T00:00:00+09:00</updated><id>http://localhost:4000/SW-ATTACK</id><content type="html" xml:base="http://localhost:4000/SW-ATTACK/">&lt;h2 id=&quot;sw-개발-보안을-위한-공격기법의-이해-by-수제비&quot;&gt;SW 개발 보안을 위한 공격기법의 이해 by 수제비&lt;/h2&gt;
+https://www.whatap.io/ko/blog/19/&lt;/p&gt;</content><category term="test" /><summary>APM</summary></entry><entry><title>[CS] Software Attack</title><link href="http://localhost:4000/SW-ATTACK/" rel="alternate" type="text/html" title="[CS] Software Attack" /><published>2021-04-21T00:00:00+09:00</published><updated>2021-04-21T00:00:00+09:00</updated><id>http://localhost:4000/SW-ATTACK</id><content type="html" xml:base="http://localhost:4000/SW-ATTACK/">&lt;h2 id=&quot;sw-개발-보안을-위한-공격기법의-이해-by-수제비&quot;&gt;SW 개발 보안을 위한 공격기법의 이해 by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;DoS 공격&lt;/li&gt;
@@ -143,7 +157,7 @@ HTTP GET 메소드를 사용하여 헤더의 최종 끝을 알리는 개행 문�
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;티어 드롭&lt;/code&gt;&lt;br /&gt;
 IP 패킷의 재조합 과정에서 잘못된 Fragment Offset 정보로 인해 수신시스템이 문제를 발생하도록 만드는 DoS 공격&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="test" /><summary>SW 개발 보안을 위한 공격기법의 이해 by 수제비</summary></entry><entry><title>SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="test" /><summary>SW 개발 보안을 위한 공격기법의 이해 by 수제비</summary></entry><entry><title>[CS] SQL</title><link href="http://localhost:4000/SQL/" rel="alternate" type="text/html" title="[CS] SQL" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/SQL</id><content type="html" xml:base="http://localhost:4000/SQL/">&lt;h2 id=&quot;sql-by-수제비&quot;&gt;SQL by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;절차형 SQL&lt;/li&gt;
@@ -265,7 +279,7 @@ DELETE FROM 테이블명 WHERE 조건;
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;뷰 생성&lt;/strong&gt;: CREATE VIEW 이름 AS (조건); &lt;br /&gt;
 &lt;strong&gt;인덱스 생성&lt;/strong&gt;: CREATE INDEX 이름 ON 조건; &lt;br /&gt;
 &lt;strong&gt;UNION&lt;/strong&gt;: 합집합이면서 중복 제거 &lt;br /&gt;
-&lt;strong&gt;UNIONALL&lt;/strong&gt;: 합집합이면서 중복 허용&lt;/p&gt;</content><category term="test" /><summary>SQL by 수제비</summary></entry><entry><title>Protocol</title><link href="http://localhost:4000/Protocol/" rel="alternate" type="text/html" title="Protocol" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/Protocol</id><content type="html" xml:base="http://localhost:4000/Protocol/">&lt;h2 id=&quot;protocol&quot;&gt;Protocol&lt;/h2&gt;
+&lt;strong&gt;UNIONALL&lt;/strong&gt;: 합집합이면서 중복 허용&lt;/p&gt;</content><category term="test" /><summary>SQL by 수제비</summary></entry><entry><title>[CS] Protocol</title><link href="http://localhost:4000/Protocol/" rel="alternate" type="text/html" title="[CS] Protocol" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>http://localhost:4000/Protocol</id><content type="html" xml:base="http://localhost:4000/Protocol/">&lt;h2 id=&quot;protocol&quot;&gt;Protocol&lt;/h2&gt;
 
 &lt;p&gt;　&lt;strong&gt;프로토콜&lt;/strong&gt;은 서로 다른 시스템이나 기기들 간의 데이터 교환을 원활히 하기 위해 표준화된 통신규약&lt;/p&gt;
 
@@ -359,7 +373,7 @@ DELETE FROM 테이블명 WHERE 조건;
 네트워크 ip icmp &lt;br /&gt;
 데이터 이더넷 &lt;br /&gt;
 물리 rs-232c
-&lt;/p&gt;</content><category term="test" /><summary>Protocol</summary></entry><entry><title>Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
+&lt;/p&gt;</content><category term="test" /><summary>Protocol</summary></entry><entry><title>[CS] Process</title><link href="http://localhost:4000/Process/" rel="alternate" type="text/html" title="[CS] Process" /><published>2021-04-19T00:00:00+09:00</published><updated>2021-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Process</id><content type="html" xml:base="http://localhost:4000/Process/">&lt;h2 id=&quot;process-by-수제비&quot;&gt;Process by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;프로세스&lt;/li&gt;
@@ -425,7 +439,7 @@ FCFS(FIFO)와 라운드로빈 스케줄링 혼합, 새로운 프로세스는 높
 &lt;h4 id=&quot;concept&quot;&gt;CONCEPT&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;문맥교환(Context switching)&lt;/strong&gt;: CPU가 현재 실행하고 있는 프로세스의 문맥 상태를 프로세스 제어블록(PCB)에 저장하고 다음 프로세스의 PCB로부터 문맥을 복원하는 작업 &lt;br /&gt;
 &lt;strong&gt;기아현상(starvation)&lt;/strong&gt;: 시스템 부하가 많아 준비 큐에 있는 낮은 등급의 프로세스가 무한정 기다리는 현상 &lt;br /&gt;
-&lt;strong&gt;에이징 기법(Aging)&lt;/strong&gt;: 프로세스가 자원을 기다리고 있는 시간에 비례하여 우선순위를 부여함으로써 무기한 대기하는 문제를 방지하는 기법&lt;/p&gt;</content><category term="test" /><summary>Process by 수제비</summary></entry><entry><title>Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test-by-수제비&quot;&gt;Software Test by 수제비&lt;/h2&gt;
+&lt;strong&gt;에이징 기법(Aging)&lt;/strong&gt;: 프로세스가 자원을 기다리고 있는 시간에 비례하여 우선순위를 부여함으로써 무기한 대기하는 문제를 방지하는 기법&lt;/p&gt;</content><category term="test" /><summary>Process by 수제비</summary></entry><entry><title>[CS] Software Test</title><link href="http://localhost:4000/Software-Test/" rel="alternate" type="text/html" title="[CS] Software Test" /><published>2021-04-18T00:00:00+09:00</published><updated>2021-04-18T00:00:00+09:00</updated><id>http://localhost:4000/Software-Test</id><content type="html" xml:base="http://localhost:4000/Software-Test/">&lt;h2 id=&quot;software-test-by-수제비&quot;&gt;Software Test by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;소프트웨어 테스트&lt;/li&gt;
@@ -552,7 +566,7 @@ Test data 값들 간에 최소한 한 번씩을 조합하는 방식이며, 이�
 샘플링 오라클을 개선한 오라클로, 특정 입력값에 대해 올바른 결과를 제공하고, 나머지 값들에 대해서는 휴리스틱(추정)으로 처리하는 오라클&lt;/p&gt;
 
 &lt;p&gt;ㆁ &lt;strong&gt;일관성 검사 오라클&lt;/strong&gt;&lt;br /&gt;
-애플리케이션 변경이 있을 때, 수행 전과 후의 결괏값이 동일한지 확인하는 오라클&lt;/p&gt;</content><category term="test" /><summary>Software Test by 수제비</summary></entry><entry><title>Design Pattern</title><link href="http://localhost:4000/Design-Pattern/" rel="alternate" type="text/html" title="Design Pattern" /><published>2021-04-17T00:00:00+09:00</published><updated>2021-04-17T00:00:00+09:00</updated><id>http://localhost:4000/Design-Pattern</id><content type="html" xml:base="http://localhost:4000/Design-Pattern/">&lt;h2 id=&quot;design-pattern-by-수제비&quot;&gt;Design Pattern by 수제비&lt;/h2&gt;
+애플리케이션 변경이 있을 때, 수행 전과 후의 결괏값이 동일한지 확인하는 오라클&lt;/p&gt;</content><category term="test" /><summary>Software Test by 수제비</summary></entry><entry><title>[CS] Design Pattern</title><link href="http://localhost:4000/Design-Pattern/" rel="alternate" type="text/html" title="[CS] Design Pattern" /><published>2021-04-17T00:00:00+09:00</published><updated>2021-04-17T00:00:00+09:00</updated><id>http://localhost:4000/Design-Pattern</id><content type="html" xml:base="http://localhost:4000/Design-Pattern/">&lt;h2 id=&quot;design-pattern-by-수제비&quot;&gt;Design Pattern by 수제비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;디자인 패턴&lt;/li&gt;
@@ -668,7 +682,7 @@ Test data 값들 간에 최소한 한 번씩을 조합하는 방식이며, 이�
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
 &lt;p class=&quot;notice&quot;&gt;https://helloworld-88.tistory.com/291 &lt;br /&gt;
-https://www.notion.so/23-1959a781210b48b0b726cba983231649&lt;/p&gt;</content><category term="test" /><summary>Design Pattern by 수제비</summary></entry><entry><title>Class, Object, Instance</title><link href="http://localhost:4000/Class-Object/" rel="alternate" type="text/html" title="Class, Object, Instance" /><published>2021-04-14T00:00:00+09:00</published><updated>2021-04-14T00:00:00+09:00</updated><id>http://localhost:4000/Class-Object</id><content type="html" xml:base="http://localhost:4000/Class-Object/">&lt;h2 id=&quot;class-object-instance&quot;&gt;Class, Object, Instance&lt;/h2&gt;
+https://www.notion.so/23-1959a781210b48b0b726cba983231649&lt;/p&gt;</content><category term="test" /><summary>Design Pattern by 수제비</summary></entry><entry><title>[JAVA] Class, Object, Instance</title><link href="http://localhost:4000/Class-Object/" rel="alternate" type="text/html" title="[JAVA] Class, Object, Instance" /><published>2021-04-14T00:00:00+09:00</published><updated>2021-04-14T00:00:00+09:00</updated><id>http://localhost:4000/Class-Object</id><content type="html" xml:base="http://localhost:4000/Class-Object/">&lt;h2 id=&quot;class-object-instance&quot;&gt;Class, Object, Instance&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;클래스 (Class)&lt;/li&gt;
