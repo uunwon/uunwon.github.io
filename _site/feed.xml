@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-12T14:11:44+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[JAVA] Reflection n Refactorying</title><link href="http://localhost:4000/Reflection-Refactory/" rel="alternate" type="text/html" title="[JAVA] Reflection n Refactorying" /><published>2021-05-11T00:00:00+09:00</published><updated>2021-05-11T00:00:00+09:00</updated><id>http://localhost:4000/Reflection-Refactory</id><content type="html" xml:base="http://localhost:4000/Reflection-Refactory/">&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-15T22:47:56+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[JAVA] Reflection n Refactorying</title><link href="http://localhost:4000/Reflection-Refactory/" rel="alternate" type="text/html" title="[JAVA] Reflection n Refactorying" /><published>2021-05-11T00:00:00+09:00</published><updated>2021-05-11T00:00:00+09:00</updated><id>http://localhost:4000/Reflection-Refactory</id><content type="html" xml:base="http://localhost:4000/Reflection-Refactory/">&lt;h2 id=&quot;reflection-n-refactory&quot;&gt;Reflection n Refactory&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reflection&lt;/li&gt;
+  &lt;li&gt;Refactorying &lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
 　Reflection이란 &lt;strong&gt;구체적인 클래스 타입을 알지 못해도&lt;/strong&gt;, 그 클래스의 메소드, 타입, 변수들을 접근할 수 있도록 해주는 &lt;code class=&quot;highlighter-rouge&quot;&gt;자바 API&lt;/code&gt; 이다.&lt;/p&gt;
 
@@ -26,9 +36,7 @@ https://gyrfalcon.tistory.com/entry/Java-Reflection&lt;br /&gt;
 자바의 리플렉션&lt;br /&gt;
 https://brunch.co.kr/@kd4/8&lt;br /&gt;
 Refactorying 이란?&lt;br /&gt;
-https://nesoy.github.io/articles/2018-05/Refactoring&lt;/p&gt;</content><category term="test" /><summary>Reflection
-
-　Reflection이란 구체적인 클래스 타입을 알지 못해도, 그 클래스의 메소드, 타입, 변수들을 접근할 수 있도록 해주는 자바 API 이다.</summary></entry><entry><title>[CS] APM</title><link href="http://localhost:4000/APM/" rel="alternate" type="text/html" title="[CS] APM" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/APM</id><content type="html" xml:base="http://localhost:4000/APM/">&lt;h2 id=&quot;apm&quot;&gt;APM&lt;/h2&gt;
+https://nesoy.github.io/articles/2018-05/Refactoring&lt;/p&gt;</content><category term="test" /><summary>Reflection n Refactory</summary></entry><entry><title>[CS] APM</title><link href="http://localhost:4000/APM/" rel="alternate" type="text/html" title="[CS] APM" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/APM</id><content type="html" xml:base="http://localhost:4000/APM/">&lt;h2 id=&quot;apm&quot;&gt;APM&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Apache PHP MySQL&lt;/li&gt;
@@ -685,10 +693,24 @@ Test data 값들 간에 최소한 한 번씩을 조합하는 방식이며, 이�
 https://www.notion.so/23-1959a781210b48b0b726cba983231649&lt;/p&gt;</content><category term="test" /><summary>Design Pattern by 수제비</summary></entry><entry><title>[JAVA] Class, Object, Instance</title><link href="http://localhost:4000/Class-Object/" rel="alternate" type="text/html" title="[JAVA] Class, Object, Instance" /><published>2021-04-14T00:00:00+09:00</published><updated>2021-04-14T00:00:00+09:00</updated><id>http://localhost:4000/Class-Object</id><content type="html" xml:base="http://localhost:4000/Class-Object/">&lt;h2 id=&quot;class-object-instance&quot;&gt;Class, Object, Instance&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;객체지향 프로그래밍(OOP) 등장 배경&lt;/li&gt;
   &lt;li&gt;클래스 (Class)&lt;/li&gt;
   &lt;li&gt;객체 (Object)&lt;/li&gt;
-  &lt;li&gt;인스턴스 (Instance)&lt;/li&gt;
+  &lt;li&gt;인스턴스 (Instance) 
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-객체-지향-등장-배경&quot;&gt;🎯 객체 지향 등장 배경&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+　&lt;strong&gt;객체지향 프로그래밍(OOP, Object-Oriented Programming)&lt;/strong&gt;은 컴퓨터 프로그래밍의 패러다임의 하나이다. 이는 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위, 즉 ‘객체’들의 모임으로 파악하고자 하는 것이다. 객체지향 프로그래밍은 프로그램을 유연하고 변경이 용이하게 만들기 때문에 대규모 소프트웨어 개발에 많이 사용된다.&lt;/p&gt;
+
+&lt;p&gt;　프로그램을 단순히 데이터와 처리 방법으로 나누는 것이 아니라, 프로그램을 수많은 ‘객체’라는 기본 단위로 나누고 이 객체들의 상호작용으로 서술하는 방식이다. 객체를 데이터의 묶음으로만 착각하기 쉬운데, 그보다는 하나의 ‘역할’을 수행하는 메소드와 데이터의 묶음으로 봐야한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;코드의 재사용성이 높다 &lt;br /&gt; 코드의 관리가 용이하다 &lt;br /&gt; 신뢰성이 높은 프로그래밍을 가능하게 한다&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -730,7 +752,12 @@ public class Main { &lt;br /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p&gt;https://gmlwjd9405.github.io/2018/09/17/class-object-instance.html &lt;br /&gt;&lt;/p&gt;</content><category term="java" /><summary>Class, Object, Instance</summary></entry><entry><title>[BoostCourse] Hello, Kotlin</title><link href="http://localhost:4000/BoostCourse-HelloKotlin/" rel="alternate" type="text/html" title="[BoostCourse] Hello, Kotlin" /><published>2021-02-04T00:00:00+09:00</published><updated>2021-02-04T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-HelloKotlin</id><content type="html" xml:base="http://localhost:4000/BoostCourse-HelloKotlin/">&lt;h2 id=&quot;코틀린을-왜-배워야-할까&quot;&gt;코틀린을 왜 배워야 할까?&lt;/h2&gt;
+&lt;p&gt;객체지향 프로그래밍의 정의와 탄생배경&lt;br /&gt;
+https://dduddublog.tistory.com/8&lt;br /&gt;
+객체지향의 등장 배경과 이해&lt;br /&gt;
+https://limsungju.tistory.com/13&lt;br /&gt;
+[Java] 클래스, 객체, 인스턴스의 차이&lt;br /&gt;
+https://gmlwjd9405.github.io/2018/09/17/class-object-instance.html &lt;br /&gt;&lt;/p&gt;</content><category term="java" /><summary>Class, Object, Instance</summary></entry><entry><title>[BoostCourse] Hello, Kotlin</title><link href="http://localhost:4000/BoostCourse-HelloKotlin/" rel="alternate" type="text/html" title="[BoostCourse] Hello, Kotlin" /><published>2021-02-04T00:00:00+09:00</published><updated>2021-02-04T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-HelloKotlin</id><content type="html" xml:base="http://localhost:4000/BoostCourse-HelloKotlin/">&lt;h2 id=&quot;코틀린을-왜-배워야-할까&quot;&gt;코틀린을 왜 배워야 할까?&lt;/h2&gt;
 &lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
 
 &lt;ul&gt;
