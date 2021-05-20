@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-15T22:47:56+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[JAVA] Reflection n Refactorying</title><link href="http://localhost:4000/Reflection-Refactory/" rel="alternate" type="text/html" title="[JAVA] Reflection n Refactorying" /><published>2021-05-11T00:00:00+09:00</published><updated>2021-05-11T00:00:00+09:00</updated><id>http://localhost:4000/Reflection-Refactory</id><content type="html" xml:base="http://localhost:4000/Reflection-Refactory/">&lt;h2 id=&quot;reflection-n-refactory&quot;&gt;Reflection n Refactory&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-20T23:13:29+09:00</updated><id>http://localhost:4000/</id><title>UUNWON</title><subtitle>Student at Korea Polytechnic University</subtitle><entry><title>[SQLD] Chapter</title><link href="http://localhost:4000/SQLD/" rel="alternate" type="text/html" title="[SQLD] Chapter" /><published>2021-05-20T00:00:00+09:00</published><updated>2021-05-20T00:00:00+09:00</updated><id>http://localhost:4000/SQLD</id><content type="html" xml:base="http://localhost:4000/SQLD/">&lt;h2 id=&quot;sqld-sql-developer-chapter&quot;&gt;SQLD (SQL Developer) Chapter&lt;/h2&gt;
+
+&lt;p&gt;₁/ 데이터 모델링의 이해&lt;br /&gt;
+₂/ SQL 기본 및 활용&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;--데이터-모델링의-이해&quot;&gt;₁ / 데이터 모델링의 이해&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-1-데이터-모델링의-이해&quot;&gt;1-1. 데이터 모델링의 이해&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델링의 이해&lt;/li&gt;
+  &lt;li&gt;엔티티ㆍ속성ㆍ관계ㆍ식별자의 개념&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;1-2-데이터-모델의-성능&quot;&gt;1-2. 데이터 모델의 성능&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;성능 데이터 모델링의 개요&lt;/li&gt;
+  &lt;li&gt;정규화ㆍ반정규화와 성능&lt;/li&gt;
+  &lt;li&gt;대량 데이터에 따른 성능&lt;/li&gt;
+  &lt;li&gt;데이터베이스 구조와 성능&lt;/li&gt;
+  &lt;li&gt;분산 데이터베이스와 성능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;--sql-기본-및-활용&quot;&gt;₂ / SQL 기본 및 활용&lt;/h3&gt;
+
+&lt;h4 id=&quot;2-1-sql-기본&quot;&gt;2-1. SQL 기본&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;관계형 데이터베이스 개요&lt;/li&gt;
+  &lt;li&gt;DDLㆍDMLㆍTCL&lt;/li&gt;
+  &lt;li&gt;WHERE 절&lt;/li&gt;
+  &lt;li&gt;함수(Function)&lt;/li&gt;
+  &lt;li&gt;GROUP BYㆍHAVING 절&lt;/li&gt;
+  &lt;li&gt;ORDER BY 절&lt;/li&gt;
+  &lt;li&gt;조인(Join)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-2-sql-활용&quot;&gt;2-2. SQL 활용&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;표준 조인&lt;/li&gt;
+  &lt;li&gt;집합 연산자&lt;/li&gt;
+  &lt;li&gt;계층형 질의ㆍ셀프 조인&lt;/li&gt;
+  &lt;li&gt;서브 쿼리&lt;/li&gt;
+  &lt;li&gt;그룹 함수ㆍ윈도우 함수&lt;/li&gt;
+  &lt;li&gt;DCL&lt;/li&gt;
+  &lt;li&gt;절차형 SQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-3-sql-최적화-기본-원리&quot;&gt;2-3. SQL 최적화 기본 원리&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;옵티마이저와 실행계획&lt;/li&gt;
+  &lt;li&gt;인덱스 기본&lt;/li&gt;
+  &lt;li&gt;조인 수행 원리&lt;/li&gt;
+&lt;/ul&gt;</content><category term="test" /><summary>SQLD (SQL Developer) Chapter</summary></entry><entry><title>[JAVA] Reflection n Refactorying</title><link href="http://localhost:4000/Reflection-Refactory/" rel="alternate" type="text/html" title="[JAVA] Reflection n Refactorying" /><published>2021-05-11T00:00:00+09:00</published><updated>2021-05-11T00:00:00+09:00</updated><id>http://localhost:4000/Reflection-Refactory</id><content type="html" xml:base="http://localhost:4000/Reflection-Refactory/">&lt;h2 id=&quot;reflection-n-refactory&quot;&gt;Reflection n Refactory&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Reflection&lt;/li&gt;
@@ -36,7 +91,7 @@ https://gyrfalcon.tistory.com/entry/Java-Reflection&lt;br /&gt;
 자바의 리플렉션&lt;br /&gt;
 https://brunch.co.kr/@kd4/8&lt;br /&gt;
 Refactorying 이란?&lt;br /&gt;
-https://nesoy.github.io/articles/2018-05/Refactoring&lt;/p&gt;</content><category term="test" /><summary>Reflection n Refactory</summary></entry><entry><title>[CS] APM</title><link href="http://localhost:4000/APM/" rel="alternate" type="text/html" title="[CS] APM" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/APM</id><content type="html" xml:base="http://localhost:4000/APM/">&lt;h2 id=&quot;apm&quot;&gt;APM&lt;/h2&gt;
+https://nesoy.github.io/articles/2018-05/Refactoring&lt;/p&gt;</content><category term="java" /><summary>Reflection n Refactory</summary></entry><entry><title>[CS] APM</title><link href="http://localhost:4000/APM/" rel="alternate" type="text/html" title="[CS] APM" /><published>2021-05-06T00:00:00+09:00</published><updated>2021-05-06T00:00:00+09:00</updated><id>http://localhost:4000/APM</id><content type="html" xml:base="http://localhost:4000/APM/">&lt;h2 id=&quot;apm&quot;&gt;APM&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Apache PHP MySQL&lt;/li&gt;
@@ -757,55 +812,4 @@ https://dduddublog.tistory.com/8&lt;br /&gt;
 객체지향의 등장 배경과 이해&lt;br /&gt;
 https://limsungju.tistory.com/13&lt;br /&gt;
 [Java] 클래스, 객체, 인스턴스의 차이&lt;br /&gt;
-https://gmlwjd9405.github.io/2018/09/17/class-object-instance.html &lt;br /&gt;&lt;/p&gt;</content><category term="java" /><summary>Class, Object, Instance</summary></entry><entry><title>[BoostCourse] Hello, Kotlin</title><link href="http://localhost:4000/BoostCourse-HelloKotlin/" rel="alternate" type="text/html" title="[BoostCourse] Hello, Kotlin" /><published>2021-02-04T00:00:00+09:00</published><updated>2021-02-04T00:00:00+09:00</updated><id>http://localhost:4000/BoostCourse-HelloKotlin</id><content type="html" xml:base="http://localhost:4000/BoostCourse-HelloKotlin/">&lt;h2 id=&quot;코틀린을-왜-배워야-할까&quot;&gt;코틀린을 왜 배워야 할까?&lt;/h2&gt;
-&lt;h4 id=&quot;by-boostcourse&quot;&gt;by boostcourse&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;코틀린을 왜 배워야 할까?&lt;/li&gt;
-  &lt;li&gt;코틀린의 매력을 알아볼까요?&lt;/li&gt;
-  &lt;li&gt;프로그래밍 언어에 대한 경험담&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-코틀린을-왜-배워야-할까&quot;&gt;🔑 코틀린을 왜 배워야 할까?&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　코틀린은 새롭게 부상하고 있는 안드로이드 모바일 앱을 제작하기 위한 언어다. 많은 기업들이 자바에서 코틀린으로 갈아타는 모습을 볼 수 있으며, 개발자들의 선호도 또한 높은 편에 속한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-코틀린의-매력을-알아볼까요&quot;&gt;🪓 코틀린의 매력을 알아볼까요?&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　코틀린의 특징&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Statically typed&lt;/strong&gt;: 정적 타입 언어 (컴파일시 변수의 자료형이 결정됨) &lt;br /&gt; &lt;strong&gt;Interoperable&lt;/strong&gt;: Kotile/JVM을 사용해 자바와 100% 호환 &lt;br /&gt; &lt;strong&gt;Null safety&lt;/strong&gt;: NPE(Null Pointer Exception)를 방지할 수 있는 안전성 &lt;br /&gt; &lt;strong&gt;Immutable&lt;/strong&gt;: 상태를 바꾸지 않는 불변성 제공 (val=final) &lt;br /&gt;
-  &lt;strong&gt;Concise&lt;/strong&gt;: 보일러플레이트 코드의 간결성 &lt;br /&gt; &lt;strong&gt;Extension Functions&lt;/strong&gt;: 간편한 확장 함수 &lt;br /&gt; &lt;strong&gt;Functional Programming&lt;/strong&gt;: 함수형 프로그래밍(클래스 없이 함수의 유기적 연결을 통한 프로그래밍 방식) &lt;br /&gt; &lt;strong&gt;Multiplatform&lt;/strong&gt;: 사용 가능한 플랫폼 多 &lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;-프로그래밍-언어에-대한-경험담&quot;&gt;🔨 프로그래밍 언어에 대한 경험담&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-　영어 실력은 아이엘츠 6.0 이상이면 충분하다.&lt;br /&gt;
-　해외 기업은 스펙보다 경험 위주로 본다.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-// 해외 개발자 채용정보 &lt;br /&gt;
-https://www.glassdoor.com &lt;br /&gt;
-https://www.seek.com &lt;br /&gt;
-https://www.linkedin.com
-&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;
-// 개발자 지식 쌓기 &lt;br /&gt;
-github.com/android/architecture-samples &lt;br /&gt;
-medium.com &lt;br /&gt;
-developer.android.com
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;reference&quot;&gt;REFERENCE&lt;/h4&gt;
-&lt;p class=&quot;notice&quot;&gt;boostcourse Hello, Kotlin &lt;br /&gt;
-https://www.boostcourse.org/mo001/joinLectures/78789 &lt;br /&gt;&lt;/p&gt;</content><category term="android" /><category term="java" /><category term="kotlin" /><summary>코틀린을 왜 배워야 할까?
-by boostcourse</summary></entry></feed>
+https://gmlwjd9405.github.io/2018/09/17/class-object-instance.html &lt;br /&gt;&lt;/p&gt;</content><category term="java" /><summary>Class, Object, Instance</summary></entry></feed>
